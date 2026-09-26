@@ -1,0 +1,948 @@
+{
+  "status": "POST-OUTCOME GRAPH-TARGET SENSITIVITY, NOT PRESPECIFIED CAUSAL BENCHMARK",
+  "direct_structural_lag_truth": [
+    [
+      0,
+      3,
+      2
+    ],
+    [
+      2,
+      1,
+      1
+    ]
+  ],
+  "algebraic_reduced_form_lag_truth": [
+    [
+      0,
+      2,
+      2
+    ],
+    [
+      0,
+      3,
+      2
+    ],
+    [
+      2,
+      0,
+      1
+    ],
+    [
+      2,
+      1,
+      1
+    ]
+  ],
+  "conditions": {
+    "A1": {
+      "var2": {
+        "rows": [
+          {
+            "seed": 1000,
+            "tp": 3,
+            "fp": 0,
+            "fn": 1,
+            "hamming": 1
+          },
+          {
+            "seed": 1001,
+            "tp": 2,
+            "fp": 0,
+            "fn": 2,
+            "hamming": 2
+          },
+          {
+            "seed": 1002,
+            "tp": 2,
+            "fp": 0,
+            "fn": 2,
+            "hamming": 2
+          },
+          {
+            "seed": 1003,
+            "tp": 3,
+            "fp": 0,
+            "fn": 1,
+            "hamming": 1
+          },
+          {
+            "seed": 1004,
+            "tp": 3,
+            "fp": 0,
+            "fn": 1,
+            "hamming": 1
+          },
+          {
+            "seed": 1005,
+            "tp": 2,
+            "fp": 0,
+            "fn": 2,
+            "hamming": 2
+          },
+          {
+            "seed": 1006,
+            "tp": 2,
+            "fp": 0,
+            "fn": 2,
+            "hamming": 2
+          },
+          {
+            "seed": 1007,
+            "tp": 2,
+            "fp": 0,
+            "fn": 2,
+            "hamming": 2
+          },
+          {
+            "seed": 1008,
+            "tp": 3,
+            "fp": 0,
+            "fn": 1,
+            "hamming": 1
+          },
+          {
+            "seed": 1009,
+            "tp": 3,
+            "fp": 0,
+            "fn": 1,
+            "hamming": 1
+          },
+          {
+            "seed": 1010,
+            "tp": 2,
+            "fp": 0,
+            "fn": 2,
+            "hamming": 2
+          },
+          {
+            "seed": 1011,
+            "tp": 3,
+            "fp": 0,
+            "fn": 1,
+            "hamming": 1
+          },
+          {
+            "seed": 1012,
+            "tp": 2,
+            "fp": 0,
+            "fn": 2,
+            "hamming": 2
+          },
+          {
+            "seed": 1013,
+            "tp": 2,
+            "fp": 0,
+            "fn": 2,
+            "hamming": 2
+          },
+          {
+            "seed": 1014,
+            "tp": 1,
+            "fp": 0,
+            "fn": 3,
+            "hamming": 3
+          },
+          {
+            "seed": 1015,
+            "tp": 2,
+            "fp": 0,
+            "fn": 2,
+            "hamming": 2
+          },
+          {
+            "seed": 1016,
+            "tp": 4,
+            "fp": 0,
+            "fn": 0,
+            "hamming": 0
+          },
+          {
+            "seed": 1017,
+            "tp": 3,
+            "fp": 0,
+            "fn": 1,
+            "hamming": 1
+          },
+          {
+            "seed": 1018,
+            "tp": 2,
+            "fp": 0,
+            "fn": 2,
+            "hamming": 2
+          },
+          {
+            "seed": 1019,
+            "tp": 3,
+            "fp": 0,
+            "fn": 1,
+            "hamming": 1
+          },
+          {
+            "seed": 1020,
+            "tp": 4,
+            "fp": 0,
+            "fn": 0,
+            "hamming": 0
+          },
+          {
+            "seed": 1021,
+            "tp": 2,
+            "fp": 0,
+            "fn": 2,
+            "hamming": 2
+          },
+          {
+            "seed": 1022,
+            "tp": 3,
+            "fp": 0,
+            "fn": 1,
+            "hamming": 1
+          },
+          {
+            "seed": 1023,
+            "tp": 2,
+            "fp": 0,
+            "fn": 2,
+            "hamming": 2
+          },
+          {
+            "seed": 1024,
+            "tp": 2,
+            "fp": 0,
+            "fn": 2,
+            "hamming": 2
+          },
+          {
+            "seed": 1025,
+            "tp": 2,
+            "fp": 0,
+            "fn": 2,
+            "hamming": 2
+          },
+          {
+            "seed": 1026,
+            "tp": 2,
+            "fp": 0,
+            "fn": 2,
+            "hamming": 2
+          },
+          {
+            "seed": 1027,
+            "tp": 2,
+            "fp": 0,
+            "fn": 2,
+            "hamming": 2
+          },
+          {
+            "seed": 1028,
+            "tp": 3,
+            "fp": 0,
+            "fn": 1,
+            "hamming": 1
+          },
+          {
+            "seed": 1029,
+            "tp": 2,
+            "fp": 0,
+            "fn": 2,
+            "hamming": 2
+          }
+        ],
+        "means": {
+          "tp": 2.433333333333333,
+          "fp": 0.0,
+          "fn": 1.5666666666666667,
+          "hamming": 1.5666666666666667
+        },
+        "apparent_direct_false_edge_frequency": {
+          "(2, 0, 1)": 8,
+          "(0, 2, 2)": 6
+        }
+      },
+      "pairwise_own": {
+        "rows": [
+          {
+            "seed": 1000,
+            "tp": 3,
+            "fp": 1,
+            "fn": 1,
+            "hamming": 2
+          },
+          {
+            "seed": 1001,
+            "tp": 2,
+            "fp": 0,
+            "fn": 2,
+            "hamming": 2
+          },
+          {
+            "seed": 1002,
+            "tp": 2,
+            "fp": 0,
+            "fn": 2,
+            "hamming": 2
+          },
+          {
+            "seed": 1003,
+            "tp": 3,
+            "fp": 0,
+            "fn": 1,
+            "hamming": 1
+          },
+          {
+            "seed": 1004,
+            "tp": 2,
+            "fp": 0,
+            "fn": 2,
+            "hamming": 2
+          },
+          {
+            "seed": 1005,
+            "tp": 2,
+            "fp": 0,
+            "fn": 2,
+            "hamming": 2
+          },
+          {
+            "seed": 1006,
+            "tp": 2,
+            "fp": 1,
+            "fn": 2,
+            "hamming": 3
+          },
+          {
+            "seed": 1007,
+            "tp": 3,
+            "fp": 1,
+            "fn": 1,
+            "hamming": 2
+          },
+          {
+            "seed": 1008,
+            "tp": 3,
+            "fp": 0,
+            "fn": 1,
+            "hamming": 1
+          },
+          {
+            "seed": 1009,
+            "tp": 3,
+            "fp": 0,
+            "fn": 1,
+            "hamming": 1
+          },
+          {
+            "seed": 1010,
+            "tp": 2,
+            "fp": 2,
+            "fn": 2,
+            "hamming": 4
+          },
+          {
+            "seed": 1011,
+            "tp": 3,
+            "fp": 0,
+            "fn": 1,
+            "hamming": 1
+          },
+          {
+            "seed": 1012,
+            "tp": 3,
+            "fp": 0,
+            "fn": 1,
+            "hamming": 1
+          },
+          {
+            "seed": 1013,
+            "tp": 3,
+            "fp": 0,
+            "fn": 1,
+            "hamming": 1
+          },
+          {
+            "seed": 1014,
+            "tp": 1,
+            "fp": 0,
+            "fn": 3,
+            "hamming": 3
+          },
+          {
+            "seed": 1015,
+            "tp": 2,
+            "fp": 1,
+            "fn": 2,
+            "hamming": 3
+          },
+          {
+            "seed": 1016,
+            "tp": 4,
+            "fp": 0,
+            "fn": 0,
+            "hamming": 0
+          },
+          {
+            "seed": 1017,
+            "tp": 2,
+            "fp": 0,
+            "fn": 2,
+            "hamming": 2
+          },
+          {
+            "seed": 1018,
+            "tp": 2,
+            "fp": 0,
+            "fn": 2,
+            "hamming": 2
+          },
+          {
+            "seed": 1019,
+            "tp": 3,
+            "fp": 0,
+            "fn": 1,
+            "hamming": 1
+          },
+          {
+            "seed": 1020,
+            "tp": 3,
+            "fp": 0,
+            "fn": 1,
+            "hamming": 1
+          },
+          {
+            "seed": 1021,
+            "tp": 2,
+            "fp": 0,
+            "fn": 2,
+            "hamming": 2
+          },
+          {
+            "seed": 1022,
+            "tp": 3,
+            "fp": 1,
+            "fn": 1,
+            "hamming": 2
+          },
+          {
+            "seed": 1023,
+            "tp": 2,
+            "fp": 1,
+            "fn": 2,
+            "hamming": 3
+          },
+          {
+            "seed": 1024,
+            "tp": 2,
+            "fp": 0,
+            "fn": 2,
+            "hamming": 2
+          },
+          {
+            "seed": 1025,
+            "tp": 2,
+            "fp": 0,
+            "fn": 2,
+            "hamming": 2
+          },
+          {
+            "seed": 1026,
+            "tp": 2,
+            "fp": 0,
+            "fn": 2,
+            "hamming": 2
+          },
+          {
+            "seed": 1027,
+            "tp": 2,
+            "fp": 0,
+            "fn": 2,
+            "hamming": 2
+          },
+          {
+            "seed": 1028,
+            "tp": 2,
+            "fp": 1,
+            "fn": 2,
+            "hamming": 3
+          },
+          {
+            "seed": 1029,
+            "tp": 2,
+            "fp": 0,
+            "fn": 2,
+            "hamming": 2
+          }
+        ],
+        "means": {
+          "tp": 2.4,
+          "fp": 0.3,
+          "fn": 1.6,
+          "hamming": 1.9
+        },
+        "apparent_direct_false_edge_frequency": {
+          "(2, 0, 1)": 8,
+          "(3, 1, 1)": 6,
+          "(1, 3, 2)": 3,
+          "(0, 2, 2)": 5
+        }
+      },
+      "paired_reduced_hamming_pairwise_minus_var": 0.3333333333333333
+    },
+    "A1C_U_hidden": {
+      "var2": {
+        "rows": [
+          {
+            "seed": 1000,
+            "tp": 2,
+            "fp": 0,
+            "fn": 2,
+            "hamming": 2
+          },
+          {
+            "seed": 1001,
+            "tp": 2,
+            "fp": 0,
+            "fn": 2,
+            "hamming": 2
+          },
+          {
+            "seed": 1002,
+            "tp": 3,
+            "fp": 0,
+            "fn": 1,
+            "hamming": 1
+          },
+          {
+            "seed": 1003,
+            "tp": 3,
+            "fp": 0,
+            "fn": 1,
+            "hamming": 1
+          },
+          {
+            "seed": 1004,
+            "tp": 2,
+            "fp": 0,
+            "fn": 2,
+            "hamming": 2
+          },
+          {
+            "seed": 1005,
+            "tp": 2,
+            "fp": 0,
+            "fn": 2,
+            "hamming": 2
+          },
+          {
+            "seed": 1006,
+            "tp": 2,
+            "fp": 0,
+            "fn": 2,
+            "hamming": 2
+          },
+          {
+            "seed": 1007,
+            "tp": 2,
+            "fp": 0,
+            "fn": 2,
+            "hamming": 2
+          },
+          {
+            "seed": 1008,
+            "tp": 3,
+            "fp": 0,
+            "fn": 1,
+            "hamming": 1
+          },
+          {
+            "seed": 1009,
+            "tp": 2,
+            "fp": 1,
+            "fn": 2,
+            "hamming": 3
+          },
+          {
+            "seed": 1010,
+            "tp": 2,
+            "fp": 0,
+            "fn": 2,
+            "hamming": 2
+          },
+          {
+            "seed": 1011,
+            "tp": 3,
+            "fp": 0,
+            "fn": 1,
+            "hamming": 1
+          },
+          {
+            "seed": 1012,
+            "tp": 3,
+            "fp": 0,
+            "fn": 1,
+            "hamming": 1
+          },
+          {
+            "seed": 1013,
+            "tp": 4,
+            "fp": 0,
+            "fn": 0,
+            "hamming": 0
+          },
+          {
+            "seed": 1014,
+            "tp": 2,
+            "fp": 0,
+            "fn": 2,
+            "hamming": 2
+          },
+          {
+            "seed": 1015,
+            "tp": 2,
+            "fp": 0,
+            "fn": 2,
+            "hamming": 2
+          },
+          {
+            "seed": 1016,
+            "tp": 2,
+            "fp": 0,
+            "fn": 2,
+            "hamming": 2
+          },
+          {
+            "seed": 1017,
+            "tp": 2,
+            "fp": 0,
+            "fn": 2,
+            "hamming": 2
+          },
+          {
+            "seed": 1018,
+            "tp": 2,
+            "fp": 0,
+            "fn": 2,
+            "hamming": 2
+          },
+          {
+            "seed": 1019,
+            "tp": 2,
+            "fp": 0,
+            "fn": 2,
+            "hamming": 2
+          },
+          {
+            "seed": 1020,
+            "tp": 2,
+            "fp": 0,
+            "fn": 2,
+            "hamming": 2
+          },
+          {
+            "seed": 1021,
+            "tp": 3,
+            "fp": 0,
+            "fn": 1,
+            "hamming": 1
+          },
+          {
+            "seed": 1022,
+            "tp": 2,
+            "fp": 0,
+            "fn": 2,
+            "hamming": 2
+          },
+          {
+            "seed": 1023,
+            "tp": 2,
+            "fp": 0,
+            "fn": 2,
+            "hamming": 2
+          },
+          {
+            "seed": 1024,
+            "tp": 2,
+            "fp": 0,
+            "fn": 2,
+            "hamming": 2
+          },
+          {
+            "seed": 1025,
+            "tp": 2,
+            "fp": 0,
+            "fn": 2,
+            "hamming": 2
+          },
+          {
+            "seed": 1026,
+            "tp": 3,
+            "fp": 0,
+            "fn": 1,
+            "hamming": 1
+          },
+          {
+            "seed": 1027,
+            "tp": 2,
+            "fp": 0,
+            "fn": 2,
+            "hamming": 2
+          },
+          {
+            "seed": 1028,
+            "tp": 3,
+            "fp": 0,
+            "fn": 1,
+            "hamming": 1
+          },
+          {
+            "seed": 1029,
+            "tp": 3,
+            "fp": 0,
+            "fn": 1,
+            "hamming": 1
+          }
+        ],
+        "means": {
+          "tp": 2.3666666666666667,
+          "fp": 0.03333333333333333,
+          "fn": 1.6333333333333333,
+          "hamming": 1.6666666666666667
+        },
+        "apparent_direct_false_edge_frequency": {
+          "(2, 0, 1)": 8,
+          "(3, 1, 2)": 1,
+          "(0, 2, 2)": 3
+        }
+      },
+      "pairwise_own": {
+        "rows": [
+          {
+            "seed": 1000,
+            "tp": 2,
+            "fp": 0,
+            "fn": 2,
+            "hamming": 2
+          },
+          {
+            "seed": 1001,
+            "tp": 2,
+            "fp": 0,
+            "fn": 2,
+            "hamming": 2
+          },
+          {
+            "seed": 1002,
+            "tp": 3,
+            "fp": 0,
+            "fn": 1,
+            "hamming": 1
+          },
+          {
+            "seed": 1003,
+            "tp": 3,
+            "fp": 0,
+            "fn": 1,
+            "hamming": 1
+          },
+          {
+            "seed": 1004,
+            "tp": 2,
+            "fp": 1,
+            "fn": 2,
+            "hamming": 3
+          },
+          {
+            "seed": 1005,
+            "tp": 2,
+            "fp": 0,
+            "fn": 2,
+            "hamming": 2
+          },
+          {
+            "seed": 1006,
+            "tp": 2,
+            "fp": 0,
+            "fn": 2,
+            "hamming": 2
+          },
+          {
+            "seed": 1007,
+            "tp": 2,
+            "fp": 1,
+            "fn": 2,
+            "hamming": 3
+          },
+          {
+            "seed": 1008,
+            "tp": 3,
+            "fp": 1,
+            "fn": 1,
+            "hamming": 2
+          },
+          {
+            "seed": 1009,
+            "tp": 3,
+            "fp": 2,
+            "fn": 1,
+            "hamming": 3
+          },
+          {
+            "seed": 1010,
+            "tp": 2,
+            "fp": 0,
+            "fn": 2,
+            "hamming": 2
+          },
+          {
+            "seed": 1011,
+            "tp": 3,
+            "fp": 0,
+            "fn": 1,
+            "hamming": 1
+          },
+          {
+            "seed": 1012,
+            "tp": 3,
+            "fp": 0,
+            "fn": 1,
+            "hamming": 1
+          },
+          {
+            "seed": 1013,
+            "tp": 4,
+            "fp": 1,
+            "fn": 0,
+            "hamming": 1
+          },
+          {
+            "seed": 1014,
+            "tp": 2,
+            "fp": 0,
+            "fn": 2,
+            "hamming": 2
+          },
+          {
+            "seed": 1015,
+            "tp": 2,
+            "fp": 0,
+            "fn": 2,
+            "hamming": 2
+          },
+          {
+            "seed": 1016,
+            "tp": 2,
+            "fp": 0,
+            "fn": 2,
+            "hamming": 2
+          },
+          {
+            "seed": 1017,
+            "tp": 2,
+            "fp": 0,
+            "fn": 2,
+            "hamming": 2
+          },
+          {
+            "seed": 1018,
+            "tp": 2,
+            "fp": 0,
+            "fn": 2,
+            "hamming": 2
+          },
+          {
+            "seed": 1019,
+            "tp": 2,
+            "fp": 1,
+            "fn": 2,
+            "hamming": 3
+          },
+          {
+            "seed": 1020,
+            "tp": 2,
+            "fp": 2,
+            "fn": 2,
+            "hamming": 4
+          },
+          {
+            "seed": 1021,
+            "tp": 3,
+            "fp": 0,
+            "fn": 1,
+            "hamming": 1
+          },
+          {
+            "seed": 1022,
+            "tp": 2,
+            "fp": 0,
+            "fn": 2,
+            "hamming": 2
+          },
+          {
+            "seed": 1023,
+            "tp": 2,
+            "fp": 1,
+            "fn": 2,
+            "hamming": 3
+          },
+          {
+            "seed": 1024,
+            "tp": 2,
+            "fp": 0,
+            "fn": 2,
+            "hamming": 2
+          },
+          {
+            "seed": 1025,
+            "tp": 2,
+            "fp": 0,
+            "fn": 2,
+            "hamming": 2
+          },
+          {
+            "seed": 1026,
+            "tp": 3,
+            "fp": 0,
+            "fn": 1,
+            "hamming": 1
+          },
+          {
+            "seed": 1027,
+            "tp": 2,
+            "fp": 1,
+            "fn": 2,
+            "hamming": 3
+          },
+          {
+            "seed": 1028,
+            "tp": 4,
+            "fp": 2,
+            "fn": 0,
+            "hamming": 2
+          },
+          {
+            "seed": 1029,
+            "tp": 3,
+            "fp": 0,
+            "fn": 1,
+            "hamming": 1
+          }
+        ],
+        "means": {
+          "tp": 2.433333333333333,
+          "fp": 0.43333333333333335,
+          "fn": 1.5666666666666667,
+          "hamming": 2.0
+        },
+        "apparent_direct_false_edge_frequency": {
+          "(2, 0, 1)": 10,
+          "(3, 1, 1)": 6,
+          "(1, 3, 2)": 5,
+          "(3, 1, 2)": 1,
+          "(0, 2, 2)": 3,
+          "(3, 0, 1)": 1
+        }
+      },
+      "paired_reduced_hamming_pairwise_minus_var": 0.3333333333333333
+    }
+  }
+}
