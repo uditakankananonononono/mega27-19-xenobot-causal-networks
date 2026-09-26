@@ -17,3 +17,6 @@ Known-ground-truth simulation in `docs/SYNTHETIC_CALIBRATION_CHECKPOINT.md`: a s
 
 ## 2026-09-26: post hoc organoid scale sensitivity
 Within-cell full-series z-scoring flips the mean post-minus-pre gain to +0.016585, but only 3/6 signs are positive, p=.84375, with one outlier; the original raw sign was 0/6 positive. These z-scored scores leak full-series scale information and are a diagnostic, not prospective benchmark evidence. See `docs/ORGANOID_SCALE_SENSITIVITY.md`. Stop biological interpretation of either directional sign.
+
+## 2026-09-26: prospective-calibration method diagnostic
+Separately versioned within-recording 25% calibration window (not the original held-out task) yields 2/6 positive paired post-pre forecast-gain deltas, mean -0.029718 and two-sided exact sign-flip p=.1875. It does not rescue the failed original directional result. See `docs/ORGANOID_PROSPECTIVE_CHECKPOINT.md`; relevant open gaps remain.
