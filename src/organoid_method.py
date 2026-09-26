@@ -33,6 +33,7 @@ def features(a, population=True, seed=None):
         shifts=rng.integers(max(2,a.shape[1]//5),max(3,a.shape[1]*4//5),size=len(a))
         shifted=np.stack([np.roll(x,int(s)) for x,s in zip(a,shifts)])
         oth=(shifted.sum(axis=0,keepdims=True)-shifted)/(len(a)-1)
+        # np.roll WRAPS boundaries; these are surrogates, not causal forecasts.
         # A shifted population signal is only a deliberately broken control;
         # original focal series and target remain untouched.
     cols=[np.ones_like(own),own]
