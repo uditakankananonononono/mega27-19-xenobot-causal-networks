@@ -1,0 +1,7 @@
+# Next evidence-gated work
+
+1. Resolve whether the March 2026 memory preprint has deposited raw calcium movies and per-organism/time/stimulus IDs, plus same-organism behavior tracks. If not publicly deposited, record untestable and do not invent linked records. Preserve preprint status and independent replication caveat.
+2. Verify authors' experimental units and video metadata for the 12 public trajectory archives. One condition per numbered replicate is presently confounded; keep descriptive movement/QC separate from independent-batch predictive performance.
+3. Search for additional truly paired Xenobot datasets with single-cell trajectories, measured cell-state/bioelectric/calcium and organism outcomes. Keep embryonic Xenopus reference datasets in a distinct prior-only category.
+4. Only after eligible raw data are established: amend precise sample/endpoint metric BEFORE inspecting outcomes; run blocked splits and strong baselines; register all negative and untestable findings. Do not make in-silico ablations stand in for wet-lab causal intervention.
+5. If a scientific result survives validation, write a full paper satisfying the user's >=50 pages of actual body text alone, excluding headings, diagrams/figures, appendix and references. No paper presently exists and no result has passed.
