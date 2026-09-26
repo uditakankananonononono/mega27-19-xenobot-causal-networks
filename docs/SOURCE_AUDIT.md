@@ -69,3 +69,5 @@ Verified primary lists: https://causeme.uv.es/models/ has synthetic VAR and othe
 
 ### ATP preprint publication-status check, September 26
 Crossref DOI record https://api.crossref.org/works/10.64898%2F2026.06.04.730190 currently identifies the title and June 9 preprint DOI but exposes no explicit `relation` to a final journal publication. A blank Crossref relation is **not** proof that no paper has been accepted or that no repository release exists. Combined with bounded search, the promised calcium CSVs remain unverified for use. The analogous March preprint DOI record https://api.crossref.org/works/10.64898%2F2026.03.17.712168 also has no final-journal relation in this response; GEO GSE320387 is separate pooled RNA. Recheck author/publisher at point of need.
+
+**TimeGraph confounder caveat:** primary A1C sample CSV contains a literal `U` column. For a hidden-confounder challenge, exclude U from algorithm inputs while preserving generator graph truth. See `docs/EXTERNAL_BENCHMARK_FIT.md`; no benchmark score exists.
