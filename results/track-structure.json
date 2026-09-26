@@ -1,0 +1,215 @@
+{
+  "source": "swarm-lab/xenobots public tracking repository",
+  "scope": "structure only, no outcome test",
+  "replicates": [
+    {
+      "replicate": "10",
+      "rows": 345594,
+      "whole_organism_track_ids": 10,
+      "invalid_coordinates_or_frames": 0,
+      "columns": [
+        "frame",
+        "id",
+        "ignore",
+        "size",
+        "track",
+        "track_fixed",
+        "x",
+        "y"
+      ],
+      "cell_level": false
+    },
+    {
+      "replicate": "11",
+      "rows": 864814,
+      "whole_organism_track_ids": 204,
+      "invalid_coordinates_or_frames": 0,
+      "columns": [
+        "frame",
+        "id",
+        "ignore",
+        "size",
+        "track",
+        "track_fixed",
+        "x",
+        "y"
+      ],
+      "cell_level": false
+    },
+    {
+      "replicate": "12",
+      "rows": 137446,
+      "whole_organism_track_ids": 21,
+      "invalid_coordinates_or_frames": 0,
+      "columns": [
+        "frame",
+        "id",
+        "ignore",
+        "size",
+        "track",
+        "track_fixed",
+        "x",
+        "y"
+      ],
+      "cell_level": false
+    },
+    {
+      "replicate": "13",
+      "rows": 326800,
+      "whole_organism_track_ids": 12,
+      "invalid_coordinates_or_frames": 0,
+      "columns": [
+        "frame",
+        "id",
+        "ignore",
+        "size",
+        "track",
+        "track_fixed",
+        "x",
+        "y"
+      ],
+      "cell_level": false
+    },
+    {
+      "replicate": "14",
+      "rows": 344408,
+      "whole_organism_track_ids": 8,
+      "invalid_coordinates_or_frames": 0,
+      "columns": [
+        "frame",
+        "id",
+        "ignore",
+        "size",
+        "track",
+        "track_fixed",
+        "x",
+        "y"
+      ],
+      "cell_level": false
+    },
+    {
+      "replicate": "3",
+      "rows": 285748,
+      "whole_organism_track_ids": 23,
+      "invalid_coordinates_or_frames": 0,
+      "columns": [
+        "frame",
+        "id",
+        "ignore",
+        "size",
+        "track",
+        "track_fixed",
+        "x",
+        "y"
+      ],
+      "cell_level": false
+    },
+    {
+      "replicate": "4",
+      "rows": 202849,
+      "whole_organism_track_ids": 18,
+      "invalid_coordinates_or_frames": 0,
+      "columns": [
+        "frame",
+        "id",
+        "ignore",
+        "size",
+        "track",
+        "track_fixed",
+        "x",
+        "y"
+      ],
+      "cell_level": false
+    },
+    {
+      "replicate": "5",
+      "rows": 468838,
+      "whole_organism_track_ids": 40,
+      "invalid_coordinates_or_frames": 0,
+      "columns": [
+        "frame",
+        "id",
+        "ignore",
+        "size",
+        "track",
+        "track_fixed",
+        "x",
+        "y"
+      ],
+      "cell_level": false
+    },
+    {
+      "replicate": "6",
+      "rows": 302400,
+      "whole_organism_track_ids": 7,
+      "invalid_coordinates_or_frames": 0,
+      "columns": [
+        "frame",
+        "id",
+        "ignore",
+        "size",
+        "track",
+        "track_fixed",
+        "x",
+        "y"
+      ],
+      "cell_level": false
+    },
+    {
+      "replicate": "7",
+      "rows": 345603,
+      "whole_organism_track_ids": 9,
+      "invalid_coordinates_or_frames": 0,
+      "columns": [
+        "frame",
+        "id",
+        "ignore",
+        "size",
+        "track",
+        "track_fixed",
+        "x",
+        "y"
+      ],
+      "cell_level": false
+    },
+    {
+      "replicate": "8",
+      "rows": 266477,
+      "whole_organism_track_ids": 39,
+      "invalid_coordinates_or_frames": 0,
+      "columns": [
+        "frame",
+        "id",
+        "ignore",
+        "size",
+        "track",
+        "track_fixed",
+        "x",
+        "y"
+      ],
+      "cell_level": false
+    },
+    {
+      "replicate": "9",
+      "rows": 281869,
+      "whole_organism_track_ids": 59,
+      "invalid_coordinates_or_frames": 0,
+      "columns": [
+        "frame",
+        "id",
+        "ignore",
+        "size",
+        "track",
+        "track_fixed",
+        "x",
+        "y"
+      ],
+      "cell_level": false
+    }
+  ],
+  "warnings": [
+    "Tracks are whole-organism positions, not cellular measurements.",
+    "One condition per replicate in info.xlsx: leave-replicate-out cannot estimate unseen-condition effects.",
+    "Independent experiment/batch identity and linked cellular modalities not validated."
+  ]
+}
