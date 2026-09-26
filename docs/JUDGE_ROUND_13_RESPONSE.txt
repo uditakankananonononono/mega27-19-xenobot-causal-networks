@@ -1,0 +1,263 @@
+Round 13 — Research judge review of the pasted methods/results excerpt
+
+The excerpt is truncated at:
+
+“even after PC1, mean retai…”
+
+so I cannot evaluate the final PC1-controlled result. I will judge only the evidence provided.
+
+Overall assessment
+
+The project has reached a clearer scientific identity:
+
+The original biological claim (causal Xenobot cellular networks underlying coordination/memory/behavior) is still unsupported because the required linked measurements are absent.
+
+The methods claim (passive multicellular calcium inference is vulnerable to hidden common drivers) is becoming a plausible computational contribution.
+
+The strongest result so far is not a Xenobot discovery. It is a warning about interpretation.
+
+Strongest current contribution
+Synthetic confound result
+
+You show:
+
+no direct coupling,
+
+shared AR(1) latent driver,
+
+other-cell prediction improves.
+
+This is an important failure mode:
+
+predictive gain
+
+=cell-cell causality
+
+The oracle U control is particularly useful because it demonstrates that the apparent interaction signal can originate from an unobserved population factor.
+
+However, the reviewer question remains:
+
+Does the proposed control strategy work when U is not available?
+
+The real world will never provide the oracle.
+
+Current PC1 analysis: strengths and weaknesses
+Strength
+
+A first-60-frame PC1 estimated before testing is a reasonable attempt to create an observed proxy for shared population dynamics.
+
+The reported:
+
+r=0.99959
+
+with sensor mean under the simulated shared-drive condition suggests PC1 is effectively recovering the dominant common component in that specific simulation.
+
+That supports the idea that latent structure can sometimes be approximated from observed multivariate data.
+
+Major limitation
+
+A rank-one PC1 proxy is not equivalent to the true latent driver.
+
+A reviewer will ask:
+
+What happens when the biological common signal is not rank one?
+
+Real systems may contain:
+
+multiple signaling axes,
+
+asynchronous waves,
+
+spatially localized effects,
+
+nonlinear responses.
+
+A single PC1 may remove too little or too much.
+
+The key missing experiment
+Implement a latent-factor robustness benchmark
+
+Do not stop at one PC.
+
+Pre-register:
+
+Synthetic conditions
+1. Pure common drive
+X
+i
+	​
+
+(t)=a
+i
+	​
+
+U(t)+noise
+
+Expected:
+
+No direct interaction.
+
+2. Direct coupling
+X
+i
+	​
+
+(t+1)=gX
+j
+	​
+
+(t)+noise
+
+Expected:
+
+Interaction signal.
+
+3. Mixed system
+
+Both:
+
+X
+i
+	​
+
+(t+1)=gX
+j
+	​
+
+(t)+a
+i
+	​
+
+U(t)+noise
+
+Hardest case.
+
+4. Multiple latent drivers
+U
+1
+	​
+
+(t),U
+2
+	​
+
+(t),...
+Models to compare
+
+Required:
+
+Own-history ridge.
+
+Other-cell mean ridge.
+
+PCA/factor-controlled model.
+
+VAR baseline.
+
+Proposed method.
+
+The question is not whether one model predicts best.
+
+The question is:
+
+Which models avoid false interaction inference?
+
+Primary metric
+
+Do not make RMSE the headline.
+
+Use:
+
+False interaction rate
+
+In:
+
+no-coupling + common-drive simulations.
+
+Recovery rate
+
+In:
+
+true-coupling simulations.
+
+Calibration
+
+As latent-driver strength increases:
+
+Does the method know when it is uncertain?
+
+Biological interpretation limits
+
+Even if the PC1 control works perfectly:
+
+It would establish:
+
+observed calcium dynamics contain a removable shared component.
+
+It would not establish:
+
+direct cell communication,
+
+memory,
+
+adaptation,
+
+behavioral control.
+
+Xenobot data issue remains unchanged
+
+The 28 Xenobot matrices still lack:
+
+Needed	Current status
+same-bot behavior	unavailable/not verified
+perturbation	unavailable/not verified
+spatial cell coordinates	unavailable/not verified
+intervention	unavailable/not verified
+
+Therefore the original causal-network aim cannot yet be tested.
+
+One concrete revision I would require before accepting a methods paper direction
+
+Add a pre-registered "interaction after latent-control" analysis:
+
+For each real Xenobot calcium matrix:
+
+Fit own-history model.
+
+Fit own-history + other-cell predictor.
+
+Fit own-history + latent-factor predictor.
+
+Fit own-history + other-cell predictor after removing latent factors.
+
+Decision rule:
+
+If cross-cell gain disappears after latent control → evidence favors shared population dynamics.
+
+If it survives → only evidence of residual predictive structure, not causality.
+
+Failure conditions
+
+The method should be considered unsuccessful if:
+
+it only works under one latent-driver simulation,
+
+it fails under multi-factor common signals,
+
+it calls common-drive-only simulations as interaction,
+
+results depend on arbitrary preprocessing.
+
+Final Round 13 assessment
+
+The project’s strongest defensible novelty is shifting from:
+
+“We decoded Xenobot intelligence.”
+
+to:
+
+“We developed and stress-tested safeguards against mistaking population-level dynamics for cellular interaction in multicellular time-series.”
+
+That is a narrower claim, but scientifically stronger.
+
+The original Xenobot cellular-memory/behavior claim remains dependent on future datasets with matched cell state, intervention, and behavior.
