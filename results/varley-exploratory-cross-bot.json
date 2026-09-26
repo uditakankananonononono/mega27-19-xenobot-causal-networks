@@ -1,0 +1,84 @@
+{
+  "status": "EXPLORATORY SAME-STUDY CHECKPOINT; NOT independent replication or discovery",
+  "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12520083/supplementaryFiles",
+  "development_bots": 19,
+  "heldout_bots": 9,
+  "comparison": "population_ridge vs strongest own-history/persistence baseline",
+  "rows": [
+    {
+      "heldout_id": "21",
+      "n_cells": 57,
+      "n_test_frames": 278,
+      "persistence_rmse": 0.5021249587803531,
+      "self_ridge_rmse": 0.48636557134690844,
+      "population_ridge_rmse": 0.4863227800654503
+    },
+    {
+      "heldout_id": "22",
+      "n_cells": 116,
+      "n_test_frames": 287,
+      "persistence_rmse": 0.549471013027658,
+      "self_ridge_rmse": 0.5287745446064952,
+      "population_ridge_rmse": 0.528774724540407
+    },
+    {
+      "heldout_id": "24",
+      "n_cells": 219,
+      "n_test_frames": 287,
+      "persistence_rmse": 0.5148351386826956,
+      "self_ridge_rmse": 0.4973192081398324,
+      "population_ridge_rmse": 0.49732980416422395
+    },
+    {
+      "heldout_id": "26",
+      "n_cells": 67,
+      "n_test_frames": 287,
+      "persistence_rmse": 0.4722184802058937,
+      "self_ridge_rmse": 0.45901245683938047,
+      "population_ridge_rmse": 0.45895147490211635
+    },
+    {
+      "heldout_id": "27",
+      "n_cells": 155,
+      "n_test_frames": 287,
+      "persistence_rmse": 0.5534652468502647,
+      "self_ridge_rmse": 0.5326649496361682,
+      "population_ridge_rmse": 0.5326522108754875
+    },
+    {
+      "heldout_id": "29",
+      "n_cells": 61,
+      "n_test_frames": 287,
+      "persistence_rmse": 0.5117346298919301,
+      "self_ridge_rmse": 0.49452564849567443,
+      "population_ridge_rmse": 0.4945181293840488
+    },
+    {
+      "heldout_id": "30",
+      "n_cells": 81,
+      "n_test_frames": 287,
+      "persistence_rmse": 0.53737154768382,
+      "self_ridge_rmse": 0.5173848640553256,
+      "population_ridge_rmse": 0.517420660290915
+    },
+    {
+      "heldout_id": "31",
+      "n_cells": 171,
+      "n_test_frames": 287,
+      "persistence_rmse": 0.512923482611472,
+      "self_ridge_rmse": 0.4957446153436463,
+      "population_ridge_rmse": 0.49576662643389646
+    },
+    {
+      "heldout_id": "32",
+      "n_cells": 130,
+      "n_test_frames": 287,
+      "persistence_rmse": 0.5069946966174026,
+      "self_ridge_rmse": 0.4906728517605854,
+      "population_ridge_rmse": 0.4906733717366446
+    }
+  ],
+  "mean_persistence_rmse": 0.5179043549279433,
+  "mean_self_rmse": 0.5002738566915573,
+  "mean_population_rmse": 0.5002677535992434
+}
