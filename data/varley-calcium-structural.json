@@ -1,0 +1,208 @@
+{
+  "source": "Varley et al. 2025 Europe PMC supplement PMC12520083",
+  "scope": "structural metadata only; dimension orientation and time cadence not yet established",
+  "matrices": [
+    {
+      "file": "xenobot_series_01.npz",
+      "sha256": "c1b477585e0dfa7e54827cd03402e8aa8e903711572df6f96203c73c33087eca",
+      "dimension_0": 173,
+      "dimension_1": 288,
+      "finite": true
+    },
+    {
+      "file": "xenobot_series_02.npz",
+      "sha256": "f0bc60af0a18189a419c8d816b65e8ed76cbcbe398a026efee7981f48c9873d9",
+      "dimension_0": 167,
+      "dimension_1": 288,
+      "finite": true
+    },
+    {
+      "file": "xenobot_series_03.npz",
+      "sha256": "59811bc3b977d42292fb8f84b3c14a37c44cbc999fb0f7da76a517a5377ce925",
+      "dimension_0": 156,
+      "dimension_1": 237,
+      "finite": true
+    },
+    {
+      "file": "xenobot_series_04.npz",
+      "sha256": "66b21902aafd9aa295cc51dce24fc243425af99fc9fdee6766373134e5e77c3a",
+      "dimension_0": 195,
+      "dimension_1": 267,
+      "finite": true
+    },
+    {
+      "file": "xenobot_series_05.npz",
+      "sha256": "17dce432d722ce5c8411d7bb26119ab1f7f1cc7941e4abd0e79fb60c8a0c5c70",
+      "dimension_0": 210,
+      "dimension_1": 288,
+      "finite": true
+    },
+    {
+      "file": "xenobot_series_06.npz",
+      "sha256": "d2babcfdc11e960d6df34f5fba40138b6f55c3a112474473271a582a51043157",
+      "dimension_0": 128,
+      "dimension_1": 225,
+      "finite": true
+    },
+    {
+      "file": "xenobot_series_07.npz",
+      "sha256": "6134225f4d4646e484056e66edd8fdfac3e2cb88a7cce7e25f7662c15bb3b634",
+      "dimension_0": 223,
+      "dimension_1": 270,
+      "finite": true
+    },
+    {
+      "file": "xenobot_series_08.npz",
+      "sha256": "1fc3ff131c4f6e90ad5b8517b1fb40a7e53acf995785c226506e6c9008c02aac",
+      "dimension_0": 119,
+      "dimension_1": 288,
+      "finite": true
+    },
+    {
+      "file": "xenobot_series_09.npz",
+      "sha256": "9119188381af302df2b40ba223e6f9369a2934b57200fe7a8c26c4edaca9999f",
+      "dimension_0": 283,
+      "dimension_1": 273,
+      "finite": true
+    },
+    {
+      "file": "xenobot_series_10.npz",
+      "sha256": "65813d0ed6b2ac7d72425360f348ec8cca0e6464fa29f7883690f13afdabfe8e",
+      "dimension_0": 28,
+      "dimension_1": 288,
+      "finite": true
+    },
+    {
+      "file": "xenobot_series_11.npz",
+      "sha256": "3daa6cb8c14a4586b84706597708cd818cdfce6a073c194d85dd656fa92f7ff4",
+      "dimension_0": 293,
+      "dimension_1": 273,
+      "finite": true
+    },
+    {
+      "file": "xenobot_series_12.npz",
+      "sha256": "0a318919340da1545a3eccbe182590e009fe272cfa7ea30d62203d4e5f193382",
+      "dimension_0": 91,
+      "dimension_1": 273,
+      "finite": true
+    },
+    {
+      "file": "xenobot_series_13.npz",
+      "sha256": "929183bb09115c24f84cd227af06ca5b8a4e4f49e1841fdf3a5cf35e9c56a12f",
+      "dimension_0": 205,
+      "dimension_1": 261,
+      "finite": true
+    },
+    {
+      "file": "xenobot_series_14.npz",
+      "sha256": "a6ed79a1be446631dd948b97da688fd4b0891e7e1a4161f5457ff059901c3806",
+      "dimension_0": 121,
+      "dimension_1": 276,
+      "finite": true
+    },
+    {
+      "file": "xenobot_series_16.npz",
+      "sha256": "23429b5032c318804d9e635a8e1363f871e232ca66117fda57e450182a206928",
+      "dimension_0": 183,
+      "dimension_1": 288,
+      "finite": true
+    },
+    {
+      "file": "xenobot_series_17.npz",
+      "sha256": "583d52d6ab0ba51066b54e363297673e31e3cb669e21d2fad07213c12c7ad367",
+      "dimension_0": 113,
+      "dimension_1": 288,
+      "finite": true
+    },
+    {
+      "file": "xenobot_series_18.npz",
+      "sha256": "4c14dc9882f49c6f25f6121272c0dfec26182ab900c6f992b1e57c23b2fc5de3",
+      "dimension_0": 51,
+      "dimension_1": 243,
+      "finite": true
+    },
+    {
+      "file": "xenobot_series_19.npz",
+      "sha256": "e62a01b8808a363825c20031ad91664e10f3ba696a4e9b0416d4410d3f871e3b",
+      "dimension_0": 170,
+      "dimension_1": 261,
+      "finite": true
+    },
+    {
+      "file": "xenobot_series_20.npz",
+      "sha256": "cc55d121799beda55d65b579a4a2f48f04fb90d5fb0883d2fc2b7ba9a3cfde88",
+      "dimension_0": 154,
+      "dimension_1": 156,
+      "finite": true
+    },
+    {
+      "file": "xenobot_series_21.npz",
+      "sha256": "f347923297b8010ee58ed48c362cdab5441817a4dc6951740c2406ca17ef27a3",
+      "dimension_0": 57,
+      "dimension_1": 279,
+      "finite": true
+    },
+    {
+      "file": "xenobot_series_22.npz",
+      "sha256": "e61ce6e402a1373eb5db8b1348da6eb49e094bf7e1f8d028229e2d810fbb1820",
+      "dimension_0": 116,
+      "dimension_1": 288,
+      "finite": true
+    },
+    {
+      "file": "xenobot_series_24.npz",
+      "sha256": "ff9021d2d02d8d609f6181bbf89e0750717d8925be436dd7a13a3484452f24db",
+      "dimension_0": 219,
+      "dimension_1": 288,
+      "finite": true
+    },
+    {
+      "file": "xenobot_series_26.npz",
+      "sha256": "19819993c70a479f9c236f1af929c6d9af181f99b3df43a69eaa5b79d0a9237e",
+      "dimension_0": 67,
+      "dimension_1": 288,
+      "finite": true
+    },
+    {
+      "file": "xenobot_series_27.npz",
+      "sha256": "858332cc1366c8eefaccda127043cd78e0332c9bf9e13331c301c4fb918483db",
+      "dimension_0": 155,
+      "dimension_1": 288,
+      "finite": true
+    },
+    {
+      "file": "xenobot_series_29.npz",
+      "sha256": "a8cf3bd1829f36f9add429e6d942f191f6cc3b3504e54e9d6adb0fffdf88627e",
+      "dimension_0": 61,
+      "dimension_1": 288,
+      "finite": true
+    },
+    {
+      "file": "xenobot_series_30.npz",
+      "sha256": "e67a6dca8cbe2c80b58d77a14d0106535cb3cf8c77cfcab666825df41141dab4",
+      "dimension_0": 81,
+      "dimension_1": 288,
+      "finite": true
+    },
+    {
+      "file": "xenobot_series_31.npz",
+      "sha256": "8fe2999d2c3298314beb529798335194f21ce41e162a470f6af2d4d2101bfdaf",
+      "dimension_0": 171,
+      "dimension_1": 288,
+      "finite": true
+    },
+    {
+      "file": "xenobot_series_32.npz",
+      "sha256": "34fe0864a9016a9cfa043e13e3a9b8fd8e0b798f88460fd30eb17fc893d3b2bb",
+      "dimension_0": 130,
+      "dimension_1": 288,
+      "finite": true
+    }
+  ],
+  "caveats": [
+    "Processed calcium intensity, not direct voltage, gene expression or interventions.",
+    "Per-bot developmental/condition metadata absent in NPZ filenames.",
+    "The paper already analyzed information integration in these same bots.",
+    "Same-dataset bot holdout is not independent experimental replication."
+  ]
+}
