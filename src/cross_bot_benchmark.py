@@ -16,16 +16,16 @@ def run(folder):
     files={p.stem.removeprefix('xenobot_series_'):p for p in folder.glob('xenobot_series_*.npz')}
     if len(files)!=28:raise ValueError('Expect 28 distinct bots')
     mats={i:np.load(p,allow_pickle=False)['arr_0'] for i,p in sorted(files.items())}
-    # IDs 01-20 for method development; 21-28 for once-only same-study checkpoint.
+    # Numeric IDs <=20 for method development; >20 for once-only same-study checkpoint. Missing IDs 15, 23, 25, 28 are absent in source; never renumber bots.
     dev={i:m for i,m in mats.items() if int(i)<=20}
     holdout={i:m for i,m in mats.items() if int(i)>20}
-    if len(dev)!=20 or len(holdout)!=8:raise ValueError('Unexpected ID partition')
+    if len(dev)!=19 or len(holdout)!=9:raise ValueError('Unexpected ID partition')
     rows=[]
     for i,m in holdout.items():
         score=evaluate(dev,i,m)
         rows.append(vars(score))
     return dict(status='EXPLORATORY SAME-STUDY CHECKPOINT; NOT independent replication or discovery',
-                source=SOURCE,development_bots=20,heldout_bots=8,
+                source=SOURCE,development_bots=len(dev),heldout_bots=len(holdout),
                 comparison='population_ridge vs strongest own-history/persistence baseline',
                 rows=rows,
                 mean_persistence_rmse=float(np.mean([r['persistence_rmse'] for r in rows])),
