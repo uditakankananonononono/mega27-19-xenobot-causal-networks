@@ -14,3 +14,6 @@ After a separate SHA-locked exploratory protocol, a six-organoid pre/post-punctu
 
 ## 2026-09-26: synthetic causal-specificity gate failure
 Known-ground-truth simulation in `docs/SYNTHETIC_CALIBRATION_CHECKPOINT.md`: a shared latent drive without any cell-to-cell coupling gave a much larger cross-cell forecast gain than explicit mean-field coupling. The locked synthetic discriminator's causal-specificity gate failed. This prevents interpreting forecast improvement alone as cell signaling, and reinforces rather than resolves the original Xenobot dataset limitation.
+
+## 2026-09-26: post hoc organoid scale sensitivity
+Within-cell full-series z-scoring flips the mean post-minus-pre gain to +0.016585, but only 3/6 signs are positive, p=.84375, with one outlier; the original raw sign was 0/6 positive. These z-scored scores leak full-series scale information and are a diagnostic, not prospective benchmark evidence. See `docs/ORGANOID_SCALE_SENSITIVITY.md`. Stop biological interpretation of either directional sign.

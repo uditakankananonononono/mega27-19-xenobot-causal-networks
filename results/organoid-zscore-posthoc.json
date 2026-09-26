@@ -1,0 +1,180 @@
+{
+  "status": "EXPLORATORY CROSS-SYSTEM METHOD TEST; NOT A XENOBOT DISCOVERY",
+  "source": "https://github.com/caitlingrasso/bio-connectivity/tree/0581ec7b63b30fb09d70b9d34d8cbbf88e6c4700/data/series_raw",
+  "upstream_commit": "0581ec7b63b30fb09d70b9d34d8cbbf88e6c4700",
+  "protocol": "docs/PIVOT_02_ORGANOID_METHOD.md",
+  "rows": [
+    {
+      "organoid": 1,
+      "cell_counts": {
+        "before": 1180,
+        "after": 884
+      },
+      "frames": {
+        "before": 193,
+        "after": 151
+      },
+      "before": {
+        "self_rmse": 0.47916336935326187,
+        "population_rmse": 0.47403095513208277,
+        "shifted_population_rmse": 0.4775858707731924,
+        "persistence_rmse": 0.48973626500884515,
+        "relative_gain": 0.010711199038662838,
+        "relative_gain_shift_control": 0.0032921936044456707
+      },
+      "after": {
+        "self_rmse": 0.3899342175492614,
+        "population_rmse": 0.38542709163231204,
+        "shifted_population_rmse": 0.3886660751243144,
+        "persistence_rmse": 0.3983679795458357,
+        "relative_gain": 0.011558682757508845,
+        "relative_gain_shift_control": 0.003252195800915539
+      },
+      "paired_gain_delta": 0.0008474837188460066
+    },
+    {
+      "organoid": 2,
+      "cell_counts": {
+        "before": 510,
+        "after": 436
+      },
+      "frames": {
+        "before": 240,
+        "after": 161
+      },
+      "before": {
+        "self_rmse": 0.2794773876350001,
+        "population_rmse": 0.41371039777473584,
+        "shifted_population_rmse": 0.28549374030455743,
+        "persistence_rmse": 0.2805347008485717,
+        "relative_gain": -0.4803000746344647,
+        "relative_gain_shift_control": -0.021527153665164375
+      },
+      "after": {
+        "self_rmse": 0.3584810309051201,
+        "population_rmse": 0.46533470603772437,
+        "shifted_population_rmse": 0.3621341846219605,
+        "persistence_rmse": 0.36433194678634295,
+        "relative_gain": -0.29807344300146643,
+        "relative_gain_shift_control": -0.010190647208351932
+      },
+      "paired_gain_delta": 0.1822266316329983
+    },
+    {
+      "organoid": 3,
+      "cell_counts": {
+        "before": 252,
+        "after": 127
+      },
+      "frames": {
+        "before": 241,
+        "after": 282
+      },
+      "before": {
+        "self_rmse": 0.18994624239259314,
+        "population_rmse": 0.18270454594450256,
+        "shifted_population_rmse": 0.19244020773454268,
+        "persistence_rmse": 0.1890063537802067,
+        "relative_gain": 0.03812497871436161,
+        "relative_gain_shift_control": -0.013129848269358499
+      },
+      "after": {
+        "self_rmse": 0.4928853372079914,
+        "population_rmse": 0.49734123965037014,
+        "shifted_population_rmse": 0.4867308362945441,
+        "persistence_rmse": 0.5111601605389002,
+        "relative_gain": -0.009040444310272558,
+        "relative_gain_shift_control": 0.012486678845652388
+      },
+      "paired_gain_delta": -0.04716542302463417
+    },
+    {
+      "organoid": 4,
+      "cell_counts": {
+        "before": 269,
+        "after": 396
+      },
+      "frames": {
+        "before": 245,
+        "after": 279
+      },
+      "before": {
+        "self_rmse": 0.15147144593379913,
+        "population_rmse": 0.1374716334999222,
+        "shifted_population_rmse": 0.15274852328491523,
+        "persistence_rmse": 0.14209089844595513,
+        "relative_gain": 0.0924254228087027,
+        "relative_gain_shift_control": -0.008431142538074437
+      },
+      "after": {
+        "self_rmse": 0.25634938821883857,
+        "population_rmse": 0.24409707598512917,
+        "shifted_population_rmse": 0.2512254186653341,
+        "persistence_rmse": 0.2571843029121144,
+        "relative_gain": 0.0477953636591086,
+        "relative_gain_shift_control": 0.019988226182659254
+      },
+      "paired_gain_delta": -0.044630059149594094
+    },
+    {
+      "organoid": 5,
+      "cell_counts": {
+        "before": 207,
+        "after": 163
+      },
+      "frames": {
+        "before": 246,
+        "after": 210
+      },
+      "before": {
+        "self_rmse": 0.2796609793233957,
+        "population_rmse": 0.276005745543772,
+        "shifted_population_rmse": 0.2808341262599441,
+        "persistence_rmse": 0.2825618526038703,
+        "relative_gain": 0.01307023163713098,
+        "relative_gain_shift_control": -0.004194889610222665
+      },
+      "after": {
+        "self_rmse": 0.3097950821142102,
+        "population_rmse": 0.30261206451094874,
+        "shifted_population_rmse": 0.30812184261227493,
+        "persistence_rmse": 0.3174495245037342,
+        "relative_gain": 0.023186351294670768,
+        "relative_gain_shift_control": 0.005401117056204273
+      },
+      "paired_gain_delta": 0.010116119657539788
+    },
+    {
+      "organoid": 6,
+      "cell_counts": {
+        "before": 96,
+        "after": 53
+      },
+      "frames": {
+        "before": 246,
+        "after": 185
+      },
+      "before": {
+        "self_rmse": 0.33931395830487276,
+        "population_rmse": 0.341508096628997,
+        "shifted_population_rmse": 0.3390264454353133,
+        "persistence_rmse": 0.3447488424036596,
+        "relative_gain": -0.00646639570940613,
+        "relative_gain_shift_control": 0.0008473358154666309
+      },
+      "after": {
+        "self_rmse": 0.34173077578296734,
+        "population_rmse": 0.34458478671714643,
+        "shifted_population_rmse": 0.34167066544673824,
+        "persistence_rmse": 0.3480597512879413,
+        "relative_gain": -0.008351635663015798,
+        "relative_gain_shift_control": 0.00017589968621169256
+      },
+      "paired_gain_delta": -0.0018852399536096682
+    }
+  ],
+  "mean_paired_relative_gain_delta": 0.01658491881359103,
+  "median_paired_relative_gain_delta": -0.0005188781173818308,
+  "positive_paired_deltas": 3,
+  "two_sided_exact_signflip_p": 0.84375
+}
