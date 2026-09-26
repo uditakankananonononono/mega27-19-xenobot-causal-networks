@@ -1,5 +1,4 @@
 import numpy as np
-import pytest
 from src.organoid_method import features,train,score,run
 
 def test_no_future_leakage():
