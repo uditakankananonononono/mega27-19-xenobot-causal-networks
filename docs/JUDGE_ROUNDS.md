@@ -1972,3 +1972,381 @@ That is narrower, but it is aligned with what the data can actually support.
 Useful priority: confirm metadata that binds any of the 28 matrices to a real biological contrast, before modeling dynamical states. But the response overstates the small negative: one weak global-mean predictor on one processed same-study sample did NOT falsify the original biological premise or prove no cross-cell information. The original project remains in scope; a narrower exploratory component is not a replacement. The suggested organoid puncture dataset is a distinct organismal construct and cannot independently validate Xenobot biology. Cross-study movement/imaging pairing needs primary-source IDs, not an inferred link. Action: audit article supplement and metadata for condition labels, seek independent perturbation data; retain the negative and no-scores on unsupported branches.
 
 Status: 4/10 external weakness/redirection rounds complete, 0 qualifying discoveries/benchmark wins.
+
+## Round 5, 2026-09-26 16:31 IST - source-audit stop/go review
+Source URL: https://chatgpt.com/c/6ab7a19a-6f48-83e8-a29c-83c273c6d1fd
+
+### Exact prompt submitted
+
+Round 5/10. Review a new source-audit decision, not the original proposal. We verified that the 28 public Xenobot GCaMP6s matrices have no per-bot biological/behavioral labels, and our held-out-bot own-history+other-cell-mean predictor had a negligible RMSE gain (0.00000610; 4/9 wins). A peer-reviewed neurobot/biobot/sham RNA source (10.1002/advs.202508967; GEO GSE295614) has a real contrast but 12 pooled RNA libraries of 5-16 bots each; published authors already analyze the group contrast, and only RNA data are deposited. Basal Xenobot movement archives are whole-bot, one condition per numbered replicate. The June 2026 ATP Xenobot calcium preprint promises CSV release after final publication, not yet verified. Audit this stop/go matrix against the user's original cellular network, adaptation and distributed-memory aims. Is there a rigorous, biologically meaningful computational result from presently public data that would be distinct from published claims and testable with an independent unit, or should the flagship remain data-gated? Give a falsifiable narrow side study, exact public unit and baseline if possible, flag pooled-sample pseudoreplication, and list specific datasets/metadata that would change the decision. Do not treat the tiny forecast test as falsification of all cellular coordination. Do not invent linked samples or guarantee a positive result.
+
+### Verbatim ChatGPT response (untrusted external critique)
+
+Round 5/10 — Source-audit decision review
+Bottom-line assessment
+
+The source audit changes the decision materially:
+
+The flagship cellular-network / adaptation / distributed-memory project should remain data-gated.
+
+Not because the tiny forecasting result disproves cellular coordination. It does not. The result only shows:
+
+Under the currently available 28 processed calcium matrices, with the tested formulation and held-out-bot design, cross-cell calcium history did not provide meaningful predictive improvement over focal-cell history.
+
+That is a narrow negative result.
+
+It does not establish:
+
+cells do not coordinate,
+
+Xenobots do not have memory-like behavior,
+
+multicellular computation is absent.
+
+It establishes a stronger statement:
+
+This public dataset, as currently accessible, does not provide enough validated structure to support the original mechanistic question.
+
+Stop/go matrix audit
+Candidate source	Biological question possible?	Independent unit?	Distinct from published work?	Decision
+28 Xenobot GCaMP6s matrices	calcium dynamics	bot-level	limited; Varley already analyzes connectivity/integration	Possible narrow side study only
+Neurobot/biobot/sham RNA GEO GSE295614	transcriptional contrast	pooled RNA library	authors already analyze contrast	Possible re-analysis, not cellular network discovery
+Basal Xenobot movement archives	movement dynamics	condition-level replicate	possible behavior analysis	Limited
+ATP calcium preprint	perturbation response	unknown until release	potentially strong	Data-gated
+1. Original aim vs available evidence
+
+Original scientific target:
+
+infer cellular networks underlying coordination, adaptation, and distributed memory.
+
+Required data:
+
+Needed	Available?
+cell identity	maybe matrix rows, but no biological identity
+spatial coordinates	no
+physical neighbors	no
+perturbations	no verified public ATP dataset
+matched behavior	no
+repeated independent conditions	limited
+molecular state linked to same cells	no
+
+The missing pieces are not computational.
+
+They are experimental design variables.
+
+A GNN cannot infer physical communication networks from an unlabeled calcium matrix alone.
+
+2. The 28 GCaMP matrices: what remains possible?
+
+The original question:
+
+"Do other cells causally influence a focal cell?"
+
+is not supported.
+
+A narrower question remains:
+
+Side study: population calcium-state dynamics
+Question
+
+Do Xenobot calcium populations exhibit reproducible dynamical states that are not explained by simple single-cell statistics?
+
+Exact public unit
+
+Verified:
+
+one processed calcium matrix per Xenobot recording,
+
+rows = cells,
+
+columns = frames.
+
+Unit of inference:
+
+individual Xenobot recording, not individual cell.
+
+This is important.
+
+Cells are nested observations.
+
+Do not treat:
+
+293 cells = 293 independent samples.
+
+Hypothesis
+
+Example:
+
+Xenobot calcium populations contain recurrent temporal activity states distinguishable from shuffled or independently sampled cellular activity.
+
+Analysis
+
+Possible features:
+
+population activity dimensionality,
+
+synchrony,
+
+entropy,
+
+transition probabilities,
+
+temporal motifs.
+
+Strong baselines
+
+Must include:
+
+Independent-cell null model
+(shuffle cell identities)
+
+Autoregressive population baseline
+
+PCA/state-space model
+
+Simple hidden Markov model
+
+A complicated neural model is not automatically stronger.
+
+Success criterion
+
+Not:
+
+"model predicts calcium."
+
+That is weak.
+
+A meaningful result would require:
+
+states replicate across held-out Xenobots,
+
+states survive preprocessing choices,
+
+states are not simply recording duration or cell count effects.
+
+Failure gate
+
+Stop if:
+
+clusters only identify individual bots,
+
+no cross-bot recurrence exists,
+
+shuffled controls perform similarly.
+
+3. GEO GSE295614 RNA source
+
+This source is scientifically valuable, but the interpretation must be careful.
+
+Major issue: pooled samples
+
+You stated:
+
+12 pooled RNA libraries,
+
+each pool contains 5–16 bots.
+
+Therefore:
+
+The independent biological unit is:
+
+RNA library/pool
+
+not:
+
+individual Xenobot.
+
+You cannot claim:
+
+n = number of bots.
+
+That is pseudoreplication.
+
+What could still be done?
+
+A computational re-analysis could ask:
+
+Are there transcriptional signatures distinguishing published experimental groups using independent pooled libraries?
+
+Possible.
+
+But novelty barrier
+
+The authors already analyze the group contrast.
+
+A new result would need to be something different:
+
+Examples:
+
+improved cross-validation,
+
+pathway-level reproducibility,
+
+external annotation validation,
+
+robustness analysis.
+
+Not:
+
+"We rediscovered the treatment vs control DEGs."
+
+Strong baseline
+
+Against:
+
+published differential expression method,
+
+simple PCA clustering,
+
+standard enrichment.
+
+Failure gate
+
+If the only result is:
+
+"our ML classifier separates the same groups the paper already reported"
+
+then it is a reimplementation, not a new biological discovery.
+
+4. Basal Xenobot movement archives
+
+Potentially useful, but limited.
+
+The unit problem remains:
+
+One numbered replicate = one condition.
+
+Therefore:
+
+A model may learn:
+
+treatment identity,
+
+experiment-specific artifacts.
+
+It cannot claim universal Xenobot behavior rules.
+
+Possible narrow question:
+
+Can trajectory descriptors reveal dynamical classes within publicly archived Xenobot movement recordings?
+
+But novelty must be behavioral, not cellular.
+
+5. What data would change the decision?
+
+The flagship could become viable if one or more of these become available:
+
+Highest value
+A. Matched calcium + behavior movies
+
+Required:
+
+Same Xenobot:
+
+calcium activity,
+
+movement,
+
+timestamps.
+
+Allows:
+
+activity → behavior analysis.
+
+B. Perturbation datasets
+
+Examples:
+
+ATP stimulation,
+
+injury,
+
+environmental changes.
+
+Required:
+
+pre/post data,
+
+matched individual bots,
+
+metadata.
+
+C. Spatial cell information
+
+Required:
+
+cell coordinates,
+
+segmentation,
+
+lineage or morphology.
+
+Allows:
+
+testing:
+
+distance,
+
+neighborhoods,
+
+spatial organization.
+
+D. Molecular + imaging linkage
+
+Ideal:
+
+same construct:
+
+transcriptomics,
+
+calcium,
+
+morphology.
+
+Without linkage, modalities remain separate.
+
+Decision
+Flagship:
+
+Remain data-gated.
+
+The current public record cannot support:
+
+causal cellular networks,
+
+distributed memory mechanisms,
+
+adaptation mechanisms.
+
+Viable side project:
+
+A carefully limited study of:
+
+Xenobot population calcium dynamics and reproducible temporal states.
+
+This is a real computational biology question.
+
+The claim must be:
+
+"we identify statistical dynamical motifs in public Xenobot recordings."
+
+Not:
+
+"we discovered how Xenobots think."
+
+Final stop/go rule
+
+Proceed only if the next artifact can answer:
+
+What is the biological contrast?
+
+What is the independent unit?
+
+What existing published analysis does it go beyond?
+
+What null hypothesis could defeat it?
+
+If those four answers are missing, the scientifically correct action is not another model iteration. It is waiting for the missing measurements.
+
+### Independent assessment and response
+The core gate is sound: the currently deposited materials cannot sustain a linked cellular-network, adaptation or distributed-memory mechanism claim. The pooled RNA distinction and bot-level calcium inference are correct. A state/motif side study would need to defeat Varley's already published higher-order and temporal information analyses, not just shuffle-trace controls. The advice to “shuffle cell identities” is **not** a valid independent-cell null: row permutation leaves population state statistics unchanged; independently circularly shift each cell trace by a predeclared offset to retain its autocorrelation but disrupt alignment, then compare matched bot-level held-out results. A label-free recurrent state alone may be an artifact of processing, cell count, recording length or calcium indicator dynamics, not a new biological discovery. ChatGPT's suggestion to wait for measurements rather than manufacture a result is treated as critique, not as authority to abandon the user's original scope. Status: five of ten substantive rounds completed. No new benchmark beat or discovery.
