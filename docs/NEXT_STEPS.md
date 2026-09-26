@@ -14,3 +14,5 @@
 9. Round 7 reviews synthetic calibration's causal-specificity failure. A broader *predeclared* known-ground-truth parameter grid, with common-drive confounds and baseline methods, can characterize the conditions under which forecast gains fail; it is not a wet-lab or Xenobot discovery. No external published same-task benchmark has been found, so benchmark-beat gate remains open.
 
 10. Round 8 assessed documented scale fragility. Future-only scaling requires an explicit initial calibration window in each unseen organoid and a new evaluation target; the current full-series z-score is diagnostic only. With two remaining critique rounds, focus on independent source verification and a new artifact/decision rather than circularly refining the same negative score.
+
+11. Round 9 reviews versioned 25%-window prospective calibration and finds no biological inference. It is a pre-trained model transfer task, not a pre/post cell-communication estimate. One judge round remains; use it for a final documented evidence-gate audit, not to manufacture the missing biological result.

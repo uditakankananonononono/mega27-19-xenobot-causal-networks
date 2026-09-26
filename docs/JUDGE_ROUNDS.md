@@ -3756,3 +3756,466 @@ Only after that would biological interpretation become justified. The Xenobot ce
 
 ### Independent assessment and response
 Accept: full-recording z-score is leakage for prospective scores; raw hypothesis remains failed; n=6 correlation is merely descriptive; generic post-puncture network changes are Grasso prior art. Correct/qualify: per-cell held-out organoid scale parameters **cannot** be learned from other organoids because rows have no shared cell identity. A prospective held-out design must explicitly allocate an initial calibration window within that held-out organoid, estimate its cell scalers from that window alone, and forecast later frames, which changes the evaluation task (within-recording adaptation) relative to a wholly untouched test bot. Alternatively global parameters learned from training bots can be applied without adapting to test cells, but that no longer provides per-cell scaling. Declare either change before scoring, never compare an after-seeing-outcomes variant as though preregistered. The response's broad “6 organoids are useful for exploration, not broad mechanistic claims” is right; it offers no published same-task benchmark, no new biological discovery and no official judging outcome. Status: 8/10 substantive critique rounds.
+
+## Round 9, 2026-09-26 16:43 IST - prospective calibration method review
+Source URL: https://chatgpt.com/c/6ab7a19a-6f48-83e8-a29c-83c273c6d1fd
+
+### Exact prompt submitted
+
+Round 9/10: assess this NEW independently versioned prospective calibration method artifact and open gaps. Source is six *Xenopus epidermal organoids*, not Xenobots, with cell x time calcium CSVs before/after puncture. Earlier raw wholly-heldout test failed positive hypothesis (0/6 gains positive, mean -0.004666), and full-recording z-score was explicitly post hoc/leaky. We then locked a new method diagnostic: in each recording, use only first 25% frames for that recording's per-cell mean/SD; train own-history and own+other-cell-mean ridge on later frames in five other organoids' pre-puncture recordings; score later frames of the heldout organoid's pre and post recordings separately with fixed coefficients. Cells are not matched before/after. The six paired post-minus-pre relative-gain deltas are +.002455,-.085354,-.007407,+.014586,-.033937,-.068652; mean -.029718; 2/6 positive; two-sided exact sign-flip p=.1875. This changed task is not comparable as a win against the raw one. Simulations separately show a shared external driver can produce larger gain than true mean-field coupling. Critique failure modes, including whether initial 25% time-window normalization actually avoids score leakage, training only on pre recordings, representation drift, unequal cell/frame counts, autocorrelated windows, wound transients and six-unit uncertainty. Recommend a narrow next artifact that could genuinely test method validity on these data or synthetic known-ground-truth systems with strong baselines, and specify what external/public benchmark and source-grounded biological contrast are still missing. Reject any inference of wound-induced communication loss, Xenobot mechanism or discovery. Do not turn negative tests into completion.
+
+### Verbatim ChatGPT response (untrusted external critique)
+
+Round 9/10 — Review of prospective calibration artifact
+Summary judgment
+
+This is the strongest version of the methodology so far because it addresses a legitimate concern:
+
+full-recording normalization leaked future information.
+
+The new procedure is a real attempt to make preprocessing prospective.
+
+However, the result still does not validate the biological hypothesis, and the method itself remains only partially calibrated.
+
+The new outcome:
+
+six paired organoids,
+
+post-minus-pre relative gains:
+
++0.002455
+
+-0.085354
+
+-0.007407
+
++0.014586
+
+-0.033937
+
+-0.068652
+
+Mean:
+
+−0.029718
+
+Positive signs:
+
+2/6
+
+Exact sign-flip:
+
+p=0.1875
+
+Interpretation:
+
+The prospective normalization pipeline does not provide evidence for increased post-puncture cross-cell predictive gain.
+
+It also does not prove decreased communication.
+
+The biological claim remains unresolved.
+
+1. Does the first-25%-frame normalization avoid leakage?
+It avoids one major leakage pathway
+
+Compared with:
+
+μ
+full
+	​
+
+,σ
+full
+	​
+
+
+using the entire recording, this is better.
+
+The normalization statistics are estimated from an earlier segment.
+
+That is a legitimate forecasting-style design.
+
+But it introduces a different assumption
+
+You assume:
+
+The first 25% of a recording provides a stable representation of the later recording.
+
+This may fail after puncture.
+
+The first quarter may contain:
+
+injury response onset,
+
+transient calcium waves,
+
+acute adaptation,
+
+unstable variance.
+
+If the wound changes the distribution, then the normalization itself becomes biologically dependent.
+
+That is not leakage, but it is representation drift.
+
+2. Representation drift is now the largest issue
+
+The method assumes:
+
+P(future calcium∣early normalization)
+
+is comparable pre and post.
+
+But puncture may change:
+
+baseline,
+
+variance,
+
+active-cell fraction,
+
+calcium event rate.
+
+Therefore the model may be penalized because the representation changed, not because cross-cell structure changed.
+
+Required diagnostic
+
+Before interpreting gain:
+
+Report:
+
+For each recording:
+
+mean intensity shift,
+
+variance shift,
+
+number of active cells,
+
+event rate,
+
+autocorrelation.
+
+Question:
+
+Did puncture alter the signal distribution itself?
+
+3. Training only on pre-puncture recordings
+
+This is scientifically clean if the question is:
+
+Can a pre-injury model transfer to post-injury states?
+
+But that is a different hypothesis.
+
+It is not the same as:
+
+Does puncture increase cross-cell predictability?
+
+The new experiment tests:
+
+pre-trained predictor→post state
+
+not:
+
+post coupling strength
+Potential interpretation
+
+If post-puncture performance changes:
+
+Possible causes:
+
+altered coupling,
+
+altered individual dynamics,
+
+distribution shift,
+
+changed noise.
+
+The metric does not identify which.
+
+4. Unequal cell counts remain unresolved
+
+This remains a major limitation.
+
+You have:
+
+different numbers of cells before vs after,
+
+no cell identity matching.
+
+Therefore:
+
+You cannot ask:
+
+Did the same cells become more or less coupled?
+
+You are comparing populations.
+
+Consequence
+
+The biological unit remains:
+
+recording-level population dynamics
+
+not:
+
+cell-level adaptation.
+
+5. Frame autocorrelation and effective sample size
+
+The model has many frames.
+
+But frames are not independent.
+
+Calcium traces are autocorrelated.
+
+A 240-frame recording does not equal 240 independent observations.
+
+The correct uncertainty is dominated by:
+
+number of organoids,
+
+not number of frames.
+
+The inferential unit remains:
+
+n=6
+6. Wound transient confounding
+
+Puncture is a strong perturbation.
+
+A post-recording may contain:
+
+immediate damage response,
+
+delayed recovery,
+
+altered viability.
+
+The single "post" category may combine biologically different phases.
+
+If metadata allow:
+
+Predefine:
+
+early post,
+
+late post.
+
+If not:
+
+Do not infer "adaptation."
+
+7. What the current artifact can legitimately claim
+
+Supported:
+
+A prospective normalization strategy was evaluated on paired organoid calcium recordings, and the observed post-puncture change in cross-cell forecasting gain was not consistently positive.
+
+Not supported:
+
+puncture decreases communication,
+
+puncture destroys coordination,
+
+cells lose information integration,
+
+Xenobot mechanisms are explained.
+
+8. Next artifact: method validity benchmark
+
+The next useful step is not another biological interpretation.
+
+It should be a calibration study.
+
+Hypothesis
+
+A cross-cell forecasting metric should distinguish direct coupling from shared latent drive under controlled synthetic conditions.
+
+Synthetic benchmark design
+Generate systems:
+A. Independent cells
+
+No coupling, no common driver.
+
+Expected:
+
+No cross-cell gain.
+
+B. Shared latent driver only
+X
+i
+	​
+
+(t)=f(U(t))
+
+Expected:
+
+Cross-cell prediction may improve.
+
+The method should identify:
+
+"No direct coupling."
+
+C. Direct coupling only
+X
+i
+	​
+
+(t+1)=aX
+i
+	​
+
+(t)+gX
+j
+	​
+
+(t)+noise
+
+Expected:
+
+Recover coupling.
+
+D. Mixed system
+
+Both.
+
+Hardest case.
+
+Baselines
+
+Required:
+
+Own-history ridge.
+
+Population mean ridge.
+
+VAR model.
+
+Factor model/PCA latent-state model.
+
+The proposed method must demonstrate what it adds.
+
+Primary metric
+
+Do not use only RMSE.
+
+Use:
+
+false positive interaction rate,
+
+coupling detection AUROC,
+
+calibration under known nulls.
+
+Falsifiers
+
+The method fails if:
+
+Shared latent drive repeatedly appears as "interaction."
+
+Coupling detection disappears with realistic noise.
+
+Results depend on arbitrary normalization.
+
+Factor models perform equally well.
+
+9. External/public benchmark still missing
+
+A major gap remains:
+
+There is no verified external biological benchmark showing:
+
+"this method correctly detects true multicellular interactions."
+
+A good benchmark would require:
+
+known perturbation,
+
+known interacting cells,
+
+matched time-series.
+
+Without that, the method can be stress-tested but not biologically validated.
+
+10. Relation to Grasso et al. 2025
+
+Do not compete on:
+
+functional connectivity,
+
+information networks,
+
+network changes after puncture.
+
+Those are already part of the published biological analysis.
+
+A distinct methods contribution would be:
+
+Demonstrating that predictive connectivity metrics can be confounded by shared latent dynamics and developing a calibrated evaluation framework.
+
+That is different.
+
+11. Is there still a biological discovery here?
+
+For the six organoids:
+
+No.
+
+The current dataset can support:
+
+methodological analysis,
+
+robustness testing,
+
+exploratory dynamics.
+
+It cannot establish:
+
+wound-induced communication changes,
+
+cellular memory,
+
+adaptive computation.
+
+12. Relation to Xenobot goal
+
+The motile Xenobot aim remains data-gated.
+
+To claim:
+
+cellular coordination,
+
+distributed memory,
+
+adaptation,
+
+would require:
+
+cell-resolved imaging,
+
+spatial positions,
+
+matched behavior,
+
+perturbations,
+
+independent biological replicates.
+
+The organoid method work may inform future analysis, but it cannot substitute for those measurements.
+
+Round 9 conclusion
+
+This artifact is a reasonable methodological correction, but the key result is still negative:
+
+the original biological prediction failed,
+
+the leakage correction does not restore evidence,
+
+the remaining signal is too uncertain for mechanistic interpretation.
+
+The scientifically productive next step is a preregistered causal-confound calibration benchmark, not continued attempts to extract a biological conclusion from six unpaired cell populations.
+
+### Independent assessment and response
+Accept the distinction: the new test asks whether coefficients learned on pre-puncture recordings transfer to post-puncture recordings under each recording's early-window calibration; it cannot estimate a biological coupling change. Cell identities are not matched pre/post, so only the organoid recording population is compared. The first-25% scaler prevents one future-leak path, but post-puncture initial transient and later distribution shift can cause failure. Samples/frames are autocorrelated; six organoids are the inferential units. A proposed synthetic AUROC would be a *different* known-ground-truth classification task requiring a declared coupling detector. Do not claim an external benchmark that has not been identified. The critique remains external advice, not project-scoping authority. Status 9/10 substantive judge rounds; open gaps remain independent biological replication, published comparator, matched Xenobot cell/behavior data, mechanistic identifiability and final paper.
