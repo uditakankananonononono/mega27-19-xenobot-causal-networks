@@ -77,3 +77,6 @@ Primary 2025 article https://pmc.ncbi.nlm.nih.gov/articles/PMC12015265/ and http
 
 ### Europe PMC preprint index check
 The ATP preprint DOI 10.64898/2026.06.04.730190 resolves in Europe PMC to preprint ID `PPR1249079`, source PPR, with no PMCID and no open-access full text indexed there at the time of this check. Endpoint https://www.ebi.ac.uk/europepmc/webservices/rest/PPR1249079/fullTextXML returned HTTP 500, not a usable source. This is an index/access limitation, not proof against a separate author deposit. It also does not imply the preprint is final-published. Earlier bioRxiv full-text PDF reading and author availability statement remain the narrower evidence; no public matching CSV verified.
+
+### TimeGraph status update (2026-09-26)
+The statement above that no benchmark score exists predates a new restricted 30-seed TimeGraph generator diagnostic in `docs/TIMEGRAPH_GRID_02_RESULT.md`. The diagnostic **does** have scores for a declared two-direct-positive-lag subtask, but its direct-graph truth mismatches VAR's reduced-form lag interpretation because of instantaneous mediators; it is not a fair scored comparison to the paper's Table 2. U in A1C remains explicitly withheld from model input. The published-comparator beat gate remains unmet.
