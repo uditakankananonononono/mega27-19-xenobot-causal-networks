@@ -1,0 +1,293 @@
+Round 14 — Scientific redirection consult
+
+The excerpt is truncated at:
+
+“p=.5”
+
+so I cannot evaluate the full statistical statement or any later proposed direction. I will judge the evidence provided.
+
+Executive assessment
+
+The project has reached a clear fork.
+
+The original biological hypothesis:
+
+Cellular network states explain motile Xenobot coordination, adaptation, and memory.
+
+is still not testable from the currently verified public data.
+
+The current computational evidence supports a different, narrower question:
+
+Can passive multicellular calcium recordings reveal predictive structure beyond individual-cell dynamics, and can that structure be separated from population-level common signals?
+
+That is a legitimate methods direction.
+
+It should not be presented as a discovery of Xenobot cognition or cellular computation.
+
+1. Review of the current Xenobot calcium forecasting result
+
+Reported:
+
+28 Xenobot calcium matrices.
+
+Disjoint-sensor forecasting.
+
+Train: 19 bots.
+
+Test: 9 previously reused same-study holdouts.
+
+Relative RMSE gain:
+
++0.00001464.
+
+6/9 positive.
+
+p = 0.5.
+
+Interpretation
+
+This is essentially a null result.
+
+The important points:
+
+The effect size is tiny
+
+A gain of:
+
+0.00001464
+
+relative RMSE improvement is extremely small.
+
+Even if statistically stable, the biological meaning would be unclear.
+
+The sign count is weak
+
+6/9 positive is compatible with noise.
+
+The result does not establish:
+
+distributed information processing,
+
+cell-cell coordination,
+
+network memory.
+
+The test still does not solve causality
+
+Even if the gain were larger:
+
+Other-cell prediction could arise from:
+
+shared global calcium dynamics,
+
+imaging artifacts,
+
+common environmental fluctuations,
+
+latent factors.
+
+2. The "same-study holdout" issue
+
+You state:
+
+previously reused same-study holdouts.
+
+This requires careful wording.
+
+A held-out bot is useful, but if all 28 recordings come from one study pipeline, then it tests:
+
+generalization within one experimental context.
+
+It does not test:
+
+new laboratory,
+
+new construct,
+
+new environment.
+
+A reviewer would not call it independent replication.
+
+3. The disjoint-sensor design
+
+This is actually the most interesting methodological choice.
+
+It avoids a trivial leakage problem:
+
+A model cannot simply memorize the same cell.
+
+However, the interpretation needs tightening.
+
+A positive result would mean:
+
+other observed cells contain information useful for predicting a held-out cell.
+
+It would not mean:
+
+those cells communicate causally.
+
+4. Recommended redirection
+
+I would not spend more effort trying to prove the original Xenobot intelligence claim with these datasets.
+
+The stronger pivot is:
+
+"Reliability of passive multicellular interaction inference"
+
+The core question:
+
+When does cross-cell prediction represent true interaction, and when is it merely shared latent dynamics?
+
+Next concrete artifact
+Latent-factor-adjusted cross-cell forecasting benchmark
+Goal
+
+Determine whether the observed cross-cell gain survives removal of shared population signals.
+
+Real-data experiment
+
+For each Xenobot calcium matrix:
+
+Step 1
+
+Compute latent factors using only training frames.
+
+Examples:
+
+PCA factors,
+
+low-rank decomposition.
+
+Do not use future frames.
+
+Step 2
+
+Compare:
+
+Model A
+
+Own-cell history only.
+
+Model B
+
+Own history + other-cell mean.
+
+Model C
+
+Own history + latent factors.
+
+Model D
+
+Own history + other-cell information after latent-factor removal.
+
+Interpretation
+Outcome 1
+
+Cross-cell gain disappears after latent control.
+
+Conclusion:
+
+The predictive signal was largely population-level.
+
+Outcome 2
+
+Cross-cell gain remains.
+
+Conclusion:
+
+Residual predictive structure exists.
+
+Still not:
+
+causal communication.
+
+Synthetic benchmark required
+
+Before claiming a method contribution:
+
+Create a benchmark where the answer is known.
+
+Conditions:
+
+No coupling.
+
+Shared latent driver.
+
+Direct coupling.
+
+Coupling + latent driver.
+
+Multiple latent drivers.
+
+Measure:
+
+false interaction rate,
+
+coupling recovery,
+
+calibration.
+
+Baselines
+
+At minimum:
+
+persistence,
+
+own-history ridge,
+
+population mean,
+
+PCA/factor model,
+
+VAR.
+
+A complex GNN is not impressive if a factor model solves the same problem.
+
+5. What should happen to the Xenobot biological aim?
+
+Keep it, but mark it as blocked.
+
+The necessary future dataset:
+
+Same individual Xenobot:
+
+cell calcium+cell coordinates+stimulus/intervention+movement
+
+Without that linkage, any "cellular network explains behavior" claim is speculative.
+
+6. Data-source caution
+
+Your source audit is actually one of the strongest parts:
+
+Do not join older movement tracks to calcium data without verified identifiers.
+
+Do not treat different Xenobot experiments as paired.
+
+Do not use pooled RNA as single-bot molecular states.
+
+Do not substitute Xenopus organoids for Xenobots.
+
+Those are exactly the kinds of errors a skeptical reviewer would look for.
+
+Final redirection recommendation
+Stop:
+
+Trying to extract a Xenobot memory/coordination mechanism from unlinked calcium matrices.
+
+Continue:
+
+Build a rigorous methods artifact:
+
+"Testing whether passive multicellular calcium forecasting distinguishes interaction from shared latent dynamics."
+
+Success is not a better prediction number.
+
+Success is showing:
+
+when inference fails,
+
+when it works,
+
+what controls are necessary.
+
+That would be a defensible computational contribution while keeping the original Xenobot biological question open for future matched datasets.
