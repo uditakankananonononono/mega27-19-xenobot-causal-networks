@@ -1,0 +1,197 @@
+The pasted section is truncated after “improves heldout RMSE +”, so I cannot evaluate the exact synthetic effect size or later claims. Based only on the text provided, the single most important implementable improvement is:
+
+Improvement: add a preregistered latent-driver robustness audit using observed calcium-only proxies
+Why this is the missing piece
+
+The current argument has a real methodological insight:
+
+cross-cell predictive improvement can arise from a hidden shared driver rather than direct cell-cell influence.
+
+However, the paper currently demonstrates this only with a synthetic AR(1) example. A reviewer will immediately ask:
+
+“Can your method distinguish interaction from shared population dynamics in the actual Xenobot-like recordings?”
+
+The improvement should not attempt to prove causality. It should test whether the inference pipeline is robust to the exact confound that motivates it.
+
+Concrete experiment
+Data
+
+Use the existing 28 Xenobot calcium matrices only.
+
+Unit:
+
+one Xenobot recording.
+
+Do not treat cells as independent biological replicates.
+
+Define a held-out common-mode proxy
+
+For each recording:
+
+Split time into:
+
+training frames,
+
+held-out future frames.
+
+From training frames only, derive a population-level latent proxy:
+
+Examples:
+
+first principal component of the cell-by-time matrix,
+
+population mean calcium signal,
+
+low-rank factor model.
+
+The proxy must be computed without using held-out frames.
+
+Compare three forecasting models
+Model 1 — Own-cell history
+
+Baseline:
+
+X
+i
+	​
+
+(t+1)=f(X
+i
+	​
+
+(t−k:t))
+Model 2 — Own history + other-cell mean
+
+Current approach:
+
+X
+i
+	​
+
+(t+1)=f(X
+i
+	​
+
+(t−k:t),
+X
+ˉ
+−i
+	​
+
+(t))
+Model 3 — Own history + latent factor proxy
+X
+i
+	​
+
+(t+1)=f(X
+i
+	​
+
+(t−k:t),F(t))
+
+where F(t) is the population latent component.
+
+Primary question
+
+Not:
+
+Does Model 2 win?
+
+Instead:
+
+Does the apparent cross-cell gain disappear when the shared population component is accounted for?
+
+Interpretation table
+Result	Interpretation
+Model 2 gain disappears after latent-factor control	consistent with shared population dynamics explaining apparent interaction
+Model 2 remains after latent-factor control	suggests additional predictive structure, but not causality
+Model 3 performs similarly to Model 2	population-level dynamics may explain most signal
+Required controls
+1. Cell identity shuffle
+
+Shuffle cell labels within each recording.
+
+Purpose:
+
+Test whether the method relies on specific cell relationships.
+
+2. Time-shift control
+
+Shift population factor relative to cells.
+
+Purpose:
+
+Test temporal specificity.
+
+3. Low-rank reconstruction control
+
+Vary number of latent factors.
+
+Purpose:
+
+Avoid claiming one arbitrary global signal explains everything.
+
+Failure gates
+
+Pre-register:
+
+The method interpretation fails if:
+
+Latent-factor controls eliminate the cross-cell advantage.
+
+Results depend on arbitrary normalization.
+
+The gain occurs only in individual recordings.
+
+No improvement survives held-out Xenobot-level evaluation.
+
+What this would and would not establish
+Could establish:
+
+A computational finding:
+
+Passive calcium recordings contain population-level predictive structure that may or may not reflect direct interactions, and latent common signals must be controlled before interpreting cross-cell prediction.
+
+This is a methods contribution.
+
+Cannot establish:
+
+Xenobot cellular causal networks.
+
+Memory.
+
+Adaptation.
+
+Intelligence.
+
+Cell-to-behavior mechanisms.
+
+Those remain impossible from the current 28 matrices because the missing linkage remains:
+
+same-cell state+spatial context+intervention+behavior
+Novelty comparison
+
+This improvement is distinct from existing Xenobot functional-network analyses because it is not asking:
+
+“What network properties exist?”
+
+It asks:
+
+“Can network-like predictive signals be distinguished from shared latent dynamics?”
+
+That is a methodological validity question.
+
+Reviewer verdict on the current section
+
+The strongest weakness is not the negative forecast result. The strongest weakness is that the paper title promises a causal biological explanation while the available evidence only supports a passive time-series methods investigation.
+
+A defensible revision would narrow the contribution:
+
+From:
+“Decoding emergent intelligence in Xenobots.”
+
+Toward:
+“Stress-testing passive multicellular calcium inference under hidden common-driver confounding.”
+
+Then, if future matched Xenobot calcium-behavior-intervention data become available, the causal biological question can be revisited.
