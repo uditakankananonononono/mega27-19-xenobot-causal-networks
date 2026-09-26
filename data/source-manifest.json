@@ -1,0 +1,86 @@
+{
+  "source_url": "https://github.com/swarm-lab/xenobots",
+  "upstream_commit": "3d8e4c3f460578700039a1c111d14adc6b1ccb52",
+  "license": "GPL-3.0 repository license; verify data reuse terms separately before redistributing raw archives",
+  "raw_archives_republished": false,
+  "entries": [
+    {
+      "name": "3.csv.zip",
+      "byte_size": 3687035,
+      "sha256": "ded8902a4e5f7bf7be69c9959d47095f861faf4e658c1346470b133f6e319686",
+      "role": "whole-organism movement tracks"
+    },
+    {
+      "name": "4.csv.zip",
+      "byte_size": 3196954,
+      "sha256": "f3259f3de1bc48848f2fd1a350ded6218560e2f0227a20dd1dfdf541fbb08bd1",
+      "role": "whole-organism movement tracks"
+    },
+    {
+      "name": "5.csv.zip",
+      "byte_size": 8167062,
+      "sha256": "1b03af2eb7dd927c73c3450c4931a22d8522eb2c5af245624c3893f11af1eaa9",
+      "role": "whole-organism movement tracks"
+    },
+    {
+      "name": "6.csv.zip",
+      "byte_size": 4922189,
+      "sha256": "491a053960ae00da0fc07308240429c25535b85568ee8b40440ed3e244789766",
+      "role": "whole-organism movement tracks"
+    },
+    {
+      "name": "7.csv.zip",
+      "byte_size": 5683935,
+      "sha256": "b7caea77f4f508a18c29e033424604d3f56996a9ddb9e66e825096a81d98a704",
+      "role": "whole-organism movement tracks"
+    },
+    {
+      "name": "8.csv.zip",
+      "byte_size": 3807479,
+      "sha256": "c3c7e70c0fa5f4b3dbd081633622db8afe44846d30d39550f2ffff63dcd5bc90",
+      "role": "whole-organism movement tracks"
+    },
+    {
+      "name": "9.csv.zip",
+      "byte_size": 4309946,
+      "sha256": "586f1db814ab435221abdd4b4b4f59f8bcf7c5466ab426839c5cb3f448e0a441",
+      "role": "whole-organism movement tracks"
+    },
+    {
+      "name": "10.csv.zip",
+      "byte_size": 5078204,
+      "sha256": "8a6614712b2372cbdf61fa91da9a1c7bc7ad1cc0cf3e852634852c7fcc0b4877",
+      "role": "whole-organism movement tracks"
+    },
+    {
+      "name": "11.csv.zip",
+      "byte_size": 13206143,
+      "sha256": "55142dd55c415b788b2badb72d9ed533e67bca3da9eee3b149db379365ef5f66",
+      "role": "whole-organism movement tracks"
+    },
+    {
+      "name": "12.csv.zip",
+      "byte_size": 1861680,
+      "sha256": "55858ae8cccb750baa36a5093bb0781af827f655e35c12b58df4b8d1136587ce",
+      "role": "whole-organism movement tracks"
+    },
+    {
+      "name": "13.csv.zip",
+      "byte_size": 4432550,
+      "sha256": "5994039a38918f397b8e29674444aff89845bc1ecf54a47c8891ed29a5deefc5",
+      "role": "whole-organism movement tracks"
+    },
+    {
+      "name": "14.csv.zip",
+      "byte_size": 5582720,
+      "sha256": "b170d74bdcc70bf599f11664bd6376a1d9a8f4e39b0c9cc4aa154548667d3dc7",
+      "role": "whole-organism movement tracks"
+    },
+    {
+      "name": "info.xlsx",
+      "byte_size": 10621,
+      "sha256": "f2bb9a4eb615c03747a123d3214874436301886d0aa5864e6e1b6b34ff5ec47c",
+      "role": "replicate condition/age/scale/arena metadata"
+    }
+  ]
+}
