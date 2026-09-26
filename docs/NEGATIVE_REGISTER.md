@@ -29,3 +29,6 @@ The locked two-direct-edge target in the 30-seed generator grid scores VAR(2) wo
 
 ## 2026-09-26: synthetic oracle-driver sensitivity
 Giving the predictor the simulator's exact U almost eliminates no-coupling shared-drive cross-cell forecast gain (+0.035643735 without U to +0.000002345 with U), while coupling's +0.00211 remains +0.00212. This is a useful **constructed** causal-specificity diagnostic, not a positive biological finding or an available real-world confound correction. No benchmark win; source-linked Xenobot data and final paper remain open. See `docs/SYNTHETIC_OBSERVED_DRIVER_SENSITIVITY_RESULT.md`.
+
+## 2026-09-26: real Xenobot disjoint-sensor forecast
+Separate post-outcome real-matrix method robustness check `docs/REAL_CALCIUM_SENSOR_FOCAL_RESULT.md`: disjoint sensor mean gives only ~0.0015% pooled RMSE benefit over own-history on each arbitrary parity split, and both mean-per-cell aggregations favor own-history. This is a concrete, reproducible result on public processed calcium matrices, **not** cell-cell causality or movement/behavior. Prior holdout IDs were reused; no independent validation, biological discovery or published benchmark beat.

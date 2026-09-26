@@ -1,0 +1,10 @@
+# Public Xenobot calcium method robustness: negligible disjoint-sensor gain
+
+Exploratory, post-outcome plan `docs/REAL_CALCIUM_SENSOR_FOCAL_PROTOCOL.md` SHA-locked at remote commit `0dd6b79ed6a0621dc4e6b7b77f14931681b989a5` before scores. Source processed cell-calcium arrays from Varley et al. 2025 https://pmc.ncbi.nlm.nih.gov/articles/PMC12520083/ and original supplement https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12520083/supplementaryFiles . Source 28 named bot matrices checked; train 19 original IDs <=20, evaluate 9 >20 as the *same provisional holdout reused from an earlier scored analysis*, not independent fresh validation. `src/real_calcium_sensor_focal.py`, `results/varley-sensor-focal-exploratory.json`, tests; no raw arrays redistributed. First attempt pointed at the outer extraction folder and yielded no result; corrected to its nested `calcium_data` folder before any score.
+
+| Arbitrary disjoint row-index split | Mean relative pooled-RMSE gain over own lag | Bots with positive pooled gain | Mean per-cell-RMSE relative gain | Descriptive two-sided sign-flip p |
+|---|---:|---:|---:|---:|
+| Even-index sensor, odd-index focal | +0.0000146353 | 6/9 | -0.0000057013 | 0.5391 |
+| Odd-index sensor, even-index focal | +0.0000156498 | 5/9 | -0.0000392339 | 0.7617 |
+
+The sensor-mean model only improves pooled RMSE by roughly 0.0015% relative and loses under mean per-cell RMSE in both declared partitions. This is a working, real public-data method test and a **negative/unstable narrow predictor result**, not support for cellular interaction, distributed memory or motile behavior. Cells are split by arbitrary source row order, not physical neighborhoods; no verified spatial coordinates, stimuli or same-bot movement labels are supplied. Source preprocessing and reused bot partition also limit inference. The sensor mean is a global predictor, not a causal graph. No external published same-task benchmark or independently validated novel Xenobot biological discovery has been established. Keep the original data-gated aim open and do not inflate this result into a 50-page positive paper.

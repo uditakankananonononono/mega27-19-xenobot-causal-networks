@@ -1,0 +1,353 @@
+{
+  "status": "POST-OUTCOME SAME-STUDY REAL CALCIUM METHOD ROBUSTNESS; NOT XENOBOT BEHAVIOR OR CAUSAL BIOLOGY",
+  "protocol": "docs/REAL_CALCIUM_SENSOR_FOCAL_PROTOCOL.md",
+  "source": "https://www.ebi.ac.uk/europepmc/webservices/rest/PMC12520083/supplementaryFiles",
+  "dev_bots": 19,
+  "heldout_bots": 9,
+  "conditions": {
+    "even_sensors": {
+      "coefficients": {
+        "own": [
+          -0.00013469492152889514,
+          0.8752837629560214
+        ],
+        "with_sensor": [
+          -0.0001300591953522504,
+          0.8752246961125848,
+          0.023261959639945467
+        ]
+      },
+      "rows": [
+        {
+          "bot_id": 21,
+          "own": {
+            "pooled_rmse": 0.4965757139917794,
+            "mean_percell_rmse": 0.4922928862600064,
+            "cells": 28,
+            "frames": 278
+          },
+          "with_sensor": {
+            "pooled_rmse": 0.4966402791377217,
+            "mean_percell_rmse": 0.49235477823829005,
+            "cells": 28,
+            "frames": 278
+          },
+          "relative_gain_pooled": -0.00013002074834320943,
+          "relative_gain_percell": -0.0001257218619465657
+        },
+        {
+          "bot_id": 22,
+          "own": {
+            "pooled_rmse": 0.533872497306767,
+            "mean_percell_rmse": 0.5285912296902605,
+            "cells": 58,
+            "frames": 287
+          },
+          "with_sensor": {
+            "pooled_rmse": 0.5338477568278214,
+            "mean_percell_rmse": 0.5285649254869429,
+            "cells": 58,
+            "frames": 287
+          },
+          "relative_gain_pooled": 4.634154984652153e-05,
+          "relative_gain_percell": 4.9762844784676114e-05
+        },
+        {
+          "bot_id": 24,
+          "own": {
+            "pooled_rmse": 0.48910480541916734,
+            "mean_percell_rmse": 0.4821377918031977,
+            "cells": 109,
+            "frames": 287
+          },
+          "with_sensor": {
+            "pooled_rmse": 0.4891092355223883,
+            "mean_percell_rmse": 0.48213874029028075,
+            "cells": 109,
+            "frames": 287
+          },
+          "relative_gain_pooled": -9.057574515414697e-06,
+          "relative_gain_percell": -1.9672531362742515e-06
+        },
+        {
+          "bot_id": 26,
+          "own": {
+            "pooled_rmse": 0.46669452630058605,
+            "mean_percell_rmse": 0.44513266202418666,
+            "cells": 33,
+            "frames": 287
+          },
+          "with_sensor": {
+            "pooled_rmse": 0.4666471352911211,
+            "mean_percell_rmse": 0.44514854895339523,
+            "cells": 33,
+            "frames": 287
+          },
+          "relative_gain_pooled": 0.00010154610091658377,
+          "relative_gain_percell": -3.569032462439413e-05
+        },
+        {
+          "bot_id": 27,
+          "own": {
+            "pooled_rmse": 0.5254199057560095,
+            "mean_percell_rmse": 0.5218333730618304,
+            "cells": 77,
+            "frames": 287
+          },
+          "with_sensor": {
+            "pooled_rmse": 0.5254046525424042,
+            "mean_percell_rmse": 0.5218204384096882,
+            "cells": 77,
+            "frames": 287
+          },
+          "relative_gain_pooled": 2.903052099509938e-05,
+          "relative_gain_percell": 2.478693929894841e-05
+        },
+        {
+          "bot_id": 29,
+          "own": {
+            "pooled_rmse": 0.4912191026224895,
+            "mean_percell_rmse": 0.48705118662209024,
+            "cells": 30,
+            "frames": 287
+          },
+          "with_sensor": {
+            "pooled_rmse": 0.4911706940911683,
+            "mean_percell_rmse": 0.4870021188343562,
+            "cells": 30,
+            "frames": 287
+          },
+          "relative_gain_pooled": 9.854773778700508e-05,
+          "relative_gain_percell": 0.00010074462208862407
+        },
+        {
+          "bot_id": 30,
+          "own": {
+            "pooled_rmse": 0.5213451862237771,
+            "mean_percell_rmse": 0.5155665467410165,
+            "cells": 40,
+            "frames": 287
+          },
+          "with_sensor": {
+            "pooled_rmse": 0.5213389247977541,
+            "mean_percell_rmse": 0.5155667602875378,
+            "cells": 40,
+            "frames": 287
+          },
+          "relative_gain_pooled": 1.2010134913405465e-05,
+          "relative_gain_percell": -4.1419778415356564e-07
+        },
+        {
+          "bot_id": 31,
+          "own": {
+            "pooled_rmse": 0.4911259605510844,
+            "mean_percell_rmse": 0.48291479319359343,
+            "cells": 85,
+            "frames": 287
+          },
+          "with_sensor": {
+            "pooled_rmse": 0.49112312788982493,
+            "mean_percell_rmse": 0.48291970784247534,
+            "cells": 85,
+            "frames": 287
+          },
+          "relative_gain_pooled": 5.7676878987740236e-06,
+          "relative_gain_percell": -1.0177051834369802e-05
+        },
+        {
+          "bot_id": 32,
+          "own": {
+            "pooled_rmse": 0.4819183279285902,
+            "mean_percell_rmse": 0.47498438102619334,
+            "cells": 65,
+            "frames": 287
+          },
+          "with_sensor": {
+            "pooled_rmse": 0.48192914607343856,
+            "mean_percell_rmse": 0.4750093821870644,
+            "cells": 65,
+            "frames": 287
+          },
+          "relative_gain_pooled": -2.244808761450981e-05,
+          "relative_gain_percell": -5.263575365793866e-05
+        }
+      ],
+      "mean_relative_gain_pooled": 1.4635257987139482e-05,
+      "positive_bots_pooled": 6,
+      "mean_relative_gain_percell": -5.701337423494166e-06,
+      "two_sided_signflip_p_descriptive": 0.5390625
+    },
+    "odd_sensors": {
+      "coefficients": {
+        "own": [
+          -4.894155193295587e-05,
+          0.8739930773452458
+        ],
+        "with_sensor": [
+          -4.898238316199551e-05,
+          0.8739051420585686,
+          0.034788247596927696
+        ]
+      },
+      "rows": [
+        {
+          "bot_id": 21,
+          "own": {
+            "pooled_rmse": 0.4763144103349989,
+            "mean_percell_rmse": 0.47146578592653865,
+            "cells": 29,
+            "frames": 278
+          },
+          "with_sensor": {
+            "pooled_rmse": 0.47628857911579414,
+            "mean_percell_rmse": 0.47143076579371446,
+            "cells": 29,
+            "frames": 278
+          },
+          "relative_gain_pooled": 5.4231445961448356e-05,
+          "relative_gain_percell": 7.427926663940246e-05
+        },
+        {
+          "bot_id": 22,
+          "own": {
+            "pooled_rmse": 0.5236348129722088,
+            "mean_percell_rmse": 0.517310887480608,
+            "cells": 58,
+            "frames": 287
+          },
+          "with_sensor": {
+            "pooled_rmse": 0.5236299745954083,
+            "mean_percell_rmse": 0.517305937486862,
+            "cells": 58,
+            "frames": 287
+          },
+          "relative_gain_pooled": 9.239983058190997e-06,
+          "relative_gain_percell": 9.568702043201824e-06
+        },
+        {
+          "bot_id": 24,
+          "own": {
+            "pooled_rmse": 0.5053154119158687,
+            "mean_percell_rmse": 0.500393362031669,
+            "cells": 110,
+            "frames": 287
+          },
+          "with_sensor": {
+            "pooled_rmse": 0.5052990542754339,
+            "mean_percell_rmse": 0.5003757355886183,
+            "cells": 110,
+            "frames": 287
+          },
+          "relative_gain_pooled": 3.237114888861157e-05,
+          "relative_gain_percell": 3.52251736096861e-05
+        },
+        {
+          "bot_id": 26,
+          "own": {
+            "pooled_rmse": 0.4514407288701429,
+            "mean_percell_rmse": 0.42739775929346996,
+            "cells": 34,
+            "frames": 287
+          },
+          "with_sensor": {
+            "pooled_rmse": 0.45132593311733343,
+            "mean_percell_rmse": 0.4274727441043503,
+            "cells": 34,
+            "frames": 287
+          },
+          "relative_gain_pooled": 0.00025428754090662327,
+          "relative_gain_percell": -0.00017544502573977038
+        },
+        {
+          "bot_id": 27,
+          "own": {
+            "pooled_rmse": 0.5397106616292681,
+            "mean_percell_rmse": 0.5351580747092329,
+            "cells": 78,
+            "frames": 287
+          },
+          "with_sensor": {
+            "pooled_rmse": 0.5397491722826575,
+            "mean_percell_rmse": 0.5351969021482669,
+            "cells": 78,
+            "frames": 287
+          },
+          "relative_gain_pooled": -7.135425724811522e-05,
+          "relative_gain_percell": -7.255321533742242e-05
+        },
+        {
+          "bot_id": 29,
+          "own": {
+            "pooled_rmse": 0.49770434493099064,
+            "mean_percell_rmse": 0.4938211574820153,
+            "cells": 31,
+            "frames": 287
+          },
+          "with_sensor": {
+            "pooled_rmse": 0.49769103032189427,
+            "mean_percell_rmse": 0.4938132771198674,
+            "cells": 31,
+            "frames": 287
+          },
+          "relative_gain_pooled": 2.6752045128754274e-05,
+          "relative_gain_percell": 1.5957927335718523e-05
+        },
+        {
+          "bot_id": 30,
+          "own": {
+            "pooled_rmse": 0.5134914628011453,
+            "mean_percell_rmse": 0.5082557773081526,
+            "cells": 41,
+            "frames": 287
+          },
+          "with_sensor": {
+            "pooled_rmse": 0.5135239482810894,
+            "mean_percell_rmse": 0.5082978809040413,
+            "cells": 41,
+            "frames": 287
+          },
+          "relative_gain_pooled": -6.326391439274192e-05,
+          "relative_gain_percell": -8.283938475155708e-05
+        },
+        {
+          "bot_id": 31,
+          "own": {
+            "pooled_rmse": 0.5002613224294603,
+            "mean_percell_rmse": 0.49573282841905814,
+            "cells": 86,
+            "frames": 287
+          },
+          "with_sensor": {
+            "pooled_rmse": 0.5003100245144456,
+            "mean_percell_rmse": 0.4957885440678995,
+            "cells": 86,
+            "frames": 287
+          },
+          "relative_gain_pooled": -9.735328877473916e-05,
+          "relative_gain_percell": -0.00011239047657800686
+        },
+        {
+          "bot_id": 32,
+          "own": {
+            "pooled_rmse": 0.4992636792924033,
+            "mean_percell_rmse": 0.49021445107657297,
+            "cells": 65,
+            "frames": 287
+          },
+          "with_sensor": {
+            "pooled_rmse": 0.4992657076473149,
+            "mean_percell_rmse": 0.4902364655975305,
+            "cells": 65,
+            "frames": 287
+          },
+          "relative_gain_pooled": -4.062692712831885e-06,
+          "relative_gain_percell": -4.4907939594941194e-05
+        }
+      ],
+      "mean_relative_gain_pooled": 1.5649778979466698e-05,
+      "positive_bots_pooled": 5,
+      "mean_relative_gain_percell": -3.923388581929878e-05,
+      "two_sided_signflip_p_descriptive": 0.76171875
+    }
+  }
+}
