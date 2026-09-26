@@ -1,0 +1,15 @@
+# Judge 13 multifactor calibration: revised sensor design still fails as a causal filter
+
+Source critique: https://chatgpt.com/c/6ab7a19a-6f48-83e8-a29c-83c273c6d1fd , text response `docs/JUDGE_ROUND_13_RESPONSE.txt`; its benchmark and direction advice were not treated as external authority. Original SHA lock `6199e3874b7ebfb4de43af3e22c747fc990fa89c` generated an **unidentifiable** two-driver sensor design (rank-one latent loadings); code/results and deviation are preserved in `docs/JUDGE_13_DESIGN_DEVIATION.md`. A separately versioned **post-diagnostic** amendment `docs/JUDGE_13_MULTIFACTOR_AMENDMENT.md` (remote commit `449a89261722a7e7d411677cd96a3cdd30cb6164`) changes sensor loadings to rank two before corrected scores. This is not an untouched preregistration, just a failure-map extension. See `src/multifactor_control_amended.py` and `results/synthetic-multifactor-control-amended.json`.
+
+In the amended simulation, independent latent drivers U1/U2 use different sensor loadings; 64 simulated cells, 24 recordings/condition, 16 fit and 8 heldout; sensor indices 0–31, focal indices 32–63; PC1/PC2 loadings calibrated on first 60 frames of each recording, scored only on later 180 outcomes. This has within-recording calibration on the *heldout* recording. Models A own history, B +sensor mean, C +sensor PC1, D +PC1/PC2, E +PC1/PC2/mean. Same targets/frames, fixed ridge 1. The independent unit is a recording, not a cell or frame.
+
+| Ground truth | Sensor mean over own | PC1 over own | PC1+PC2 over own | Mean added after PC1+PC2 | Mean abs PC1 / PC2 loading alignment to first train recording |
+|---|---:|---:|---:|---:|---|
+| Null g=0,h1=h2=0 | -0.0000335 | -0.0000131 | -0.0000108 | -0.0000333 | .204 / .204 |
+| Coupling g=.25,h1=h2=0 | +.0013930 | +.0002328 | +.0002659 | +.0011383 | .154 / .190 |
+| One shared driver g=0,h1=.5,h2=0 | +.0369501 | +.0262556 | +.0260812 | +.0109546 | .957 / .185 |
+| Two shared drivers g=0,h1=h2=.5 | +.0162702 | +.0092533 | +.0117601 | +.0047420 | .380 / .374 |
+| Coupling plus two drivers g=.25,h1=h2=.5 | +.0389855 | +.0126242 | +.0135852 | +.0254667 | .980 / .913 |
+
+Even rank-two sensor PC control leaves **positive false gain +.004742** from sensor mean when there is no coupling but two drivers; moreover factor loadings align poorly across independent training recordings (.380/.374), so pooled coefficient transfer is unstable. This defeats a claim that extra factors cleanly distinguish interaction. The same gain metric stays positive under direct coupling, but amplitudes and signal-to-noise are not matched, so magnitude cannot classify mechanism. The earlier rank-one design results are not used to claim a rank-two benchmark; the amended result is exploratory after the diagnostic. This is a tangible judge-linked method refinement and honest negative, but no external published comparator, new-to-literature method, biological discovery, or causal Xenobot network. The flagship still needs matched same-bot cell-state/space/intervention/behavior data. No 50-page manuscript.
