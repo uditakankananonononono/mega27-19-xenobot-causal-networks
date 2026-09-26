@@ -1,0 +1,205 @@
+{
+  "status": "POST-OUTCOME ORACLE COMMON-DRIVER SENSITIVITY; NOT BIOLOGY OR PUBLISHED BENCHMARK",
+  "protocol": "docs/SYNTHETIC_OBSERVED_DRIVER_SENSITIVITY_PROTOCOL.md",
+  "seed": 20260926,
+  "scenarios": {
+    "null": {
+      "g": 0.0,
+      "h": 0.0,
+      "own_driver_coef": [
+        -0.0025575276751253124,
+        0.5984295515853124,
+        0.0017817014135962843
+      ],
+      "population_driver_coef": [
+        -0.0026269178786293822,
+        0.5984287983942512,
+        0.001827361110488305,
+        -0.011116084875315905
+      ],
+      "heldout": [
+        {
+          "replicate": 16,
+          "own_driver_rmse": 1.0025594906917101,
+          "population_driver_rmse": 1.0025551114699487,
+          "relative_gain": 4.3680417991155065e-06
+        },
+        {
+          "replicate": 17,
+          "own_driver_rmse": 1.0024630910405512,
+          "population_driver_rmse": 1.0024644641907938,
+          "relative_gain": -1.3697763587460696e-06
+        },
+        {
+          "replicate": 18,
+          "own_driver_rmse": 0.9956836319161749,
+          "population_driver_rmse": 0.9956879621973123,
+          "relative_gain": -4.34905325198419e-06
+        },
+        {
+          "replicate": 19,
+          "own_driver_rmse": 0.9963088666923049,
+          "population_driver_rmse": 0.9963068028607003,
+          "relative_gain": 2.0714777049680515e-06
+        },
+        {
+          "replicate": 20,
+          "own_driver_rmse": 0.9972302810361325,
+          "population_driver_rmse": 0.9972529336725322,
+          "relative_gain": -2.2715552095079542e-05
+        },
+        {
+          "replicate": 21,
+          "own_driver_rmse": 0.998230385910212,
+          "population_driver_rmse": 0.9982233622609392,
+          "relative_gain": 7.036100455244337e-06
+        },
+        {
+          "replicate": 22,
+          "own_driver_rmse": 0.9981057630486552,
+          "population_driver_rmse": 0.9980910688380705,
+          "relative_gain": 1.4722097726156793e-05
+        },
+        {
+          "replicate": 23,
+          "own_driver_rmse": 0.9854967795821151,
+          "population_driver_rmse": 0.985507820952704,
+          "relative_gain": -1.1203862678789006e-05
+        }
+      ],
+      "mean_gain": -1.4300658373892647e-06
+    },
+    "coupling": {
+      "g": 0.25,
+      "h": 0.0,
+      "own_driver_coef": [
+        -0.0018720121071535173,
+        0.6022590683742506,
+        -0.0020354417713875613
+      ],
+      "population_driver_coef": [
+        -0.0005142415412868337,
+        0.5969361814472931,
+        -0.0010142764389665163,
+        0.25265273716033654
+      ],
+      "heldout": [
+        {
+          "replicate": 16,
+          "own_driver_rmse": 1.0078534608966736,
+          "population_driver_rmse": 1.0052834894709575,
+          "relative_gain": 0.002549945528221597
+        },
+        {
+          "replicate": 17,
+          "own_driver_rmse": 1.0067839285004696,
+          "population_driver_rmse": 1.0051811285206922,
+          "relative_gain": 0.0015919999658364295
+        },
+        {
+          "replicate": 18,
+          "own_driver_rmse": 0.9956116328894049,
+          "population_driver_rmse": 0.994300860526962,
+          "relative_gain": 0.0013165498665768688
+        },
+        {
+          "replicate": 19,
+          "own_driver_rmse": 1.0005121882635184,
+          "population_driver_rmse": 0.9984417690415689,
+          "relative_gain": 0.002069359320392597
+        },
+        {
+          "replicate": 20,
+          "own_driver_rmse": 1.0025167593095021,
+          "population_driver_rmse": 0.9995876714685921,
+          "relative_gain": 0.002921734538310873
+        },
+        {
+          "replicate": 21,
+          "own_driver_rmse": 1.0051441759796873,
+          "population_driver_rmse": 1.0034570073290867,
+          "relative_gain": 0.0016785339764379091
+        },
+        {
+          "replicate": 22,
+          "own_driver_rmse": 0.9920365764009166,
+          "population_driver_rmse": 0.989940863085355,
+          "relative_gain": 0.002112536337283823
+        },
+        {
+          "replicate": 23,
+          "own_driver_rmse": 0.9926263499321648,
+          "population_driver_rmse": 0.9899021166120343,
+          "relative_gain": 0.0027444700821378253
+        }
+      ],
+      "mean_gain": 0.0021231412018997402
+    },
+    "shared_drive": {
+      "g": 0.0,
+      "h": 0.5,
+      "own_driver_coef": [
+        -0.002424930854522674,
+        0.6009653169410162,
+        0.49984077414508515
+      ],
+      "population_driver_coef": [
+        -0.002420682343096796,
+        0.6007287628238961,
+        0.49964405195966966,
+        0.000525844189315192
+      ],
+      "heldout": [
+        {
+          "replicate": 16,
+          "own_driver_rmse": 0.9934919084235858,
+          "population_driver_rmse": 0.9934867836510288,
+          "relative_gain": 5.158343529055543e-06
+        },
+        {
+          "replicate": 17,
+          "own_driver_rmse": 0.999250877463564,
+          "population_driver_rmse": 0.9992492664274094,
+          "relative_gain": 1.6122439228486318e-06
+        },
+        {
+          "replicate": 18,
+          "own_driver_rmse": 0.9958511592916951,
+          "population_driver_rmse": 0.9958463475436121,
+          "relative_gain": 4.831794428396599e-06
+        },
+        {
+          "replicate": 19,
+          "own_driver_rmse": 1.008244697526365,
+          "population_driver_rmse": 1.008242407668204,
+          "relative_gain": 2.2711333535443876e-06
+        },
+        {
+          "replicate": 20,
+          "own_driver_rmse": 1.0042960917799073,
+          "population_driver_rmse": 1.0042965975007738,
+          "relative_gain": -5.035575371211864e-07
+        },
+        {
+          "replicate": 21,
+          "own_driver_rmse": 0.9963559515467905,
+          "population_driver_rmse": 0.9963543782863291,
+          "relative_gain": 1.5790144665761666e-06
+        },
+        {
+          "replicate": 22,
+          "own_driver_rmse": 0.9847056130053409,
+          "population_driver_rmse": 0.9847030449205285,
+          "relative_gain": 2.607972147657494e-06
+        },
+        {
+          "replicate": 23,
+          "own_driver_rmse": 0.9906850296225596,
+          "population_driver_rmse": 0.99068384079256,
+          "relative_gain": 1.2000080388893305e-06
+        }
+      ],
+      "mean_gain": 2.344619043730871e-06
+    }
+  }
+}

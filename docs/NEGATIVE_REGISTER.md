@@ -23,3 +23,9 @@ Separately versioned within-recording 25% calibration window (not the original h
 
 ## 2026-09-26: estimator correction weakens the earlier sign test
 Pivot 02's original code pooled cell/frame squared errors despite the per-cell RMSE text. Post-outcome corrected aggregation yields 1/6 positive, mean -0.00737567 and two-sided p=.0625. The prior p=.03125 should never be described as a clean preregistered result. See `docs/PROTOCOL_DEVIATIONS.md` and `docs/ORGANOID_RMSE_CORRECTION_RESULT.md`. Neither estimator establishes biology or completion.
+
+## 2026-09-26: source-equivalent TimeGraph graph-target correction
+The locked two-direct-edge target in the 30-seed generator grid scores VAR(2) worse when it reports genuine *reduced-form* lag paths through contemporaneous mediators. Those are counted false positives only relative to direct structural truth. This is a model/target mismatch, not an established false-discovery rate. Post-outcome reduced-form sensitivity is labeled separately in `docs/TIMEGRAPH_GRID_02_RESULT.md`; no published benchmark comparison is valid yet.
+
+## 2026-09-26: synthetic oracle-driver sensitivity
+Giving the predictor the simulator's exact U almost eliminates no-coupling shared-drive cross-cell forecast gain (+0.035643735 without U to +0.000002345 with U), while coupling's +0.00211 remains +0.00212. This is a useful **constructed** causal-specificity diagnostic, not a positive biological finding or an available real-world confound correction. No benchmark win; source-linked Xenobot data and final paper remain open. See `docs/SYNTHETIC_OBSERVED_DRIVER_SENSITIVITY_RESULT.md`.
