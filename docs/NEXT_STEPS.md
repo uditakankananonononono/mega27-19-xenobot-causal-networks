@@ -16,3 +16,5 @@
 10. Round 8 assessed documented scale fragility. Future-only scaling requires an explicit initial calibration window in each unseen organoid and a new evaluation target; the current full-series z-score is diagnostic only. With two remaining critique rounds, focus on independent source verification and a new artifact/decision rather than circularly refining the same negative score.
 
 11. Round 9 reviews versioned 25%-window prospective calibration and finds no biological inference. It is a pre-trained model transfer task, not a pre/post cell-communication estimate. One judge round remains; use it for a final documented evidence-gate audit, not to manufacture the missing biological result.
+
+12. Ten substantive external critiques are logged, but this is a process milestone, **not** the project finish line. Round 10 reviewed the evidence audit; open gates remain linked cell/behavior/intervention Xenobot data, published same-task benchmark, independent validated discovery and at least 50 pages of body text for any final paper. Future work needs new source evidence or a new, separately declared methods benchmark; do not produce a victory paper from negative tests.
