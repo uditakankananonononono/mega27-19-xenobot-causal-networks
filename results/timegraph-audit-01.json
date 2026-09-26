@@ -1,0 +1,161 @@
+{
+  "status": "EXTERNAL DIAGNOSTIC, NOT PUBLISHED TABLE 2 BENCHMARK COMPARISON OR BIOLOGY",
+  "source": "https://github.com/hferdous/TimeGraph/tree/4d93403b002664fa55607f308ad0e80623472ded",
+  "task": "4 visible nodes, positive lags 1/2, 32 possible directed edge slots; U withheld; lag-zero edges excluded",
+  "conditions": {
+    "A1": {
+      "shape": [
+        500,
+        4
+      ],
+      "visible_lag_truth": [
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          2,
+          1,
+          1
+        ]
+      ],
+      "var2": {
+        "predicted_edges": [
+          [
+            0,
+            2,
+            2
+          ],
+          [
+            0,
+            3,
+            2
+          ],
+          [
+            2,
+            0,
+            1
+          ],
+          [
+            2,
+            1,
+            1
+          ]
+        ],
+        "tp": 2,
+        "fp": 2,
+        "fn": 0,
+        "tpr": 1.0,
+        "fdr": 0.5,
+        "slot_hamming": 2
+      },
+      "pairwise_own": {
+        "predicted_edges": [
+          [
+            0,
+            2,
+            2
+          ],
+          [
+            0,
+            3,
+            2
+          ],
+          [
+            2,
+            0,
+            1
+          ],
+          [
+            2,
+            1,
+            1
+          ]
+        ],
+        "tp": 2,
+        "fp": 2,
+        "fn": 0,
+        "tpr": 1.0,
+        "fdr": 0.5,
+        "slot_hamming": 2
+      },
+      "zero_edge": {
+        "predicted_edges": [],
+        "tp": 0,
+        "fp": 0,
+        "fn": 2,
+        "tpr": 0.0,
+        "fdr": 0.0,
+        "slot_hamming": 2
+      }
+    },
+    "A1C_U_hidden": {
+      "shape": [
+        500,
+        4
+      ],
+      "visible_lag_truth": [
+        [
+          0,
+          3,
+          2
+        ],
+        [
+          2,
+          1,
+          1
+        ]
+      ],
+      "var2": {
+        "predicted_edges": [
+          [
+            0,
+            3,
+            2
+          ],
+          [
+            2,
+            1,
+            1
+          ]
+        ],
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "tpr": 1.0,
+        "fdr": 0.0,
+        "slot_hamming": 0
+      },
+      "pairwise_own": {
+        "predicted_edges": [
+          [
+            0,
+            3,
+            2
+          ],
+          [
+            2,
+            1,
+            1
+          ]
+        ],
+        "tp": 2,
+        "fp": 0,
+        "fn": 0,
+        "tpr": 1.0,
+        "fdr": 0.0,
+        "slot_hamming": 0
+      },
+      "zero_edge": {
+        "predicted_edges": [],
+        "tp": 0,
+        "fp": 0,
+        "fn": 2,
+        "tpr": 0.0,
+        "fdr": 0.0,
+        "slot_hamming": 2
+      }
+    }
+  }
+}
