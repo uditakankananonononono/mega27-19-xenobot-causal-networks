@@ -1,0 +1,358 @@
+Round 11 — Novelty review of the revised computational direction
+Summary judgment
+
+The project has correctly separated into two tracks:
+
+Flagship biological question:
+How do motile Xenobots coordinate, adapt, and potentially store behavioral states through cellular networks?
+
+Status: data-gated.
+
+Immediate computational methods artifact:
+How reliably can passive multicellular time-series forecasting distinguish direct interaction from shared latent dynamics?
+
+Status: potentially viable, but not yet a biological discovery.
+
+The novelty opportunity is no longer “decode Xenobot intelligence.” That claim is unsupported by current data. The strongest remaining contribution is a calibration framework showing when cross-cell predictive metrics fail or succeed under known confounds.
+
+Time-series causal benchmarks explicitly recognize the importance of hidden confounders and known ground truth for evaluating causal discovery methods; for example, TimeGraph-type synthetic benchmarks are designed around causal graphs with and without unobserved confounders rather than treating prediction alone as causal evidence. 
+Google for Developers
++1
+
+Proposed next novelty improvement
+Title-level idea
+
+"Held-out common-driver stress testing for multicellular interaction inference."
+
+The key improvement:
+
+Do not ask:
+
+"Does cross-cell forecasting improve?"
+
+Ask:
+
+"Does a method correctly avoid calling shared external dynamics a cell-cell interaction when the external driver is unavailable?"
+
+That is a sharper methodological question.
+
+Experiment design
+Objective
+
+Evaluate whether a multicellular forecasting method can distinguish:
+
+Model A — direct interaction
+X
+i
+	​
+
+(t+1)=f(X
+i
+	​
+
+(t),X
+j
+	​
+
+(t))
+
+from:
+
+Model B — common driver
+X
+i
+	​
+
+(t+1)=f(X
+i
+	​
+
+(t),U(t))
+
+where:
+
+U(t) affects many cells,
+
+U(t) is hidden from the model.
+
+The method only sees observed cell traces.
+
+Data generation
+
+Use synthetic systems with known ground truth.
+
+Generate independent replicate recordings.
+
+Each replicate has:
+
+same number of cells,
+
+same frame count,
+
+realistic autocorrelation,
+
+measurement noise.
+
+Do not use one toy parameter setting.
+
+Pre-register a grid:
+
+coupling strength,
+
+latent-driver strength,
+
+noise,
+
+delay,
+
+cell number.
+
+Critical experiment: held-out-recording latent proxy
+
+The improvement over the current simulation:
+
+Introduce a proxy-variable condition.
+
+Example:
+
+Generate:
+
+hidden driver U(t),
+
+observed proxy P(t).
+
+Cases:
+
+Case 1
+
+Proxy unavailable.
+
+Question:
+
+Does the method hallucinate interactions?
+
+Case 2
+
+Proxy available during training.
+
+Question:
+
+Does access to a measured common signal reduce false interactions?
+
+Case 3
+
+Proxy available only in held-out recordings.
+
+Question:
+
+Does the method generalize when the confound structure changes?
+
+This directly tests the issue exposed by the organoid analysis.
+
+Baselines
+
+Minimum required:
+
+Baseline 1: own-history model
+
+Answers:
+
+"What does the cell predict from itself?"
+
+Baseline 2: population mean predictor
+
+Answers:
+
+"Does a global signal explain the gain?"
+
+Baseline 3: factor model
+
+Example:
+
+latent-factor/PCA representation.
+
+Purpose:
+
+Capture hidden shared variation without claiming causal edges.
+
+Baseline 4: VAR-style multivariate model
+
+Purpose:
+
+Compare against standard autoregressive multivariate modeling.
+
+Proposed method
+
+Must show what it adds beyond these.
+
+Primary metrics
+
+Do not make RMSE the main metric.
+
+A model can have lower RMSE while being causally misleading.
+
+Use:
+
+1. False interaction rate
+
+In:
+
+no-coupling + shared-driver condition.
+
+Question:
+
+Does it invent edges?
+
+2. Coupling recovery
+
+In:
+
+direct-coupling condition.
+
+Question:
+
+Does it recover known interactions?
+
+3. Calibration curve
+
+As latent-driver strength increases:
+
+Does false interaction detection increase predictably?
+
+Failure gates
+
+The method fails if:
+
+Shared-driver-only systems repeatedly appear as direct coupling.
+
+Performance depends on knowing the simulation parameters.
+
+Factor models perform equivalently.
+
+Results disappear under realistic noise.
+
+A method only works when the confound is artificially simple.
+
+A negative result here would still be valuable.
+
+TimeGraph issue: what to fix
+
+The mediator issue is important.
+
+Your observation is correct:
+
+Structural direct positive-lag truth and reduced-form VAR lag paths are not automatically equivalent.
+
+A benchmark must define what is being evaluated:
+
+structural causal edge recovery?
+
+predictive lag association?
+
+reduced-form forecasting?
+
+These are different targets.
+
+Time-series causal benchmarks generally emphasize that known ground-truth graphs are needed because observational lag associations can differ from the underlying causal structure, especially with hidden confounding. 
+GitHub
+
+Do not compare your method to a table unless the target variable, graph definition, and evaluation metric match.
+
+What would count as a genuine methods novelty?
+
+A strong contribution would be:
+
+"A benchmark and diagnostic framework showing that multicellular forecasting metrics can overestimate interaction under latent shared dynamics, and quantifying the regimes where different models remain reliable."
+
+That is distinct from:
+
+Grasso's functional-network analysis,
+
+Varley's information integration analysis.
+
+Those ask biological questions about measured systems.
+
+This asks:
+
+"Can our inference tool be trusted?"
+
+Different contribution.
+
+What would NOT count as novelty?
+
+Not enough:
+
+"Our model predicts calcium better."
+
+"Our graph has more edges."
+
+"Cells appear connected."
+
+"Information flow increases."
+
+Those are close to already explored analyses and remain vulnerable to passive-data confounding.
+
+Xenobot flagship status
+
+Still blocked.
+
+The missing experiment is not computational.
+
+The required biological dataset would need:
+
+Same Xenobot:
+
+cell-resolved calcium,
+
+spatial cell coordinates,
+
+morphology,
+
+matched movement,
+
+perturbation,
+
+repeated independent animals.
+
+The critical link is:
+
+cell state dynamics→whole Xenobot behavior
+
+Current public records separate those modalities.
+
+Final Round 11 recommendation
+Go:
+
+Proceed with:
+
+common-driver robustness benchmark as a methods artifact.
+
+No-go:
+
+Do not claim:
+
+Xenobot memory mechanism,
+
+cellular causal network,
+
+adaptation algorithm,
+
+distributed intelligence.
+
+Next decision gate
+
+Before investing in a full paper:
+
+A successful methods artifact should have:
+
+A pre-registered benchmark definition.
+
+Known ground truth.
+
+Multiple confound regimes.
+
+Strong simple baselines.
+
+A clearly stated failure mode.
+
+The project’s strongest scientific contribution may be demonstrating why passive multicellular prediction is insufficient for causal claims, rather than claiming that it has solved the Xenobot mechanism problem.
