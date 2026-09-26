@@ -18,3 +18,5 @@
 11. Round 9 reviews versioned 25%-window prospective calibration and finds no biological inference. It is a pre-trained model transfer task, not a pre/post cell-communication estimate. One judge round remains; use it for a final documented evidence-gate audit, not to manufacture the missing biological result.
 
 12. Ten substantive external critiques are logged, but this is a process milestone, **not** the project finish line. Round 10 reviewed the evidence audit; open gates remain linked cell/behavior/intervention Xenobot data, published same-task benchmark, independent validated discovery and at least 50 pages of body text for any final paper. Future work needs new source evidence or a new, separately declared methods benchmark; do not produce a victory paper from negative tests.
+
+13. **Correction to earlier reports:** Pivot 02 locked per-cell RMSE, but implementation pooled cell/frame errors. Disclosed in `docs/PROTOCOL_DEVIATIONS.md`; post-outcome per-cell recalculation is 1/6 positive, mean -0.00737567, p=.0625. Earlier 0/6, p=.03125 is protocol-deviant exploratory output and not clean confirmatory evidence. Do not repeat it without this correction.
