@@ -11,3 +11,6 @@ Status at preregistration: no outcome data inspected, no model fitted, no positi
 
 ## 2026-09-26: distinct epidermal organoid method arm (not Xenobot biology)
 After a separate SHA-locked exploratory protocol, a six-organoid pre/post-puncture calcium forecast showed **zero of six** organoids with the specified positive post-minus-pre incremental cross-cell mean gain. Mean paired relative-gain delta -0.00466561255, two-sided exact sign-flip p=0.03125 in the opposite direction. See `docs/ORGANOID_METHOD_CHECKPOINT.md` and `results/organoid-method-exploratory.json`. This does not falsify cellular signaling or the flagship Xenobot premise; it fails this method/predictor hypothesis in the distinct epidermal-organoid construct. Preserve it; do not flip the preregistered direction or claim a benchmark beat.
+
+## 2026-09-26: synthetic causal-specificity gate failure
+Known-ground-truth simulation in `docs/SYNTHETIC_CALIBRATION_CHECKPOINT.md`: a shared latent drive without any cell-to-cell coupling gave a much larger cross-cell forecast gain than explicit mean-field coupling. The locked synthetic discriminator's causal-specificity gate failed. This prevents interpreting forecast improvement alone as cell signaling, and reinforces rather than resolves the original Xenobot dataset limitation.
