@@ -20,3 +20,6 @@ Within-cell full-series z-scoring flips the mean post-minus-pre gain to +0.01658
 
 ## 2026-09-26: prospective-calibration method diagnostic
 Separately versioned within-recording 25% calibration window (not the original held-out task) yields 2/6 positive paired post-pre forecast-gain deltas, mean -0.029718 and two-sided exact sign-flip p=.1875. It does not rescue the failed original directional result. See `docs/ORGANOID_PROSPECTIVE_CHECKPOINT.md`; relevant open gaps remain.
+
+## 2026-09-26: estimator correction weakens the earlier sign test
+Pivot 02's original code pooled cell/frame squared errors despite the per-cell RMSE text. Post-outcome corrected aggregation yields 1/6 positive, mean -0.00737567 and two-sided p=.0625. The prior p=.03125 should never be described as a clean preregistered result. See `docs/PROTOCOL_DEVIATIONS.md` and `docs/ORGANOID_RMSE_CORRECTION_RESULT.md`. Neither estimator establishes biology or completion.

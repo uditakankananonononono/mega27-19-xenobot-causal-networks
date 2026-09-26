@@ -1,0 +1,105 @@
+{
+  "status": "POST-OUTCOME CORRECTION OF DEVIATED POOLED RMSE; NOT PREREGISTERED EVIDENCE",
+  "protocol": "docs/ORGANOID_RMSE_AMENDMENT.md",
+  "rows": [
+    {
+      "organoid": 1,
+      "before": {
+        "mean_cell_own_rmse": 5.943506024750589,
+        "mean_cell_population_rmse": 5.942854993938095,
+        "relative_gain": 0.00010953649407995856,
+        "n_cells": 1180
+      },
+      "after": {
+        "mean_cell_own_rmse": 1.784418850894435,
+        "mean_cell_population_rmse": 1.8191725937132301,
+        "relative_gain": -0.01947622487925128,
+        "n_cells": 884
+      },
+      "paired_delta": -0.019585761373331238
+    },
+    {
+      "organoid": 2,
+      "before": {
+        "mean_cell_own_rmse": 0.8480849232823962,
+        "mean_cell_population_rmse": 0.8475074869940263,
+        "relative_gain": 0.0006808708332355761,
+        "n_cells": 510
+      },
+      "after": {
+        "mean_cell_own_rmse": 0.7813807886333483,
+        "mean_cell_population_rmse": 0.7941915651702118,
+        "relative_gain": -0.01639504928099128,
+        "n_cells": 436
+      },
+      "paired_delta": -0.01707592011422686
+    },
+    {
+      "organoid": 3,
+      "before": {
+        "mean_cell_own_rmse": 1.5359477649865454,
+        "mean_cell_population_rmse": 1.5354057424621483,
+        "relative_gain": 0.00035289124848708945,
+        "n_cells": 252
+      },
+      "after": {
+        "mean_cell_own_rmse": 4.842379488229815,
+        "mean_cell_population_rmse": 4.850215103603875,
+        "relative_gain": -0.0016181332737564078,
+        "n_cells": 127
+      },
+      "paired_delta": -0.001971024522243497
+    },
+    {
+      "organoid": 4,
+      "before": {
+        "mean_cell_own_rmse": 1.9822966736443857,
+        "mean_cell_population_rmse": 1.9767011789826114,
+        "relative_gain": 0.0028227332145430565,
+        "n_cells": 269
+      },
+      "after": {
+        "mean_cell_own_rmse": 1.9805862015950417,
+        "mean_cell_population_rmse": 1.9815873943882019,
+        "relative_gain": -0.0005055032658279826,
+        "n_cells": 396
+      },
+      "paired_delta": -0.003328236480371039
+    },
+    {
+      "organoid": 5,
+      "before": {
+        "mean_cell_own_rmse": 2.7613909721589853,
+        "mean_cell_population_rmse": 2.758813913202899,
+        "relative_gain": 0.0009332466796874551,
+        "n_cells": 207
+      },
+      "after": {
+        "mean_cell_own_rmse": 2.9148446002380726,
+        "mean_cell_population_rmse": 2.9118999306126008,
+        "relative_gain": 0.0010102321150264023,
+        "n_cells": 163
+      },
+      "paired_delta": 7.698543533894719e-05
+    },
+    {
+      "organoid": 6,
+      "before": {
+        "mean_cell_own_rmse": 2.2319723636306468,
+        "mean_cell_population_rmse": 2.230807222051234,
+        "relative_gain": 0.0005220233002874912,
+        "n_cells": 96
+      },
+      "after": {
+        "mean_cell_own_rmse": 1.8933192928756055,
+        "mean_cell_population_rmse": 1.8968182615910563,
+        "relative_gain": -0.0018480605614790162,
+        "n_cells": 53
+      },
+      "paired_delta": -0.0023700838617665074
+    }
+  ],
+  "mean_paired_delta": -0.007375673486100032,
+  "positive_count": 1,
+  "two_sided_exact_signflip_p": 0.0625
+}
