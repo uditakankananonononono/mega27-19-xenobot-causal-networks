@@ -1,0 +1,157 @@
+{
+ "per_replicate": {
+  "3": {
+   "n_bots": 9,
+   "n_test_bots": 3,
+   "n_train_rows": 190289,
+   "n_test_rows": 95181,
+   "rmse_own": 1.1654011038009133,
+   "rmse_full": 1.1658645875826499,
+   "rel_gain": -0.00039770322872092334,
+   "null_mean": -0.00046243846957291524,
+   "null_p95": -0.00043273332312548165,
+   "null_frac_ge_real": 0.0
+  },
+  "4": {
+   "n_bots": 7,
+   "n_test_bots": 3,
+   "n_train_rows": 115764,
+   "n_test_rows": 86823,
+   "rmse_own": 0.9609122878494598,
+   "rmse_full": 0.9611133092525213,
+   "rel_gain": -0.0002091984935600426,
+   "null_mean": -0.00021455543580353262,
+   "null_p95": -6.535066292921009e-05,
+   "null_frac_ge_real": 0.48
+  },
+  "5": {
+   "n_bots": 12,
+   "n_test_bots": 4,
+   "n_train_rows": 335557,
+   "n_test_rows": 132378,
+   "rmse_own": 0.9297215755608995,
+   "rmse_full": 0.9298432638611098,
+   "rel_gain": -0.00013088681967705803,
+   "null_mean": -0.00030862329932676883,
+   "null_p95": -0.00011289468853586323,
+   "null_frac_ge_real": 0.08
+  },
+  "6": {
+   "n_bots": 7,
+   "n_test_bots": 3,
+   "n_train_rows": 172716,
+   "n_test_rows": 129537,
+   "rmse_own": 1.8379841554747005,
+   "rmse_full": 1.8388444174492389,
+   "rel_gain": -0.00046804645838537486,
+   "null_mean": -0.00037904098572692736,
+   "null_p95": -0.0003224043864876924,
+   "null_frac_ge_real": 1.0
+  },
+  "7": {
+   "n_bots": 8,
+   "n_test_bots": 3,
+   "n_train_rows": 215895,
+   "n_test_rows": 129537,
+   "rmse_own": 6.954990863167152,
+   "rmse_full": 6.955309070495605,
+   "rel_gain": -4.575237188842545e-05,
+   "null_mean": -5.9523262149347774e-05,
+   "null_p95": -5.6749768674099776e-05,
+   "null_frac_ge_real": 0.0
+  },
+  "8": {
+   "n_bots": 7,
+   "n_test_bots": 3,
+   "n_train_rows": 151967,
+   "n_test_rows": 114030,
+   "rmse_own": 2.0136217503322698,
+   "rmse_full": 2.013578528561986,
+   "rel_gain": 2.146469180548721e-05,
+   "null_mean": 7.579082051110788e-06,
+   "null_p95": 3.329346071057105e-05,
+   "null_frac_ge_real": 0.3
+  },
+  "9": {
+   "n_bots": 9,
+   "n_test_bots": 3,
+   "n_train_rows": 187734,
+   "n_test_rows": 93867,
+   "rmse_own": 0.12594267142584822,
+   "rmse_full": 0.12602361576872984,
+   "rel_gain": -0.0006427078444915263,
+   "null_mean": -0.0014338361685228868,
+   "null_p95": -0.0006011760647345637,
+   "null_frac_ge_real": 0.07
+  },
+  "10": {
+   "n_bots": 8,
+   "n_test_bots": 3,
+   "n_train_rows": 215840,
+   "n_test_rows": 129517,
+   "rmse_own": 1.1708252831079715,
+   "rmse_full": 1.17078413800246,
+   "rel_gain": 3.51419687507464e-05,
+   "null_mean": 2.9258232357094343e-05,
+   "null_p95": 6.745338175396544e-05,
+   "null_frac_ge_real": 0.42
+  },
+  "11": {
+   "n_bots": 10,
+   "n_test_bots": 4,
+   "n_train_rows": 501175,
+   "n_test_rows": 344296,
+   "rmse_own": 0.40219972377807645,
+   "rmse_full": 0.4023302358091246,
+   "rel_gain": -0.0003244955760341317,
+   "null_mean": -0.00035679220838101436,
+   "null_p95": -0.00021590111553319573,
+   "null_frac_ge_real": 0.34
+  },
+  "12": {
+   "n_bots": 8,
+   "n_test_bots": 3,
+   "n_train_rows": 75438,
+   "n_test_rows": 45364,
+   "rmse_own": 0.172029471909074,
+   "rmse_full": 0.17180456591514584,
+   "rel_gain": 0.0013073689724923023,
+   "null_mean": -0.0034910856643481252,
+   "null_p95": -0.002781920981586741,
+   "null_frac_ge_real": 0.0
+  },
+  "13": {
+   "n_bots": 8,
+   "n_test_bots": 3,
+   "n_train_rows": 194820,
+   "n_test_rows": 129499,
+   "rmse_own": 0.2043865544805461,
+   "rmse_full": 0.20463829857531735,
+   "rel_gain": -0.001231705751931965,
+   "null_mean": -0.002929079835303655,
+   "null_p95": -0.002699142149082159,
+   "null_frac_ge_real": 0.0
+  },
+  "14": {
+   "n_bots": 8,
+   "n_test_bots": 3,
+   "n_train_rows": 215150,
+   "n_test_rows": 129090,
+   "rmse_own": 0.45736634293573786,
+   "rmse_full": 0.45731952179636554,
+   "rel_gain": 0.00010237119564108432,
+   "null_mean": 2.9795585703105958e-05,
+   "null_p95": 5.701255207508771e-05,
+   "null_frac_ge_real": 0.0
+  }
+ },
+ "summary": {
+  "replicates": 12,
+  "median_rel_gain": -0.0001700426566185503,
+  "mean_rel_gain": -0.0001653458096666522,
+  "n_positive": 4,
+  "signflip_p_two_sided": 0.3876953125,
+  "n_real_above_null95": 5,
+  "n_positive_and_above_null95": 2
+ }
+}

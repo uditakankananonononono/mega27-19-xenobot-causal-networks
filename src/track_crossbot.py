@@ -102,18 +102,51 @@ def rel_gain(rmse_own, rmse_full):
     return (rmse_own - rmse_full) / rmse_own if rmse_own > 0 else 0.0
 
 
+def frame_tables(tracks, vels, poss):
+    """Per-frame aggregates over all bots: velocity count/sum/speed-sum and
+    position count/sum. O(frames) lookups per row afterwards."""
+    import collections
+    cv, sv, ss = defaultdict(int), defaultdict(lambda: np.zeros(2)), defaultdict(float)
+    cp, sp = defaultdict(int), defaultdict(lambda: np.zeros(2))
+    for tid, v in vels.items():
+        for f, vec in v.items():
+            cv[f] += 1; sv[f] = sv[f] + vec; ss[f] += float(np.hypot(*vec))
+    for tid, p in poss.items():
+        for f, vec in p.items():
+            cp[f] += 1; sp[f] = sp[f] + vec
+    return cv, sv, ss, cp, sp
+
+
+def pop_fast(tables, vels, poss, focal_id, t):
+    cv, sv, ss, cp, sp = tables
+    tm1 = t - 1
+    if tm1 not in vels[focal_id] or tm1 not in poss[focal_id]:
+        return None
+    if cv.get(tm1, 0) < 2 or cp.get(tm1, 0) < 2:
+        return None
+    fv = vels[focal_id][tm1]
+    n_v = cv[tm1] - 1
+    m = (sv[tm1] - fv) / n_v
+    ms = (ss[tm1] - float(np.hypot(*fv))) / n_v
+    fp = poss[focal_id][tm1]
+    centroid = (sp[tm1] - fp) / (cp[tm1] - 1)
+    dist = float(np.hypot(*(fp - centroid)))
+    return np.array([m[0], m[1], ms, dist])
+
+
 def score_replicate(tracks, null_shifts=N_NULL, seed=SEED):
     ids = sorted(tracks)
     test_ids = set(ids[::3])
     train_ids = [t for t in ids if t not in test_ids]
     vels, poss, per_bot = build_rows(tracks)
+    tables = frame_tables(tracks, vels, poss)
 
-    def rows_for(tid_list, shifted=None):
+    def rows_for(tid_list):
         Xo, Xf, Y = [], [], []
         for tid in tid_list:
             ts, own, tgt = per_bot[tid]
             for i, t in enumerate(ts):
-                pf = pop_features(vels, poss, tid, t)
+                pf = pop_fast(tables, vels, poss, tid, t)
                 if pf is None:
                     continue
                 Xo.append(own[i])
@@ -134,9 +167,6 @@ def score_replicate(tracks, null_shifts=N_NULL, seed=SEED):
     r_full = rmse(predict(coef_f, test[1]), test[2])
     gain = rel_gain(r_own, r_full)
 
-    # Alignment null: circularly shift each test focal's target series relative to
-    # features is wrong; the protocol shifts the POPULATION series. Implement by
-    # shifting population features across time within the test design matrix.
     rng = np.random.default_rng(seed)
     nulls = []
     n = len(test[1])
