@@ -32,3 +32,6 @@ Giving the predictor the simulator's exact U almost eliminates no-coupling share
 
 ## 2026-09-26: real Xenobot disjoint-sensor forecast
 Separate post-outcome real-matrix method robustness check `docs/REAL_CALCIUM_SENSOR_FOCAL_RESULT.md`: disjoint sensor mean gives only ~0.0015% pooled RMSE benefit over own-history on each arbitrary parity split, and both mean-per-cell aggregations favor own-history. This is a concrete, reproducible result on public processed calcium matrices, **not** cell-cell causality or movement/behavior. Prior holdout IDs were reused; no independent validation, biological discovery or published benchmark beat.
+
+## 2026-09-27: cross-bot motion predictability in shared arenas
+Locked-protocol test (protocol SHA-256 27635b2f..., commit 10a1a84) on the 12 public multi-bot track replicates: adding same-arena population features to a focal bot's own-history ridge does not improve 10-second-ahead velocity prediction on held-out bots. Median relative RMSE gain -0.00017 across replicates, 4/12 positive, exact two-sided sign-flip p=0.388; only 2/12 replicates positive and above their circular-alignment null p95, largest +0.00131 (~0.13%). Dynamical/methods result only; one condition per replicate blocks biological reading. See `docs/TRACK_CROSSBOT_RESULT.md`.
