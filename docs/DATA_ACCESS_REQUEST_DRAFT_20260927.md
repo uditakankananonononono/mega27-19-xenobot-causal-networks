@@ -50,3 +50,9 @@ Udita
 - Asks only about public deposits and plans; does not request private data transfer.
 - One email covering both preprints, since both are from the same lab; this supersedes
   the single-paper draft in DATA_ACCESS_REQUEST_DRAFT.md, which stays in history.
+
+## SENT (2026-09-27, 11:00 PM IST)
+Sent from uditakankana@gmail.com to Michael.Levin@tufts.edu after her verified approval
+(email reply "send 1" at 10:00 PM IST plus WhatsApp "Yes" at 10:59:30 PM IST quoting
+the send description). Exact wording above was sent unchanged. Gmail thread
+1a0e3eb40c6be609, message in SENT. A reply watch is active.
