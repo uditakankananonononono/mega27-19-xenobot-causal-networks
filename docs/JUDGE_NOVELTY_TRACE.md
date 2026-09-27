@@ -28,3 +28,8 @@ External response `docs/JUDGE_ROUND_13_RESPONSE.txt` identified the one-factor l
 
 ## Round 14, 2026-09-26 21:00 IST, redirection after near-null
 Pasted actual project result notes via text; the ChatGPT page truncated the prompt at `p=.5`. Response archived `docs/JUDGE_ROUND_14_RESPONSE.txt`. It repeats train-window latent factor controls already tested in rounds 11-13, lacks a published same-task comparator or new linked Xenobot biological source, and offers no implemented distinct novelty change. **Uncounted. Running tally 8/14 judge responses with concrete methods-angle changes.** See `docs/JUDGE_14_REDIRECT_ASSESSMENT.md`.
+
+## September 27 judge rule change and attribution cleanup
+Udita's authenticated WhatsApp at 10:00:07 and 10:01:47 IST says each project needs **one judge verdict from her** rather than ten agent-initiated ChatGPT rounds. This Xenobot lane has **0 of 1 personally supplied verdicts documented as of this entry**. Preserve the earlier 14 external exchanges and eight implemented method-angle changes as supplementary process history, not a passed judge gate. A later 12:04:59 message asks for the remaining verdicts through agent-pasted paper text to DeepSeek; the parent coordinates that change. No final paper exists, and no prior agent-initiated exchange is silently reclassified as her verdict.
+
+Attribution cleanup: the working preregistration had a preparer credit; that line was removed after Udita's 11:14 request. No PDF or manuscript is tracked in this repo to rebuild. No author name was substituted.
