@@ -1,0 +1,10 @@
+{
+  "source": "Varley et al. 2025, Commun Integr Biol, DOI 10.1080/19420889.2025.2568307 (PMC12520083)",
+  "retrieved": "2026-09-29",
+  "retrieval_route": "EuropePMC supplementaryFiles endpoint for PMC12520083 (tandfonline.com download endpoint behind Cloudflare challenge)",
+  "outer_zip": {"name": "supplementaryFiles (EuropePMC bundle)", "byte_size": 21989736, "md5": "44f73e3462b845b2e17e26098603a7db"},
+  "inner_zip": {"name": "KCIB_A_2568307_SM1148.zip", "byte_size": 18671442, "md5": "83f778af536ec216f80770039248c1b8"},
+  "calcium_data_tar_gz": {"sha256": "3cf2877d972a615d10c3869fe6819c124c3149d47ff4e9d4dcaaacabc08a732b", "contents": "28 xenobot_series NPZ files, each one float64 matrix (timepoints x cells), no coordinates"},
+  "coordinates_present": false,
+  "audit_note": "docs/SUPPLEMENT_AUDIT_20260929.md"
+}
