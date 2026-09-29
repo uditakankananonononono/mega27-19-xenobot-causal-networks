@@ -44,3 +44,11 @@ declared novelty limits.
 - bioRxiv details API: purinergic preprint (10.64898/2026.06.04.730190) still version 1 "new results" only; memory preprint (10.64898/2026.03.17.712168) still version 1 only. No journal version, no new supplementary deposit.
 - Crossref works record for 10.64898/2026.06.04.730190: relation = {} (empty), subtype still preprint.
 - Promised per-cell calcium CSVs (purinergic) remain unavailable; no new GEO/imaging accession found. Linked cell-state+stimulus+behavior gate UNCHANGED (still unmet).
+
+## 2026-09-29 addendum: Levin-lab reply received
+
+2026-09-28 21:26 IST vaibhav.pai@tufts.edu replied to the 2026-09-27 data request email
+(subject "Re: FW: [External] Public data for your Xenobot calcium studies"). Substance: both preprints
+are mid-publication; "The data and csv will be made public with the completion of the publication process"
+with location/links in the final publications. Consequence: raw data is publication-gated; the daily
+deposit watch remains the correct monitor. (Found via gmail safety check-in; source-event wake missed it.)
