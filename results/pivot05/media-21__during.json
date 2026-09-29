@@ -1,0 +1,35 @@
+{
+ "movie": "media-21.mp4",
+ "condition": "during",
+ "T": 95,
+ "P": 172380,
+ "threshold_1pct_of_Amax": 2.0945237731933593,
+ "compression_guard_mean_abs_framediff": 12.233084678649902,
+ "seed": 20260929,
+ "n_pairs": 100000,
+ "n_null": 200,
+ "n_dedup": 95,
+ "n_raw": 271,
+ "dedup_diff_threshold": 0.8201862292079029,
+ "dedup_mode": "plateau_frac=0.351",
+ "top10": {
+  "n_subset_pixels": 17238,
+  "median_variance": 1219.5435868689206,
+  "median_xcorr": 0.17858516424894333,
+  "n_valid_pairs": 100000,
+  "null_pairs": 25000,
+  "null_median_xcorr_mean": -0.003077003689535558,
+  "null_median_xcorr_std": 0.0011884249063172005,
+  "null_frac_ge_empirical": 0.0
+ },
+ "top50": {
+  "n_subset_pixels": 86190,
+  "median_variance": 611.3030905630703,
+  "median_xcorr": 0.15451942384243011,
+  "n_valid_pairs": 100000,
+  "null_pairs": 25000,
+  "null_median_xcorr_mean": -0.003110174080809489,
+  "null_median_xcorr_std": 0.0012080396316002122,
+  "null_frac_ge_empirical": 0.0
+ }
+}
