@@ -39,3 +39,8 @@ routes remain (a) watch for the purinergic CSV deposit and any journal versions,
 (b) the author data-access request in DATA_ACCESS_REQUEST_DRAFT.md (user-approved
 sending still required), (c) methods work on already-audited public matrices within
 declared novelty limits.
+
+## 2026-09-29 09:12 IST deposit-watch recheck (false positive)
+- bioRxiv details API: purinergic preprint (10.64898/2026.06.04.730190) still version 1 "new results" only; memory preprint (10.64898/2026.03.17.712168) still version 1 only. No journal version, no new supplementary deposit.
+- Crossref works record for 10.64898/2026.06.04.730190: relation = {} (empty), subtype still preprint.
+- Promised per-cell calcium CSVs (purinergic) remain unavailable; no new GEO/imaging accession found. Linked cell-state+stimulus+behavior gate UNCHANGED (still unmet).
