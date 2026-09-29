@@ -1,5 +1,5 @@
-[seed3 gen10] best=0.00 sims=30 fails=0
-[seed3 gen11] best=0.00 sims=35 fails=0
 [seed3 gen12] best=0.00 sims=30 fails=0
 [seed3 gen13] best=0.00 sims=31 fails=0
 [seed3 gen14] best=0.00 sims=33 fails=0
+[seed3 gen15] best=0.00 sims=26 fails=0
+SEED 3 DONE
