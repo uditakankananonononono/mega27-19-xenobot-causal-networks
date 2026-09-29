@@ -1,0 +1,28 @@
+{
+  "source": "Pai, Traer, Sperry, Zeng, Levin (March 2026), bioRxiv 10.64898/2026.03.17.712168v1 supplementary material",
+  "listing_page": "https://www.biorxiv.org/content/10.64898/2026.03.17.712168v1.supplementary-material",
+  "retrieved": "2026-09-29",
+  "retrieval_route": "cloud-browser page-context fetch (read-mode lease); direct curl IP-rate-limited (HTTP 429) on all biorxiv.org endpoints",
+  "note_on_sizes": "HEAD content-length differed slightly from delivered GET bytes (e.g. 4174392 vs 4194890 for media-20.mp4); delivered bytes verified as valid h264/xlsx containers and are the values recorded here",
+  "full_inventory_bytes": {
+    "media-1.xlsx": 7183, "media-2.xlsx": 9618,
+    "media-3.mp4": 1322708, "media-4.mp4": 2658608, "media-5.mp4": 1552527,
+    "media-6.mp4": 18856182, "media-7.mp4": 9662255, "media-8.mp4": 2316201,
+    "media-9.mp4": 17219522, "media-10.mp4": 2179881, "media-11.mp4": 6110043,
+    "media-12.mp4": 2765184, "media-13.mp4": 34846425, "media-14.mp4": 35393319,
+    "media-15.mp4": 23690421, "media-16.mp4": 28719814, "media-17.mp4": 4923581,
+    "media-18.mp4": 7142602, "media-19.mp4": 1431154, "media-20.mp4": 4174392,
+    "media-21.mp4": 6086709, "media-22.mp4": 7416671,
+    "_note": "22 files total (Data 1-2 xlsx, Movies 1-20 = media-3..22 mp4); sizes from HEAD content-length; only the 5 files below were downloaded (PIVOT 05 scope), grand total inventory 218485000 bytes per HEAD"
+  },
+  "downloaded": [
+    {"name": "media-1.xlsx", "label": "Supplementary Data 1 (712168_file03.xlsx)", "bytes": 9606, "sha256": "a91e479726642e12f4bae871e2f63fcb4f29bde528d7de1526de0a0550be9735"},
+    {"name": "media-2.xlsx", "label": "Supplementary Data 2 (712168_file04.xlsx)", "bytes": 11940, "sha256": "d37f6390ff9d027fae14a9d931df82175090f53e5da495a9cb3767234c295719"},
+    {"name": "media-20.mp4", "label": "Supplementary Movie 18, baseline calcium (Fig 5)", "bytes": 4194890, "sha256": "44f886a3d5f9a676b9cb52fdfff6860431ca59478bf412022b0d388ad2f78e0f", "video": "h264 1920x1080 30fps 20.139s"},
+    {"name": "media-21.mp4", "label": "Supplementary Movie 19, embryo extract calcium (Fig 6C-E)", "bytes": 6090330, "sha256": "088ff5b1e08cf129355feb1a8648285495e261b7394989617f635475fa2349f3", "video": "h264 1920x1080 30fps 18.603s"},
+    {"name": "media-22.mp4", "label": "Supplementary Movie 20, ATP calcium (Fig 6F-H)", "bytes": 7409544, "sha256": "978d73af9fb2b87284e9c0328e3d15927a189db1ba3442fd00313ad14884dd54", "video": "h264 1920x1080 ~30.3fps 20.031s"}
+  ],
+  "protocol": "docs/PIVOT_05_MOVIE_CALCIUM_PROTOCOL.md",
+  "raw_files_republished": false,
+  "storage": "files held in task workspace /tmp/movies (not committed to git; re-derivable via the same route with these hashes as verification)"
+}
