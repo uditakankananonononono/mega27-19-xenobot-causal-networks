@@ -101,7 +101,17 @@ def run_null():
     rng = random.Random(1000)
     outdir = "/tmp/stage1/null"; os.makedirs(outdir, exist_ok=True)
     rows = []
-    for i in range(480):
+    partial_path = os.path.join(outdir, "null.json")
+    if os.path.exists(partial_path):
+        # Resume: load durable rows, replay-and-discard the same rng draws so the
+        # design stream continues at the exact next draw. No re-simming, no change
+        # to which designs are drawn or how they are scored.
+        rows = json.load(open(partial_path))
+        assert all(r["i"] == k for k, r in enumerate(rows)), "partial rows must be contiguous from 0"
+        for _ in range(len(rows)):
+            genomes.valid_random_genome(rng)  # discard; advances the stream identically
+        print(f"[null resume: {len(rows)} durable designs skipped]", flush=True)
+    for i in range(len(rows), 480):
         mat, ph = genomes.valid_random_genome(rng)
         F, fa, fb, ns, failed = eval_genome(mat, ph, outdir, f"n{i}")
         rows.append(dict(i=i, F=F, F_A=fa, F_B=fb, failed=failed))

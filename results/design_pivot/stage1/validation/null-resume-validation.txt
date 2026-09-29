@@ -1,0 +1,4 @@
+durable rows: 301, contiguous i=0..300, schema ok
+design n301: rebuilt==fresh-stream: True, rebuilt==live-file: True
+design n310: rebuilt==fresh-stream: True, rebuilt==live-file: True
+RESUME VALIDATION: PASS
