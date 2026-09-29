@@ -1,0 +1,513 @@
+{
+ "generated": "2026-09-29",
+ "rules": {
+  "panel_detection": "bands of temporal-mean luma > 3% of max band mean; bands > 8px gap separated",
+  "analysis_box": "panel box inset: top 6%, bottom 10%, sides 2% (excludes timestamp text and scale-bar strips)",
+  "active_frame": "panel mean luma in analysis box > 1% of panel max mean",
+  "cadence": "median run length of consecutive frames with mean abs diff < 0.5% of 255"
+ },
+ "media-20.mp4": {
+  "label": "Movie 18 (baseline, Fig 5)",
+  "total_frames": 604,
+  "fps": 30,
+  "panels": [
+   {
+    "panel_index": 0,
+    "condition": "xenobot_i",
+    "panel_box_xy": [
+     0,
+     275,
+     315,
+     589
+    ],
+    "analysis_box_xy": [
+     6,
+     293,
+     308,
+     557
+    ],
+    "active_frame_ranges": [
+     [
+      0,
+      603
+     ]
+    ],
+    "mean_luma_minmax": [
+     35.89019012451172,
+     50.49530029296875
+    ],
+    "analysis_frame_range": [
+     0,
+     603
+    ],
+    "loop_note": "continuous, full range analyzed"
+   },
+   {
+    "panel_index": 1,
+    "condition": "xenobot_ii",
+    "panel_box_xy": [
+     315,
+     275,
+     631,
+     589
+    ],
+    "analysis_box_xy": [
+     321,
+     293,
+     624,
+     557
+    ],
+    "active_frame_ranges": [
+     [
+      0,
+      603
+     ]
+    ],
+    "mean_luma_minmax": [
+     35.89019012451172,
+     50.49530029296875
+    ],
+    "analysis_frame_range": [
+     0,
+     603
+    ],
+    "loop_note": "continuous, full range analyzed"
+   },
+   {
+    "panel_index": 2,
+    "condition": "embryo_iii",
+    "panel_box_xy": [
+     646,
+     275,
+     961,
+     589
+    ],
+    "analysis_box_xy": [
+     652,
+     293,
+     954,
+     557
+    ],
+    "active_frame_ranges": [
+     [
+      0,
+      603
+     ]
+    ],
+    "mean_luma_minmax": [
+     58.21599197387695,
+     64.59215545654297
+    ],
+    "analysis_frame_range": [
+     0,
+     603
+    ],
+    "loop_note": "continuous, full range analyzed"
+   },
+   {
+    "panel_index": 3,
+    "condition": "embryo_iv",
+    "panel_box_xy": [
+     961,
+     275,
+     1277,
+     589
+    ],
+    "analysis_box_xy": [
+     967,
+     293,
+     1270,
+     557
+    ],
+    "active_frame_ranges": [
+     [
+      0,
+      603
+     ]
+    ],
+    "mean_luma_minmax": [
+     58.21599197387695,
+     64.59215545654297
+    ],
+    "analysis_frame_range": [
+     0,
+     603
+    ],
+    "loop_note": "continuous, full range analyzed"
+   },
+   {
+    "panel_index": 4,
+    "condition": "xenobot_v",
+    "panel_box_xy": [
+     1289,
+     275,
+     1604,
+     589
+    ],
+    "analysis_box_xy": [
+     1295,
+     293,
+     1597,
+     557
+    ],
+    "active_frame_ranges": [
+     [
+      0,
+      603
+     ]
+    ],
+    "mean_luma_minmax": [
+     45.566837310791016,
+     63.90475845336914
+    ],
+    "analysis_frame_range": [
+     0,
+     603
+    ],
+    "loop_note": "continuous, full range analyzed"
+   },
+   {
+    "panel_index": 5,
+    "condition": "xenobot_vi",
+    "panel_box_xy": [
+     1604,
+     275,
+     1919,
+     589
+    ],
+    "analysis_box_xy": [
+     1610,
+     293,
+     1912,
+     557
+    ],
+    "active_frame_ranges": [
+     [
+      0,
+      603
+     ]
+    ],
+    "mean_luma_minmax": [
+     45.566837310791016,
+     63.90475845336914
+    ],
+    "analysis_frame_range": [
+     0,
+     603
+    ],
+    "loop_note": "continuous, full range analyzed"
+   }
+  ],
+  "held_frame_cadence_median": 3.0,
+  "n_frame_runs": 178,
+  "panel_structure_note": "3 wide bands detected; each splits into 2 sub-panels at the band midpoint (verified visually: Xenobots i-ii, Age-matched embryos iii-iv, Xenobots v-vi)"
+ },
+ "media-21.mp4": {
+  "label": "Movie 19 (embryo extract, Fig 6C-E)",
+  "total_frames": 558,
+  "fps": 30,
+  "panels": [
+   {
+    "panel_index": 0,
+    "condition": "before",
+    "panel_box_xy": [
+     14,
+     325,
+     475,
+     789
+    ],
+    "analysis_box_xy": [
+     23,
+     352,
+     465,
+     742
+    ],
+    "active_frame_ranges": [
+     [
+      0,
+      273
+     ],
+     [
+      278,
+      546
+     ],
+     [
+      551,
+      557
+     ]
+    ],
+    "mean_luma_minmax": [
+     0.1671307533979416,
+     36.59593963623047
+    ],
+    "analysis_frame_range": [
+     0,
+     273
+    ],
+    "loop_note": "panel loops; only first loop analyzed (duplicate footage must not double-count)"
+   },
+   {
+    "panel_index": 1,
+    "condition": "during",
+    "panel_box_xy": [
+     489,
+     325,
+     950,
+     789
+    ],
+    "analysis_box_xy": [
+     498,
+     352,
+     940,
+     742
+    ],
+    "active_frame_ranges": [
+     [
+      0,
+      270
+     ],
+     [
+      275,
+      540
+     ],
+     [
+      544,
+      557
+     ]
+    ],
+    "mean_luma_minmax": [
+     0.30536025762557983,
+     72.36656188964844
+    ],
+    "analysis_frame_range": [
+     0,
+     270
+    ],
+    "loop_note": "panel loops; only first loop analyzed (duplicate footage must not double-count)"
+   },
+   {
+    "panel_index": 2,
+    "condition": "3h_post",
+    "panel_box_xy": [
+     963,
+     325,
+     1425,
+     789
+    ],
+    "analysis_box_xy": [
+     972,
+     352,
+     1415,
+     742
+    ],
+    "active_frame_ranges": [
+     [
+      0,
+      557
+     ]
+    ],
+    "mean_luma_minmax": [
+     0.457434743642807,
+     33.51043701171875
+    ],
+    "analysis_frame_range": [
+     0,
+     557
+    ],
+    "loop_note": "continuous, full range analyzed"
+   },
+   {
+    "panel_index": 3,
+    "condition": "24h_post",
+    "panel_box_xy": [
+     1438,
+     325,
+     1899,
+     789
+    ],
+    "analysis_box_xy": [
+     1447,
+     352,
+     1889,
+     742
+    ],
+    "active_frame_ranges": [
+     [
+      0,
+      557
+     ]
+    ],
+    "mean_luma_minmax": [
+     0.45217543840408325,
+     29.498027801513672
+    ],
+    "analysis_frame_range": [
+     0,
+     557
+    ],
+    "loop_note": "continuous, full range analyzed"
+   }
+  ],
+  "held_frame_cadence_median": 3.0,
+  "n_frame_runs": 200
+ },
+ "media-22.mp4": {
+  "label": "Movie 20 (ATP, Fig 6F-H)",
+  "total_frames": 607,
+  "fps": 30,
+  "panels": [
+   {
+    "panel_index": 0,
+    "condition": "before",
+    "panel_box_xy": [
+     53,
+     314,
+     478,
+     767
+    ],
+    "analysis_box_xy": [
+     61,
+     341,
+     469,
+     721
+    ],
+    "active_frame_ranges": [
+     [
+      0,
+      606
+     ]
+    ],
+    "mean_luma_minmax": [
+     17.056089401245117,
+     18.673046112060547
+    ],
+    "analysis_frame_range": [
+     0,
+     606
+    ],
+    "loop_note": "continuous, full range analyzed"
+   },
+   {
+    "panel_index": 1,
+    "condition": "during",
+    "panel_box_xy": [
+     576,
+     314,
+     949,
+     767
+    ],
+    "analysis_box_xy": [
+     583,
+     341,
+     941,
+     721
+    ],
+    "active_frame_ranges": [
+     [
+      0,
+      270
+     ],
+     [
+      274,
+      528
+     ],
+     [
+      532,
+      606
+     ]
+    ],
+    "mean_luma_minmax": [
+     0.0005513084470294416,
+     48.396888732910156
+    ],
+    "analysis_frame_range": [
+     0,
+     270
+    ],
+    "loop_note": "panel loops; only first loop analyzed (duplicate footage must not double-count)"
+   },
+   {
+    "panel_index": 2,
+    "condition": "3h_post",
+    "panel_box_xy": [
+     1031,
+     314,
+     1429,
+     767
+    ],
+    "analysis_box_xy": [
+     1038,
+     341,
+     1421,
+     721
+    ],
+    "active_frame_ranges": [
+     [
+      0,
+      270
+     ],
+     [
+      274,
+      528
+     ],
+     [
+      532,
+      606
+     ]
+    ],
+    "mean_luma_minmax": [
+     0.006499931216239929,
+     40.200321197509766
+    ],
+    "analysis_frame_range": [
+     0,
+     270
+    ],
+    "loop_note": "panel loops; only first loop analyzed (duplicate footage must not double-count)"
+   },
+   {
+    "panel_index": 3,
+    "condition": "24h_post",
+    "panel_box_xy": [
+     1463,
+     314,
+     1916,
+     767
+    ],
+    "analysis_box_xy": [
+     1472,
+     341,
+     1906,
+     721
+    ],
+    "active_frame_ranges": [
+     [
+      0,
+      270
+     ],
+     [
+      274,
+      528
+     ],
+     [
+      532,
+      606
+     ]
+    ],
+    "mean_luma_minmax": [
+     0.23534440994262695,
+     37.48285675048828
+    ],
+    "analysis_frame_range": [
+     0,
+     270
+    ],
+    "loop_note": "panel loops; only first loop analyzed (duplicate footage must not double-count)"
+   }
+  ],
+  "held_frame_cadence_median": 3.0,
+  "n_frame_runs": 196
+ },
+ "verification": "Panel-to-condition mapping verified visually against full-res frame 30 of each movie on 2026-09-29: m18 single row i-vi = Xenobot, Xenobot, embryo, embryo, Xenobot, Xenobot; m19 single row i-iv = Before/During/3h/24h under header \"Embryo extract stimulus for 15 mins\"; m20 single row i-iv = Before/During/3h/24h under header \"ATP stimulus for 15 mins\".",
+ "held_frame_cadence_note": "median 3 movie frames per unique imaging frame (~30fps movie, ~10 unique frames/s); analysis decodes every 3rd frame (offsets 1) and dedupes near-identical frames before statistics"
+}
