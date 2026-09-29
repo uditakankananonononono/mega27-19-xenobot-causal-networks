@@ -35,3 +35,11 @@ Separate post-outcome real-matrix method robustness check `docs/REAL_CALCIUM_SEN
 
 ## 2026-09-27: cross-bot motion predictability in shared arenas
 Locked-protocol test (protocol SHA-256 27635b2f..., commit 10a1a84) on the 12 public multi-bot track replicates: adding same-arena population features to a focal bot's own-history ridge does not improve 10-second-ahead velocity prediction on held-out bots. Median relative RMSE gain -0.00017 across replicates, 4/12 positive, exact two-sided sign-flip p=0.388; only 2/12 replicates positive and above their circular-alignment null p95, largest +0.00131 (~0.13%). Dynamical/methods result only; one condition per replicate blocks biological reading. See `docs/TRACK_CROSSBOT_RESULT.md`.
+
+## 2026-09-29 - PIVOT 05 movie reproduction of memory-preprint Figure 6 (mostly negative)
+Locked prereg e709ca53; result doc docs/PIVOT_05_MOVIE_CALCIUM_RESULT.md; per-panel stats results/pivot05/.
+- ATP 24h cross-correlation decrease (paper's decohesion claim): NOT REPRODUCED (opposite direction, gain-invariant statistic, above null).
+- EE 3h variance suppression below baseline: NOT REPRODUCED (3h variance ~11.5x baseline on the deposited movie; gain caveat noted).
+- EE during-stimulus cross-correlation stability: NOT REPRODUCED (xcorr rises ~30-40x during stimulus).
+- Baseline Xenobot<embryo cross-correlation ordering: NOT REPRODUCED on 4+2 deposited baseline panels (opposite ordering; consistent with paper's own outlier note).
+- Reproduced: ATP variance trajectory (all clauses, both pixel subsets); EE 24h cohesion increase (both subsets).
