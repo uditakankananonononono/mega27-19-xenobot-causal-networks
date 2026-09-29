@@ -1,0 +1,162 @@
+[
+ {
+  "genome": 0,
+  "cond": "A",
+  "nvox": 355,
+  "wall": 45.51,
+  "ok": true,
+  "fl": -0.62
+ },
+ {
+  "genome": 0,
+  "cond": "B",
+  "nvox": 355,
+  "wall": 48.4,
+  "ok": true,
+  "fl": -0.6
+ },
+ {
+  "genome": 1,
+  "cond": "A",
+  "nvox": 357,
+  "wall": 46.38,
+  "ok": true,
+  "fl": -0.14
+ },
+ {
+  "genome": 1,
+  "cond": "B",
+  "nvox": 357,
+  "wall": 46.54,
+  "ok": true,
+  "fl": -0.13
+ },
+ {
+  "genome": 2,
+  "cond": "A",
+  "nvox": 364,
+  "wall": 46.65,
+  "ok": true,
+  "fl": 0.69
+ },
+ {
+  "genome": 2,
+  "cond": "B",
+  "nvox": 364,
+  "wall": 46.3,
+  "ok": true,
+  "fl": 0.73
+ },
+ {
+  "genome": 3,
+  "cond": "A",
+  "nvox": 364,
+  "wall": 48.27,
+  "ok": true,
+  "fl": -0.06
+ },
+ {
+  "genome": 3,
+  "cond": "B",
+  "nvox": 364,
+  "wall": 47.78,
+  "ok": true,
+  "fl": -0.05
+ },
+ {
+  "genome": 4,
+  "cond": "A",
+  "nvox": 356,
+  "wall": 47.58,
+  "ok": true,
+  "fl": -0.58
+ },
+ {
+  "genome": 4,
+  "cond": "B",
+  "nvox": 356,
+  "wall": 45.1,
+  "ok": true,
+  "fl": -0.58
+ },
+ {
+  "genome": 5,
+  "cond": "A",
+  "nvox": 360,
+  "wall": 51.04,
+  "ok": true,
+  "fl": 0.4
+ },
+ {
+  "genome": 5,
+  "cond": "B",
+  "nvox": 360,
+  "wall": 50.82,
+  "ok": true,
+  "fl": 0.4
+ },
+ {
+  "genome": 6,
+  "cond": "A",
+  "nvox": 350,
+  "wall": 47.85,
+  "ok": true,
+  "fl": 0.55
+ },
+ {
+  "genome": 6,
+  "cond": "B",
+  "nvox": 350,
+  "wall": 47.34,
+  "ok": true,
+  "fl": 0.53
+ },
+ {
+  "genome": 7,
+  "cond": "A",
+  "nvox": 354,
+  "wall": 588.21,
+  "ok": true,
+  "fl": 0.47
+ },
+ {
+  "genome": 7,
+  "cond": "B",
+  "nvox": 354,
+  "wall": 46.55,
+  "ok": true,
+  "fl": 0.45
+ },
+ {
+  "genome": 8,
+  "cond": "A",
+  "nvox": 360,
+  "wall": 45.94,
+  "ok": true,
+  "fl": 0.52
+ },
+ {
+  "genome": 8,
+  "cond": "B",
+  "nvox": 360,
+  "wall": 45.6,
+  "ok": true,
+  "fl": 0.53
+ },
+ {
+  "genome": 9,
+  "cond": "A",
+  "nvox": 366,
+  "wall": 47.26,
+  "ok": true,
+  "fl": -0.68
+ },
+ {
+  "genome": 9,
+  "cond": "B",
+  "nvox": 366,
+  "wall": 46.17,
+  "ok": true,
+  "fl": -0.67
+ }
+]
