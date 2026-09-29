@@ -1,0 +1,70 @@
+{
+ "audit_date": "2026-09-29",
+ "finding": "No public machine-readable corpus of evolved xenobot designs exists in any deposit checked",
+ "checked": [
+  "PNAS 2020 supp (EuropePMC bundle)",
+  "PNAS 2021 supp (EuropePMC bundle)",
+  "skriegman/reconfigurable_organisms",
+  "skriegman/kinematically_replicating_organisms",
+  "voxcraft.github.io/design",
+  "cdorgs.github.io",
+  "krorgs.github.io",
+  "xenobots.github.io",
+  "swarm-lab/xenobots (R analysis only)"
+ ],
+ "usable_corpus": "4 author demo .vxa designs from the CC0 pipeline repo only",
+ "items": [
+  {
+   "path": "/tmp/pnas_supp/pnas2020_supp.zip",
+   "note": "PNAS 2020 (PMC6994979) full supplementary bundle via EuropePMC: SI PDF + 2 movies + figures. NO machine-readable design files.",
+   "bytes": 116099231,
+   "sha256": "530ce0806ee2916d22db8fe2454a27884ccf8e5b3f71847542096689e9208372"
+  },
+  {
+   "path": "/tmp/pnas_supp/pnas2021_supp.zip",
+   "note": "PNAS 2021 self-replication (PMC8670470) full supplementary bundle via EuropePMC: SI PDF + movie + figures. NO machine-readable design files.",
+   "bytes": 64469047,
+   "sha256": "28bcfdb5d23bd0ba18ae50b0823eeb890959cdd1411d56b919db8496dcc2b2c5"
+  },
+  {
+   "path": "reconfigurable_organisms/_voxcad/voxelyzeMain/Example_1.vxa",
+   "note": "Author demo design shipped in CC0 pipeline repo (usable as corpus)",
+   "sha256": "59277dfc870f235edf50a434aa153da20846259ab4550b03a6f16a69e2d39786"
+  },
+  {
+   "path": "reconfigurable_organisms/_voxcad/voxelyzeMain/Example_2.vxa",
+   "note": "Author demo design shipped in CC0 pipeline repo (usable as corpus)",
+   "sha256": "74f5ef4cc55eda3c3ce3d8810035873c60ddd67074ef1cc40bff30e36b7b3ae3"
+  },
+  {
+   "path": "reconfigurable_organisms/_voxcad/voxelyzeMain/Example_3.vxa",
+   "note": "Author demo design shipped in CC0 pipeline repo (usable as corpus)",
+   "sha256": "a9da57cb8dafb3069d8fbe08b263fee71bb287749cabd46a4c26a98414f5b73e"
+  },
+  {
+   "path": "reconfigurable_organisms/_voxcad/voxelyzeMain/Example_withPhaseOffset.vxa",
+   "note": "Author demo design shipped in CC0 pipeline repo (usable as corpus)",
+   "sha256": "ef15872fdf17ef1ec200b49ffb554cca7c9027e863f136fc18fa93d3f3215c77"
+  },
+  {
+   "path": "skriegman/kinematically_replicating_organisms/body/base.vxa",
+   "note": "3x3x3 environment template scene, NOT an evolved design",
+   "sha256": "8e31137984b64ecbf3d85e9c29ac351cf194464131a1679c89af4752655377dc"
+  },
+  {
+   "path": "skriegman/kinematically_replicating_organisms/circuits/base.vxa",
+   "note": "3x3x3 environment template scene, NOT an evolved design",
+   "sha256": "af0b82c54b2043b55e65655b7977145e3c68b492486d57b4a68daf4c6fc04e52"
+  },
+  {
+   "path": "skriegman/kinematically_replicating_organisms/rescue/base.vxa",
+   "note": "3x3x3 environment template scene, NOT an evolved design",
+   "sha256": "553aa82e9f942ebce6382682dac5e71ac25e3a7cffaa4362de5fa9a06ebb08f9"
+  },
+  {
+   "path": "skriegman/kinematically_replicating_organisms/terrain/base.vxa",
+   "note": "3x3x3 environment template scene, NOT an evolved design",
+   "sha256": "553aa82e9f942ebce6382682dac5e71ac25e3a7cffaa4362de5fa9a06ebb08f9"
+  }
+ ]
+}
