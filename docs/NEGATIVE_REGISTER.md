@@ -43,3 +43,19 @@ Locked prereg e709ca53; result doc docs/PIVOT_05_MOVIE_CALCIUM_RESULT.md; per-pa
 - EE during-stimulus cross-correlation stability: NOT REPRODUCED (xcorr rises ~30-40x during stimulus).
 - Baseline Xenobot<embryo cross-correlation ordering: NOT REPRODUCED on 4+2 deposited baseline panels (opposite ordering; consistent with paper's own outlier note).
 - Reproduced: ATP variance trajectory (all clauses, both pixel subsets); EE 24h cohesion increase (both subsets).
+
+## 2026-09-30: DESIGN PIVOT stage 1 (bidirectional locomotion, simulation-only)
+
+1. H2 NOT SUPPORTED: budget-matched shared random null (480 designs) found a better
+   bidirectional design (n394, F=0.01298) than any of the 3 GA seeds (bests 0.00616 / 0.00920 /
+   0.00382). 16 generations of pop-20 mutation-only search added no measurable value over random
+   sampling at this budget. Best overall design came from random search.
+2. H3 exception: anchor Example_1 scored F=+0.00084>0 (noise-floor: 42 um net over 10 s; design
+   is outside the stage-1 class - 10x10x10, 9.8% fill, fails the candidate validity check).
+   Registered per prereg sec 5; weakens the "novel for this design class" claim as stated.
+3. Process: custody gap - the null scene tarball archived only post-restart designs (n301+);
+   pre-restart scenes n39/n266 had to be reconstructed by validated byte-identical RNG replay.
+   Archive coverage must be verified against the full design index at archive time, not assumed.
+4. Effect size honesty: even the best bidirectional F (0.01298 voxels ~ 0.65 mm net over 10 s)
+   is ~40-430x weaker than the anchors' one-way locomotion. Bidirectional locomotion exists in
+   simulation at this budget but is a marginal behavior, not a robust gait.

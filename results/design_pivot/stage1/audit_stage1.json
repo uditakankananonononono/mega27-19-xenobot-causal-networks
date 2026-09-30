@@ -1,0 +1,323 @@
+{
+ "energy_scale": 5.5700199999999995,
+ "anchor_F_A": [
+  0.0008399999999997299,
+  0.8056200000000002,
+  0.4708000000000001,
+  5.5700199999999995
+ ],
+ "results": [
+  {
+   "arm": "seed1",
+   "tag": "g15_i0",
+   "F": 0.006160000000000054,
+   "F_A": 0.006240000000000134,
+   "F_B": -0.006160000000000054,
+   "a_vxa_exists": true,
+   "b_vxa_exists": true,
+   "fixed_voxel_count": 0,
+   "fixed_regions_present": false,
+   "valid": true,
+   "rerun_F_A": [
+    0.006240000000000134,
+    0.006240000000000134
+   ],
+   "rerun_F_B": [
+    -0.006160000000000054,
+    -0.006160000000000054
+   ],
+   "yz_path_A": 0.02602899493606514,
+   "yz_path_B": 0.026756556112393762,
+   "traj_ok": true,
+   "energy_ok": true,
+   "determinism_ok": true,
+   "pass_all": true
+  },
+  {
+   "arm": "seed1",
+   "tag": "g15_i1",
+   "F": 0.0016199999999999548,
+   "F_A": 0.0016199999999999548,
+   "F_B": -0.008799999999999919,
+   "a_vxa_exists": true,
+   "b_vxa_exists": true,
+   "fixed_voxel_count": 0,
+   "fixed_regions_present": false,
+   "valid": true,
+   "rerun_F_A": [
+    0.0016199999999999548,
+    0.0016199999999999548
+   ],
+   "rerun_F_B": [
+    -0.008799999999999919,
+    -0.008799999999999919
+   ],
+   "yz_path_A": 0.025862457180880812,
+   "yz_path_B": 0.026600518477702235,
+   "traj_ok": true,
+   "energy_ok": true,
+   "determinism_ok": true,
+   "pass_all": true
+  },
+  {
+   "arm": "seed1",
+   "tag": "g15_i14",
+   "F": 0.0016800000000000148,
+   "F_A": 0.0016800000000000148,
+   "F_B": -0.006099999999999994,
+   "a_vxa_exists": true,
+   "b_vxa_exists": true,
+   "fixed_voxel_count": 0,
+   "fixed_regions_present": false,
+   "valid": true,
+   "rerun_F_A": [
+    0.0016800000000000148,
+    0.0016800000000000148
+   ],
+   "rerun_F_B": [
+    -0.006099999999999994,
+    -0.006099999999999994
+   ],
+   "yz_path_A": 0.026430299545387226,
+   "yz_path_B": 0.027156189393978375,
+   "traj_ok": true,
+   "energy_ok": true,
+   "determinism_ok": true,
+   "pass_all": true
+  },
+  {
+   "arm": "seed1",
+   "tag": "g15_i17",
+   "F": 0.0018199999999995997,
+   "F_A": 0.009959999999999969,
+   "F_B": -0.0018199999999995997,
+   "a_vxa_exists": true,
+   "b_vxa_exists": true,
+   "fixed_voxel_count": 0,
+   "fixed_regions_present": false,
+   "valid": true,
+   "rerun_F_A": [
+    0.009959999999999969,
+    0.009959999999999969
+   ],
+   "rerun_F_B": [
+    -0.0018199999999995997,
+    -0.0018199999999995997
+   ],
+   "yz_path_A": 0.025710806700676367,
+   "yz_path_B": 0.026594959038305627,
+   "traj_ok": true,
+   "energy_ok": true,
+   "determinism_ok": true,
+   "pass_all": true
+  },
+  {
+   "arm": "seed2",
+   "tag": "g15_i0",
+   "F": 0.009199999999999764,
+   "F_A": 0.012139999999999929,
+   "F_B": -0.009199999999999764,
+   "a_vxa_exists": true,
+   "b_vxa_exists": true,
+   "fixed_voxel_count": 0,
+   "fixed_regions_present": false,
+   "valid": true,
+   "rerun_F_A": [
+    0.012139999999999929,
+    0.012139999999999929
+   ],
+   "rerun_F_B": [
+    -0.009199999999999764,
+    -0.009199999999999764
+   ],
+   "yz_path_A": 0.036253816622275996,
+   "yz_path_B": 0.03543557686694986,
+   "traj_ok": true,
+   "energy_ok": true,
+   "determinism_ok": true,
+   "pass_all": true
+  },
+  {
+   "arm": "seed2",
+   "tag": "g15_i13",
+   "F": 0.0015199999999998548,
+   "F_A": 0.019699999999999718,
+   "F_B": -0.0015199999999998548,
+   "a_vxa_exists": true,
+   "b_vxa_exists": true,
+   "fixed_voxel_count": 0,
+   "fixed_regions_present": false,
+   "valid": true,
+   "rerun_F_A": [
+    0.019699999999999718,
+    0.019699999999999718
+   ],
+   "rerun_F_B": [
+    -0.0015199999999998548,
+    -0.0015199999999998548
+   ],
+   "yz_path_A": 0.036495178036155485,
+   "yz_path_B": 0.03562748622227786,
+   "traj_ok": true,
+   "energy_ok": true,
+   "determinism_ok": true,
+   "pass_all": true
+  },
+  {
+   "arm": "seed3",
+   "tag": "g15_i0",
+   "F": 0.0038199999999999346,
+   "F_A": 0.0038199999999999346,
+   "F_B": -0.005139999999999589,
+   "a_vxa_exists": true,
+   "b_vxa_exists": true,
+   "fixed_voxel_count": 0,
+   "fixed_regions_present": false,
+   "valid": true,
+   "rerun_F_A": [
+    0.0038199999999999346,
+    0.0038199999999999346
+   ],
+   "rerun_F_B": [
+    -0.005139999999999589,
+    -0.005139999999999589
+   ],
+   "yz_path_A": 0.06819556743475313,
+   "yz_path_B": 0.07016561594208928,
+   "traj_ok": true,
+   "energy_ok": true,
+   "determinism_ok": true,
+   "pass_all": true
+  },
+  {
+   "arm": "null",
+   "tag": "n39",
+   "F": 0.006780000000000119,
+   "F_A": 0.030320000000000347,
+   "F_B": -0.006780000000000119,
+   "a_vxa_exists": true,
+   "b_vxa_exists": true,
+   "fixed_voxel_count": 0,
+   "fixed_regions_present": false,
+   "valid": true,
+   "rerun_F_A": [
+    0.030320000000000347,
+    0.030320000000000347
+   ],
+   "rerun_F_B": [
+    -0.006780000000000119,
+    -0.006780000000000119
+   ],
+   "yz_path_A": 0.026781809929266424,
+   "yz_path_B": 0.026783552746012105,
+   "traj_ok": true,
+   "energy_ok": true,
+   "determinism_ok": true,
+   "pass_all": true
+  },
+  {
+   "arm": "null",
+   "tag": "n266",
+   "F": 0.0025799999999998047,
+   "F_A": 0.007599999999999829,
+   "F_B": -0.0025799999999998047,
+   "a_vxa_exists": true,
+   "b_vxa_exists": true,
+   "fixed_voxel_count": 0,
+   "fixed_regions_present": false,
+   "valid": true,
+   "rerun_F_A": [
+    0.007599999999999829,
+    0.007599999999999829
+   ],
+   "rerun_F_B": [
+    -0.0025799999999998047,
+    -0.0025799999999998047
+   ],
+   "yz_path_A": 0.02818172871965574,
+   "yz_path_B": 0.029193998563804356,
+   "traj_ok": true,
+   "energy_ok": true,
+   "determinism_ok": true,
+   "pass_all": true
+  },
+  {
+   "arm": "null",
+   "tag": "n394",
+   "F": 0.012980000000000214,
+   "F_A": 0.014180000000000303,
+   "F_B": -0.012980000000000214,
+   "a_vxa_exists": true,
+   "b_vxa_exists": true,
+   "fixed_voxel_count": 0,
+   "fixed_regions_present": false,
+   "valid": true,
+   "rerun_F_A": [
+    0.014180000000000303,
+    0.014180000000000303
+   ],
+   "rerun_F_B": [
+    -0.012980000000000214,
+    -0.012980000000000214
+   ],
+   "yz_path_A": 0.018990790858465702,
+   "yz_path_B": 0.01902336791682531,
+   "traj_ok": true,
+   "energy_ok": true,
+   "determinism_ok": true,
+   "pass_all": true
+  },
+  {
+   "arm": "null",
+   "tag": "n414",
+   "F": 0.0036399999999997545,
+   "F_A": 0.0036399999999997545,
+   "F_B": -0.031140000000000057,
+   "a_vxa_exists": true,
+   "b_vxa_exists": true,
+   "fixed_voxel_count": 0,
+   "fixed_regions_present": false,
+   "valid": true,
+   "rerun_F_A": [
+    0.0036399999999997545,
+    0.0036399999999997545
+   ],
+   "rerun_F_B": [
+    -0.031140000000000057,
+    -0.031140000000000057
+   ],
+   "yz_path_A": 0.02814995302939707,
+   "yz_path_B": 0.027321835424453395,
+   "traj_ok": true,
+   "energy_ok": true,
+   "determinism_ok": true,
+   "pass_all": true
+  },
+  {
+   "arm": "anchors",
+   "tag": "Example_1",
+   "F": 0.0008399999999997299,
+   "F_A": 0.0008399999999997299,
+   "F_B": -0.00144000000000033,
+   "a_vxa_exists": true,
+   "b_vxa_exists": true,
+   "fixed_voxel_count": 0,
+   "fixed_regions_present": false,
+   "valid": false,
+   "rerun_F_A": [
+    0.0008399999999997299,
+    0.0008399999999997299
+   ],
+   "rerun_F_B": [
+    -0.00144000000000033,
+    -0.00144000000000033
+   ],
+   "yz_path_A": 0.08986284958770605,
+   "yz_path_B": 0.08809196581189367,
+   "traj_ok": true,
+   "energy_ok": true,
+   "determinism_ok": true,
+   "pass_all": false
+  }
+ ]
+}

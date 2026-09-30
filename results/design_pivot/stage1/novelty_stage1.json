@@ -1,0 +1,167 @@
+[
+ {
+  "arm": "seed1",
+  "tag": "g15_i0",
+  "F": 0.006160000000000054,
+  "size": 362,
+  "min_dist": 0.5449275362318841,
+  "nearest_anchor": "Example_3",
+  "per_anchor": {
+   "Example_1": 0.8082901554404145,
+   "Example_2": 0.5994930291508238,
+   "Example_3": 0.5449275362318841,
+   "Example_withPhaseOffset": 0.7983651226158038
+  },
+  "novel": true
+ },
+ {
+  "arm": "seed1",
+  "tag": "g15_i1",
+  "F": 0.0016199999999999548,
+  "size": 363,
+  "min_dist": 0.5560344827586207,
+  "nearest_anchor": "Example_3",
+  "per_anchor": {
+   "Example_1": 0.8209718670076727,
+   "Example_2": 0.5982256020278834,
+   "Example_3": 0.5560344827586207,
+   "Example_withPhaseOffset": 0.8054054054054054
+  },
+  "novel": true
+ },
+ {
+  "arm": "seed1",
+  "tag": "g15_i14",
+  "F": 0.0016800000000000148,
+  "size": 361,
+  "min_dist": 0.5463768115942029,
+  "nearest_anchor": "Example_3",
+  "per_anchor": {
+   "Example_1": 0.8077922077922078,
+   "Example_2": 0.6007604562737643,
+   "Example_3": 0.5463768115942029,
+   "Example_withPhaseOffset": 0.8010899182561307
+  },
+  "novel": true
+ },
+ {
+  "arm": "seed1",
+  "tag": "g15_i17",
+  "F": 0.0018199999999995997,
+  "size": 362,
+  "min_dist": 0.5449275362318841,
+  "nearest_anchor": "Example_3",
+  "per_anchor": {
+   "Example_1": 0.8082901554404145,
+   "Example_2": 0.5994930291508238,
+   "Example_3": 0.5449275362318841,
+   "Example_withPhaseOffset": 0.7983651226158038
+  },
+  "novel": true
+ },
+ {
+  "arm": "seed2",
+  "tag": "g15_i0",
+  "F": 0.009199999999999764,
+  "size": 363,
+  "min_dist": 0.5518731988472623,
+  "nearest_anchor": "Example_3",
+  "per_anchor": {
+   "Example_1": 0.8239795918367347,
+   "Example_2": 0.6070528967254408,
+   "Example_3": 0.5518731988472623,
+   "Example_withPhaseOffset": 0.8306878306878307
+  },
+  "novel": true
+ },
+ {
+  "arm": "seed2",
+  "tag": "g15_i13",
+  "F": 0.0015199999999998548,
+  "size": 363,
+  "min_dist": 0.5518731988472623,
+  "nearest_anchor": "Example_3",
+  "per_anchor": {
+   "Example_1": 0.8239795918367347,
+   "Example_2": 0.6070528967254408,
+   "Example_3": 0.5518731988472623,
+   "Example_withPhaseOffset": 0.8306878306878307
+  },
+  "novel": true
+ },
+ {
+  "arm": "seed3",
+  "tag": "g15_i0",
+  "F": 0.0038199999999999346,
+  "size": 347,
+  "min_dist": 0.5708092485549133,
+  "nearest_anchor": "Example_3",
+  "per_anchor": {
+   "Example_1": 0.8227513227513228,
+   "Example_2": 0.6237373737373737,
+   "Example_3": 0.5708092485549133,
+   "Example_withPhaseOffset": 0.8166666666666667
+  },
+  "novel": true
+ },
+ {
+  "arm": "null",
+  "tag": "n39",
+  "F": 0.006780000000000119,
+  "size": 350,
+  "min_dist": 0.5726618705035971,
+  "nearest_anchor": "Example_3",
+  "per_anchor": {
+   "Example_1": 0.8179419525065963,
+   "Example_2": 0.5969191270860077,
+   "Example_3": 0.5726618705035971,
+   "Example_withPhaseOffset": 0.8214285714285714
+  },
+  "novel": true
+ },
+ {
+  "arm": "null",
+  "tag": "n266",
+  "F": 0.0025799999999998047,
+  "size": 361,
+  "min_dist": 0.5505780346820809,
+  "nearest_anchor": "Example_3",
+  "per_anchor": {
+   "Example_1": 0.8077922077922078,
+   "Example_2": 0.6078184110970997,
+   "Example_3": 0.5505780346820809,
+   "Example_withPhaseOffset": 0.8140161725067385
+  },
+  "novel": true
+ },
+ {
+  "arm": "null",
+  "tag": "n394",
+  "F": 0.012980000000000214,
+  "size": 368,
+  "min_dist": 0.5488505747126436,
+  "nearest_anchor": "Example_3",
+  "per_anchor": {
+   "Example_1": 0.8291457286432161,
+   "Example_2": 0.5738125802310655,
+   "Example_3": 0.5488505747126436,
+   "Example_withPhaseOffset": 0.8236842105263158
+  },
+  "novel": true
+ },
+ {
+  "arm": "null",
+  "tag": "n414",
+  "F": 0.0036399999999997545,
+  "size": 358,
+  "min_dist": 0.5549132947976878,
+  "nearest_anchor": "Example_3",
+  "per_anchor": {
+   "Example_1": 0.8125,
+   "Example_2": 0.6063291139240506,
+   "Example_3": 0.5549132947976878,
+   "Example_withPhaseOffset": 0.8092643051771117
+  },
+  "novel": true
+ }
+]
