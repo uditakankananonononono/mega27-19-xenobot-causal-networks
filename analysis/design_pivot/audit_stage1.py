@@ -95,13 +95,28 @@ def main():
     cands = collect()
     scale, anchor_fa = anchor_scale()
     print(f"candidates F>0: {len(cands)}; energy scale (max anchor F_A): {scale}")
+    pl = "/tmp/stage1/audit/audit_partial.jsonl"
+    done = {}
+    if os.path.exists(pl):
+        for line in open(pl):
+            line = line.strip()
+            if line:
+                r = json.loads(line)
+                done[(r["arm"], r["tag"])] = r
     out = dict(energy_scale=scale, anchor_F_A=anchor_fa, results=[])
     for c in cands:
-        r = audit(c, scale)
+        key = (c["arm"], c["tag"])
+        if key in done:
+            r = done[key]
+            print(f"{r['arm']:7s} {r['tag']:12s} F={r['F']:.5f} [resume: already audited]", flush=True)
+        else:
+            r = audit(c, scale)
+            with open(pl, "a") as f:
+                f.write(json.dumps(r) + "\n")
+            print(f"{r['arm']:7s} {r['tag']:12s} F={r['F']:.5f} traj={r['traj_ok']} "
+                  f"energy={r['energy_ok']} det={r['determinism_ok']} valid={r['valid']} "
+                  f"fixed={r['fixed_regions_present']} PASS={r['pass_all']}", flush=True)
         out["results"].append(r)
-        print(f"{r['arm']:7s} {r['tag']:12s} F={r['F']:.5f} traj={r['traj_ok']} "
-              f"energy={r['energy_ok']} det={r['determinism_ok']} valid={r['valid']} "
-              f"fixed={r['fixed_regions_present']} PASS={r['pass_all']}", flush=True)
     json.dump(out, open("/tmp/stage1/audit/audit_stage1.json", "w"), indent=1)
     print("AUDIT DONE")
 
