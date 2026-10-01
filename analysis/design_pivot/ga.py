@@ -64,7 +64,7 @@ def valid_offspring(mat, ph, rng, log):
 
 def run_ga(seed):
     rng = random.Random(seed); np.random.seed(seed)
-    outdir = f"/tmp/stage1/seed{seed}"; os.makedirs(outdir, exist_ok=True)
+    outdir = f"/tmp/stage1/seed{seed}" if seed <= 3 else f"/tmp/stage2/seed{seed}"; os.makedirs(outdir, exist_ok=True)
     pop = [genomes.valid_random_genome(rng) for _ in range(POP)]
     history, log = [], []
     for gen in range(GENS):
@@ -97,9 +97,9 @@ def run_ga(seed):
               open(os.path.join(outdir, "result.json"), "w"), default=str)
     print(f"SEED {seed} DONE", flush=True)
 
-def run_null():
-    rng = random.Random(1000)
-    outdir = "/tmp/stage1/null"; os.makedirs(outdir, exist_ok=True)
+def run_null(nseed=1000):
+    rng = random.Random(nseed)
+    outdir = "/tmp/stage1/null" if nseed == 1000 else f"/tmp/stage2/null{nseed}"; os.makedirs(outdir, exist_ok=True)
     rows = []
     partial_path = os.path.join(outdir, "null.json")
     if os.path.exists(partial_path):
@@ -139,6 +139,6 @@ if __name__ == "__main__":
     if mode == "ga":
         run_ga(int(sys.argv[2]))
     elif mode == "null":
-        run_null()
+        run_null(int(sys.argv[2]) if len(sys.argv) > 2 else 1000)
     elif mode == "anchors":
         run_anchors()
