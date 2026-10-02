@@ -48,8 +48,7 @@ UNVALIDATED IN WET LAB. Scope was picked by the lane (not specified by the user)
 All five runs completed without truncation. Audit used the stage-1 energy scale (max anchor F_A 5.57).
 
 ## Custody
-Scene archive results/design_pivot/stage2/custody/stage2-scenes.tar.gz verified against disk per run
-(seed4 486, seed5 493, seed6 492, null2000 705, null3000 726 scene files). Hashes in SHA256SUMS.txt.
+Scene archive in results/design_pivot/stage2/custody/ (tar and disk scene counts were verified equal at archive time, commit 929cc21; per-run counts are in that commit's log, not restated here). Hashes in SHA256SUMS.txt.
 audit_stage2.json SHA-256 prefix 75015152, novelty_stage2.json prefix be79368c.
 
 ## Limits
