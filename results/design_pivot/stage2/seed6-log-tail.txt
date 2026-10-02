@@ -1,0 +1,3 @@
+[seed6 gen14] best=0.01 sims=30 fails=0
+[seed6 gen15] best=0.01 sims=33 fails=0
+SEED 6 DONE
