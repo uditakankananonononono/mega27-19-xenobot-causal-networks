@@ -59,3 +59,12 @@ Locked prereg e709ca53; result doc docs/PIVOT_05_MOVIE_CALCIUM_RESULT.md; per-pa
 4. Effect size honesty: even the best bidirectional F (0.01298 voxels ~ 0.65 mm net over 10 s)
    is ~40-430x weaker than the anchors' one-way locomotion. Bidirectional locomotion exists in
    simulation at this budget but is a marginal behavior, not a robust gait.
+
+## Stage 2 (replication, amendment-03) - 2026-10-02
+5. S2-H3 not supported: all 16 audit-passing stage-2 designs are within distance 0.27-0.33 of stage-1 GA
+   designs (threshold 0.5). Fresh seeds re-found the same morphology family; no new morphologies.
+   Novelty vs the 4 published anchors alone (descriptive) is 0.53-0.58.
+6. Pooled best-F: stage-1 null best (0.01298) still exceeds all 6 GA bests across stage 1 and 2;
+   one-sided permutation 37/84 = 0.44. Primary S2-H2 passed 6/6 against two weaker fresh nulls,
+   so the GA's advantage is in hit rate (10-25% vs <1% of designs with F>0), not shown for best-F.
+7. Effect size unchanged: best stage-2 F is 0.00738 voxels (~0.37 mm net over 10 s) - marginal.
