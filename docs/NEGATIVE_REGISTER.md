@@ -68,3 +68,11 @@ Locked prereg e709ca53; result doc docs/PIVOT_05_MOVIE_CALCIUM_RESULT.md; per-pa
    one-sided permutation 37/84 = 0.44. Primary S2-H2 passed 6/6 against two weaker fresh nulls,
    so the GA's advantage is in hit rate (10-25% vs <1% of designs with F>0), not shown for best-F.
 7. Effect size unchanged: best stage-2 F is 0.00738 voxels (~0.37 mm net over 10 s) - marginal.
+
+## Stage 3 process item - 2026-10-07: amendment-04 init mechanism unsatisfiable (caught pre-compute)
+Pre-compute smoke testing of locked amendment-04 found its rejection-sampled initialization cannot seed
+the search: occupancy distance saturates for near-full-grid designs (converged family fills 342-376/448
+voxels), 40 uniform-random valid genomes measured min_d 0.26-0.31 vs the locked corpus (max 0.308), so a
+0.5 floor rejects ~all draws. No compute ran under amendment-04. Fixed by amendment-05 (constructive
+initialization, identical for GA and null arms). Registered as a process finding: novelty floors must be
+calibrated against the fill structure of the corpus before locking.
