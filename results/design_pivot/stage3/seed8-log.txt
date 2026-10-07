@@ -1,0 +1,18 @@
+[corpus loaded: 27 designs, floor 0.5]
+[seed8 gen0] best=-0.03 sims=32 fails=0
+[seed8 gen1] best=-0.00 sims=29 fails=0
+[seed8 gen2] best=-0.00 sims=21 fails=0
+[seed8 gen3] best=0.00 sims=23 fails=0
+[seed8 gen4] best=0.00 sims=28 fails=0
+[seed8 gen5] best=0.01 sims=29 fails=0
+[seed8 gen6] best=0.01 sims=26 fails=0
+[seed8 gen7] best=0.01 sims=30 fails=0
+[seed8 gen8] best=0.01 sims=32 fails=0
+[seed8 gen9] best=0.01 sims=34 fails=0
+[seed8 gen10] best=0.01 sims=33 fails=0
+[seed8 gen11] best=0.01 sims=32 fails=0
+[seed8 gen12] best=0.01 sims=34 fails=0
+[seed8 gen13] best=0.01 sims=33 fails=0
+[seed8 gen14] best=0.01 sims=28 fails=0
+[seed8 gen15] best=0.01 sims=31 fails=0
+SEED 8 DONE

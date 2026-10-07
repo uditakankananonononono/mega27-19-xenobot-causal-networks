@@ -1,0 +1,24 @@
+candidates F>0: 22; energy scale (max anchor F_A): 5.5700199999999995
+seed7   g15_i0       F=0.01872 [resume: already audited]
+seed7   g15_i7       F=0.00498 [resume: already audited]
+seed7   g15_i9       F=0.01872 [resume: already audited]
+seed8   g15_i0       F=0.01018 [resume: already audited]
+seed8   g15_i3       F=0.01228 [resume: already audited]
+seed8   g15_i6       F=0.00678 [resume: already audited]
+seed8   g15_i10      F=0.00128 [resume: already audited]
+seed9   g15_i0       F=0.03364 traj=True energy=True det=True valid=True fixed=False PASS=True
+seed9   g15_i3       F=0.03364 traj=True energy=True det=True valid=True fixed=False PASS=True
+seed9   g15_i5       F=0.00772 traj=True energy=True det=True valid=True fixed=False PASS=True
+seed9   g15_i6       F=0.01938 traj=True energy=True det=True valid=True fixed=False PASS=True
+seed9   g15_i7       F=0.01098 traj=True energy=True det=True valid=True fixed=False PASS=True
+seed9   g15_i9       F=0.00116 traj=True energy=True det=True valid=True fixed=False PASS=True
+seed9   g15_i12      F=0.03100 traj=True energy=True det=True valid=True fixed=False PASS=True
+seed9   g15_i13      F=0.01982 traj=True energy=True det=True valid=True fixed=False PASS=True
+seed9   g15_i14      F=0.01806 traj=True energy=True det=True valid=True fixed=False PASS=True
+seed9   g15_i16      F=0.00424 traj=True energy=True det=True valid=True fixed=False PASS=True
+null4000 n87          F=0.00058 [resume: already audited]
+null4000 n111         F=0.00508 [resume: already audited]
+null4000 n203         F=0.00760 [resume: already audited]
+null5000 n274         F=0.00292 [resume: already audited]
+null5000 n454         F=0.00214 [resume: already audited]
+AUDIT DONE

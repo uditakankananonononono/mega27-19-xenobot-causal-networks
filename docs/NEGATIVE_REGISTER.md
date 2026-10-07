@@ -76,3 +76,19 @@ voxels), 40 uniform-random valid genomes measured min_d 0.26-0.31 vs the locked 
 0.5 floor rejects ~all draws. No compute ran under amendment-04. Fixed by amendment-05 (constructive
 initialization, identical for GA and null arms). Registered as a process finding: novelty floors must be
 calibrated against the fill structure of the corpus before locking.
+
+## Stage 3 (novelty-constrained search, amendment-04/05) - 2026-10-08
+No registered test failed: S3-H1 supported 3/3, S3-H2 supported 6/6, S3-H3 reports real progress
+(best F 0.03364 > stage-2 best 0.00738). Standing honesty items, registered without reframing:
+8. Pooled best-F still not separated at 0.05: one-sided exact label permutation over 9 GA bests
+   (stages 1-3) vs 5 null bests gives 177/2002 = 0.088. Better than stage 2's 0.44, and all three
+   stage-3 GA bests exceed the stage-1 null best (0.01298) for the first time, but the pooled
+   best-F evidence remains descriptive, not decisive. The GA's robust advantage is hit rate
+   (15-50% vs 0.4-0.6% F>0), which is a registered-secondary observation, not a primary test.
+9. Effect size still marginal: best stage-3 bidirectional F is 0.03364 voxels (~1.68 mm net over
+   10 s), ~165x weaker than the strongest anchor's one-way locomotion (5.57).
+10. Novelty floor never bound mid-run: culls 0/0 in all 5 runs. The constraint defined the search
+   region (constructive init, pre-measured 6/6 and 10/10 compliant) but rejected nothing during
+   the search itself. Init morphology diversity is narrow (thin peripheral-shell family, mutual
+   min_d 0.02-0.05): the morphology-novelty claim is limited to that family; material/phase
+   diversity was unconstrained.
