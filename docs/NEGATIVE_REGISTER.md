@@ -92,3 +92,21 @@ No registered test failed: S3-H1 supported 3/3, S3-H2 supported 6/6, S3-H3 repor
    the search itself. Init morphology diversity is narrow (thin peripheral-shell family, mutual
    min_d 0.02-0.05): the morphology-novelty claim is limited to that family; material/phase
    diversity was unconstrained.
+
+## Stage 4 (init-morphology ensemble + permutation power, amendment-06) - 2026-10-08
+No registered test failed: S4-H1 supported 3/3, S4-H2 supported (p = 0.01016 < 0.05), S4-H3 supported
+6/6, S4-H4 supported 3/3. Standing honesty items, registered without reframing:
+11. Margin is thin: S4-H2 p = 0.01016 clears 0.05 but the pooled separation leans on the stage-3/4
+    seeds; the stage-1 null best (0.01298) still exceeds every stage-1/2 GA best. One heavy-tail null
+    draw away from a weaker claim.
+12. Stage-4 best F (0.02156) did not beat the stage-3 best (0.03364). The added seeds bought
+    statistical power, not a better design. Best-F progress has stalled across stages 3-4.
+13. Within-family init clustering persists: ensemble diversity is cross-family (pilot medians 0.222
+    within vs 0.600 cross). Inside each family, init draws cluster; evolved finals cluster further
+    per seed. Morphology exploration remains family-bound.
+14. Strata init culls dominate: 27 GA init culls (all strata; seed10 7, seed11 5, seed12 15) and 483
+    null init culls (481 strata + 2 core_appendage; null6000 236, null7000 247). Shell, ellipsoid and
+    core_appendage almost never culled, matching the pilot yields. Offspring culls 0 in all runs -
+    the floor shaped init, never evolution.
+15. Effect size still marginal: best stage-4 F 0.02156 voxels (~1.08 mm net over 10 s), ~258x weaker
+    than the strongest anchor's one-way locomotion (5.57).

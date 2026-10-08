@@ -1,0 +1,19 @@
+[corpus loaded: 27 designs, floor 0.5]
+[seed11 init diversity] median=0.4916 min=0.0264 families={'shell': 5, 'ellipsoid': 5, 'strata': 5, 'core_appendage': 5}
+[seed11 gen0] best=-0.03 sims=32 fails=0
+[seed11 gen1] best=-0.00 sims=35 fails=0
+[seed11 gen2] best=-0.00 sims=31 fails=0
+[seed11 gen3] best=-0.00 sims=31 fails=0
+[seed11 gen4] best=0.00 sims=32 fails=0
+[seed11 gen5] best=0.00 sims=30 fails=0
+[seed11 gen6] best=0.00 sims=31 fails=0
+[seed11 gen7] best=0.00 sims=31 fails=0
+[seed11 gen8] best=0.00 sims=32 fails=0
+[seed11 gen9] best=0.00 sims=33 fails=0
+[seed11 gen10] best=0.01 sims=31 fails=0
+[seed11 gen11] best=0.02 sims=32 fails=0
+[seed11 gen12] best=0.02 sims=32 fails=0
+[seed11 gen13] best=0.02 sims=33 fails=0
+[seed11 gen14] best=0.02 sims=33 fails=0
+[seed11 gen15] best=0.02 sims=32 fails=0
+SEED 11 DONE
