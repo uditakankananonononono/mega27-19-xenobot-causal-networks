@@ -5,7 +5,11 @@ Completed 2026-10-08 ~14:30 IST. Protocol: docs/DESIGN_PIVOT_PREREG_AMENDMENT_06
 on top of the prereg and amendments 01-05. Corpus: data/stage3-corpus27.json (SHA-256
 cd9c301671d1777eccaa3f5d93ade6acd0147d56397026bf68c75e5c9de0cc17). Runner: ga4.py (SHA-256
 714e7e90b9d581a62c1d43201a3b000038abce65b959b1c428ecb20606dde054). Audit: audit_stage4.py
-(adapted from audit_stage3.py, identical section-7 checks, committed at 1e354b3 before any audit ran).
+(adapted from audit_stage3.py, identical section-7 checks). Custody note, stated plainly: the script was
+first committed at 1e354b3 before any audit ran; a collect-scope robustness patch (skip a missing
+null-pool file, accept the bare-list partial null.json written mid-run; no audit-check semantics changed)
+was applied before BOTH audit sweeps ran, and both sweeps executed the patched script. The executed
+script is committed at the stage-5-era custody-fix commit referenced in the git log.
 Raw data and custody: results/design_pivot/stage4/ (SHA256SUMS.txt; custody tarball coverage verified
 against the full design index at archive time: 6268 scene files, tar/disk equality, 1613 row-scene
 references checked, 0 missing). ALL RESULTS ARE SIMULATION-ONLY AND UNVALIDATED IN WET LAB.

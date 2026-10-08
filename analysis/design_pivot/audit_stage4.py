@@ -31,8 +31,12 @@ def collect():
             if not x["failed"] and x["F"] > 0:
                 cands.append(dict(arm=f"seed{sd}", tag=f"g15_i{x['i']}", F=x["F"], F_A=x["F_A"], F_B=x["F_B"]))
     for n in (6000, 7000):
-        d = json.load(open(f"/tmp/stage4/null{n}/null.json"))
-        for x in d["rows"]:
+        p = f"/tmp/stage4/null{n}/null.json"
+        if not os.path.exists(p):
+            continue
+        d = json.load(open(p))
+        rows = d["rows"] if isinstance(d, dict) else d
+        for x in rows:
             if not x["failed"] and x["F"] > 0:
                 cands.append(dict(arm=f"null{n}", tag=f"n{x['i']}", F=x["F"], F_A=x["F_A"], F_B=x["F_B"]))
     return cands
