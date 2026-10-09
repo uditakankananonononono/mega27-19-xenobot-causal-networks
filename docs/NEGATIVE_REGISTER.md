@@ -130,3 +130,9 @@ items, registered without reframing:
 19. Effect size still marginal in absolute terms: best stage-5 F 0.15994 voxels (~8.0 mm net over
     10 s) remains ~34.8x weaker than the strongest anchor's one-way locomotion (5.57). The gap
     narrowed ~4.7x from stage 3; it did not close.
+20. Stage-5 winners are morphologically convergent: pairwise occupancy min_d 0.0000-0.0217 across
+    seed20 g23_i0 (0.15994), seed21 g23_i9 (0.04236) and seed22 g23_i1 (0.04152). The 4.75x gain
+    came from actuation-program search (materials/phases) on ONE shape basin, not morphology
+    exploration. Any morphology-generalization claim from stage 5 is limited accordingly; the
+    novelty floor kept designs away from the corpus but did not prevent convergence into a single
+    post-corpus basin.
