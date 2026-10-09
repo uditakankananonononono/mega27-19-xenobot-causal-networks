@@ -1,0 +1,30 @@
+[corpus loaded: 27 designs, floor 0.5]
+[seed22 init diversity] median=0.4552 min=0.0351 families={'shell': 4, 'ellipsoid': 4, 'strata': 5, 'core_appendage': 5}
+python3: can't open file '/home/sandbox/ga5.py': [Errno 2] No such file or directory
+[corpus loaded: 27 designs, floor 0.5]
+[seed22 init diversity] median=0.4552 min=0.0351 families={'shell': 4, 'ellipsoid': 4, 'strata': 5, 'core_appendage': 5}
+[seed22 gen0] best=0.03 sims=26 fails=0
+[seed22 gen1] best=0.03 sims=26 fails=0
+[seed22 gen2] best=0.03 sims=30 fails=0
+[seed22 gen3] best=0.03 sims=33 fails=0
+[seed22 gen4] best=0.03 sims=36 fails=0
+[seed22 gen5] best=0.03 sims=34 fails=0
+[seed22 gen6] best=0.03 sims=37 fails=0
+[seed22 gen7] best=0.03 sims=36 fails=0
+[seed22 gen8] best=0.03 sims=35 fails=0
+[seed22 gen9] best=0.03 sims=34 fails=0
+[seed22 gen10] best=0.03 sims=33 fails=0
+[seed22 gen11] best=0.03 sims=34 fails=0
+[seed22 gen12] best=0.03 sims=34 fails=0
+[seed22 gen13] best=0.03 sims=33 fails=0
+[seed22 gen14] best=0.03 sims=33 fails=0
+[seed22 gen15] best=0.03 sims=34 fails=0
+[seed22 gen16] best=0.03 sims=34 fails=0
+[seed22 gen17] best=0.03 sims=35 fails=0
+[seed22 gen18] best=0.03 sims=35 fails=0
+[seed22 gen19] best=0.03 sims=38 fails=0
+[seed22 gen20] best=0.03 sims=36 fails=0
+[seed22 gen21] best=0.03 sims=38 fails=0
+[seed22 gen22] best=0.04 sims=38 fails=0
+[seed22 gen23] best=0.04 sims=35 fails=0
+SEED 22 DONE

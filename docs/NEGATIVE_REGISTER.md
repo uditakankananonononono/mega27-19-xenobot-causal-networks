@@ -110,3 +110,23 @@ No registered test failed: S4-H1 supported 3/3, S4-H2 supported (p = 0.01016 < 0
     the floor shaped init, never evolution.
 15. Effect size still marginal: best stage-4 F 0.02156 voxels (~1.08 mm net over 10 s), ~258x weaker
     than the strongest anchor's one-way locomotion (5.57).
+
+## Stage 5 (champion-seeded effect-size intensification, amendment-07) - 2026-10-09
+No registered test failed: S5-H1 supported 3/3 (expected-vacuous, as stated), S5-H2 supported
+(seed20 0.15994 and seed21 0.04236 >= the 0.04205 bar), S5-H3 supported 3/3. Standing honesty
+items, registered without reframing:
+16. Between-seed variance is extreme under identical conditions: one seed reached 0.15994 (4.75x the
+    stage-3 champion) while the other two landed at 0.04236 and 0.04152, straddling the bar by
+    +/-0.0005. A single seed's lineage dominates the headline number; seed21's excess over the bar
+    (0.0003) is far below the 1.25x materiality margin the bar encodes. All three seeds share the
+    same two champions, so they are not independent replicates (registered in amendment-07 sec. 5).
+17. seed22 missed the frozen S5-H2 bar: best 0.04152 vs 0.04205. It sat at the champion value for 21
+    generations before a late surge; one generation's difference in the budget would have changed
+    which side of the bar it landed on. The bar is frozen and the miss is registered as a miss.
+18. The null's ceiling, not its hit rate, is what selection beat: champion-mutant nulls produced F>0
+    at 49% (235/480) - higher than the GA final-pop rates (40-75%) is not the comparison that
+    matters; the null best (0.03450) never approached the bar (0/480 over it). Hit-rate claims from
+    stages 3-4 do not transfer to champion-seeded search.
+19. Effect size still marginal in absolute terms: best stage-5 F 0.15994 voxels (~8.0 mm net over
+    10 s) remains ~34.8x weaker than the strongest anchor's one-way locomotion (5.57). The gap
+    narrowed ~4.7x from stage 3; it did not close.
