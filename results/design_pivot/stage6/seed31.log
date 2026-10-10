@@ -1,0 +1,27 @@
+[corpus loaded: 27 designs, floor 0.5]
+[seed31 init diversity] median=0.5215 min=0.0177 families={'shell': 4, 'ellipsoid': 4, 'strata': 5, 'core_appendage': 5}
+[seed31 gen0] best=0.16 sims=30 fails=0
+[seed31 gen1] best=0.17 sims=34 fails=0
+[seed31 gen2] best=0.17 sims=37 fails=0
+[seed31 gen3] best=0.17 sims=39 fails=0
+[seed31 gen4] best=0.17 sims=36 fails=0
+[seed31 gen5] best=0.17 sims=34 fails=0
+[seed31 gen6] best=0.18 sims=38 fails=0
+[seed31 gen7] best=0.18 sims=36 fails=0
+[seed31 gen8] best=0.18 sims=38 fails=0
+[seed31 gen9] best=0.18 sims=38 fails=0
+[seed31 gen10] best=0.18 sims=35 fails=0
+[seed31 gen11] best=0.18 sims=37 fails=0
+[seed31 gen12] best=0.18 sims=38 fails=0
+[seed31 gen13] best=0.18 sims=37 fails=0
+[seed31 gen14] best=0.18 sims=38 fails=0
+[seed31 gen15] best=0.18 sims=38 fails=0
+[seed31 gen16] best=0.18 sims=40 fails=0
+[seed31 gen17] best=0.18 sims=38 fails=0
+[seed31 gen18] best=0.18 sims=39 fails=0
+[seed31 gen19] best=0.18 sims=38 fails=0
+[seed31 gen20] best=0.18 sims=38 fails=0
+[seed31 gen21] best=0.18 sims=38 fails=0
+[seed31 gen22] best=0.18 sims=37 fails=0
+[seed31 gen23] best=0.18 sims=38 fails=0
+SEED 31 DONE

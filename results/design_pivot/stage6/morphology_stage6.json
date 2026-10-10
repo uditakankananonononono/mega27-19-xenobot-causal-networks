@@ -1,0 +1,323 @@
+{
+ "seed30": {
+  "rows": [
+   {
+    "i": 0,
+    "size": 229,
+    "min_d_vs_champ": 0.0
+   },
+   {
+    "i": 1,
+    "size": 230,
+    "min_d_vs_champ": 0.013
+   },
+   {
+    "i": 2,
+    "size": 229,
+    "min_d_vs_champ": 0.0173
+   },
+   {
+    "i": 3,
+    "size": 231,
+    "min_d_vs_champ": 0.0172
+   },
+   {
+    "i": 4,
+    "size": 230,
+    "min_d_vs_champ": 0.013
+   },
+   {
+    "i": 5,
+    "size": 228,
+    "min_d_vs_champ": 0.0044
+   },
+   {
+    "i": 6,
+    "size": 229,
+    "min_d_vs_champ": 0.0
+   },
+   {
+    "i": 7,
+    "size": 229,
+    "min_d_vs_champ": 0.0
+   },
+   {
+    "i": 8,
+    "size": 229,
+    "min_d_vs_champ": 0.0
+   },
+   {
+    "i": 9,
+    "size": 229,
+    "min_d_vs_champ": 0.0
+   },
+   {
+    "i": 10,
+    "size": 229,
+    "min_d_vs_champ": 0.0
+   },
+   {
+    "i": 11,
+    "size": 229,
+    "min_d_vs_champ": 0.0087
+   },
+   {
+    "i": 12,
+    "size": 229,
+    "min_d_vs_champ": 0.0
+   },
+   {
+    "i": 13,
+    "size": 229,
+    "min_d_vs_champ": 0.0
+   },
+   {
+    "i": 14,
+    "size": 230,
+    "min_d_vs_champ": 0.013
+   },
+   {
+    "i": 15,
+    "size": 228,
+    "min_d_vs_champ": 0.013
+   },
+   {
+    "i": 16,
+    "size": 228,
+    "min_d_vs_champ": 0.013
+   },
+   {
+    "i": 17,
+    "size": 231,
+    "min_d_vs_champ": 0.0087
+   },
+   {
+    "i": 18,
+    "size": 231,
+    "min_d_vs_champ": 0.0087
+   },
+   {
+    "i": 19,
+    "size": 229,
+    "min_d_vs_champ": 0.0
+   }
+  ],
+  "min": 0.0,
+  "median": 0.00655,
+  "max": 0.0173
+ },
+ "seed31": {
+  "rows": [
+   {
+    "i": 0,
+    "size": 230,
+    "min_d_vs_champ": 0.0043
+   },
+   {
+    "i": 1,
+    "size": 230,
+    "min_d_vs_champ": 0.0216
+   },
+   {
+    "i": 2,
+    "size": 231,
+    "min_d_vs_champ": 0.0087
+   },
+   {
+    "i": 3,
+    "size": 230,
+    "min_d_vs_champ": 0.0043
+   },
+   {
+    "i": 4,
+    "size": 232,
+    "min_d_vs_champ": 0.0129
+   },
+   {
+    "i": 5,
+    "size": 231,
+    "min_d_vs_champ": 0.0087
+   },
+   {
+    "i": 6,
+    "size": 232,
+    "min_d_vs_champ": 0.0129
+   },
+   {
+    "i": 7,
+    "size": 231,
+    "min_d_vs_champ": 0.0087
+   },
+   {
+    "i": 8,
+    "size": 230,
+    "min_d_vs_champ": 0.013
+   },
+   {
+    "i": 9,
+    "size": 231,
+    "min_d_vs_champ": 0.0087
+   },
+   {
+    "i": 10,
+    "size": 232,
+    "min_d_vs_champ": 0.0129
+   },
+   {
+    "i": 11,
+    "size": 231,
+    "min_d_vs_champ": 0.0087
+   },
+   {
+    "i": 12,
+    "size": 231,
+    "min_d_vs_champ": 0.0087
+   },
+   {
+    "i": 13,
+    "size": 233,
+    "min_d_vs_champ": 0.0172
+   },
+   {
+    "i": 14,
+    "size": 230,
+    "min_d_vs_champ": 0.0043
+   },
+   {
+    "i": 15,
+    "size": 231,
+    "min_d_vs_champ": 0.0087
+   },
+   {
+    "i": 16,
+    "size": 232,
+    "min_d_vs_champ": 0.0129
+   },
+   {
+    "i": 17,
+    "size": 231,
+    "min_d_vs_champ": 0.0087
+   },
+   {
+    "i": 18,
+    "size": 230,
+    "min_d_vs_champ": 0.0043
+   },
+   {
+    "i": 19,
+    "size": 231,
+    "min_d_vs_champ": 0.0172
+   }
+  ],
+  "min": 0.0043,
+  "median": 0.0087,
+  "max": 0.0216
+ },
+ "seed32": {
+  "rows": [
+   {
+    "i": 0,
+    "size": 231,
+    "min_d_vs_champ": 0.0087
+   },
+   {
+    "i": 1,
+    "size": 227,
+    "min_d_vs_champ": 0.0087
+   },
+   {
+    "i": 2,
+    "size": 229,
+    "min_d_vs_champ": 0.0173
+   },
+   {
+    "i": 3,
+    "size": 233,
+    "min_d_vs_champ": 0.0172
+   },
+   {
+    "i": 4,
+    "size": 230,
+    "min_d_vs_champ": 0.0043
+   },
+   {
+    "i": 5,
+    "size": 229,
+    "min_d_vs_champ": 0.0087
+   },
+   {
+    "i": 6,
+    "size": 231,
+    "min_d_vs_champ": 0.0172
+   },
+   {
+    "i": 7,
+    "size": 230,
+    "min_d_vs_champ": 0.0043
+   },
+   {
+    "i": 8,
+    "size": 231,
+    "min_d_vs_champ": 0.0087
+   },
+   {
+    "i": 9,
+    "size": 231,
+    "min_d_vs_champ": 0.0087
+   },
+   {
+    "i": 10,
+    "size": 229,
+    "min_d_vs_champ": 0.0087
+   },
+   {
+    "i": 11,
+    "size": 231,
+    "min_d_vs_champ": 0.0087
+   },
+   {
+    "i": 12,
+    "size": 231,
+    "min_d_vs_champ": 0.0087
+   },
+   {
+    "i": 13,
+    "size": 232,
+    "min_d_vs_champ": 0.0129
+   },
+   {
+    "i": 14,
+    "size": 233,
+    "min_d_vs_champ": 0.0172
+   },
+   {
+    "i": 15,
+    "size": 230,
+    "min_d_vs_champ": 0.0043
+   },
+   {
+    "i": 16,
+    "size": 231,
+    "min_d_vs_champ": 0.0087
+   },
+   {
+    "i": 17,
+    "size": 232,
+    "min_d_vs_champ": 0.0129
+   },
+   {
+    "i": 18,
+    "size": 229,
+    "min_d_vs_champ": 0.0
+   },
+   {
+    "i": 19,
+    "size": 231,
+    "min_d_vs_champ": 0.0087
+   }
+  ],
+  "min": 0.0,
+  "median": 0.0087,
+  "max": 0.0173
+ }
+}

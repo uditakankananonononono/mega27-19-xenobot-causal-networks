@@ -136,3 +136,26 @@ items, registered without reframing:
     exploration. Any morphology-generalization claim from stage 5 is limited accordingly; the
     novelty floor kept designs away from the corpus but did not prevent convergence into a single
     post-corpus basin.
+
+## Stage 6 (champion-seeded intensification, second round, amendment-08) - 2026-10-10
+S6-H1 supported 3/3 (expected-vacuous, as stated). S6-H2 NOT SUPPORTED (first stage whose primary
+registered test fails). S6-H3 NOT SUPPORTED in its registered each-seed form (2/3 comparisons pass).
+Standing honesty items, registered without reframing:
+21. Primary miss: no seed reached the 0.19993 bar; the three seeds clustered at 0.17000 / 0.18068 /
+    0.17474 (1.06x-1.13x the stage-5 champion). A second round of the same recipe that produced
+    stage 5's 4.75x jump yielded +0.010 to +0.021. The champion basin looks near-saturated for
+    mutation-only search at this budget; the stage-5 outlier was not a repeatable slope.
+22. The null ceiling caught up to a GA seed: null9000 best 0.17336 beats seed30's 0.17000 outright.
+    In stage 5 selection beat the null ceiling on every seed; in stage 6 it does so on only two of
+    three. Champion-local random mutation at equal budget is now a real competitor to selection at
+    the head of the distribution (null F>0 rate also rose to 70%). The stage-5 "ceiling, not hit
+    rate" framing weakened within one stage.
+23. Morphological convergence again: final-pop occupancy min_d vs the stage-5 champion is
+    0.0000-0.0216 across all three seeds (extends item 20). Gains came from actuation-program
+    search on the same shape basin. Combined with item 21: the actuation axis itself may be
+    saturating on this basin - the lane has no evidence of remaining headroom in either axis under
+    the current operator.
+24. Recurring discrete F values in the null: F=0.15994 (the stage-5 champion's exact value) appears
+    in 10+ null9000 candidates, and 0.04236 (stage-5 second) recurs as well. These are elite-parent
+    mutants whose mutations did not change locomotion (silent mutations on this metric), not
+    independent discoveries; descriptive observation only, no verdict affected.

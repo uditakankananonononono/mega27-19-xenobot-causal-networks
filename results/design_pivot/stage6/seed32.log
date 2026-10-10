@@ -1,0 +1,27 @@
+[corpus loaded: 27 designs, floor 0.5]
+[seed32 init diversity] median=0.4552 min=0.0216 families={'shell': 4, 'ellipsoid': 4, 'strata': 5, 'core_appendage': 5}
+[seed32 gen0] best=0.16 sims=31 fails=0
+[seed32 gen1] best=0.16 sims=29 fails=0
+[seed32 gen2] best=0.16 sims=35 fails=0
+[seed32 gen3] best=0.16 sims=40 fails=0
+[seed32 gen4] best=0.16 sims=37 fails=0
+[seed32 gen5] best=0.16 sims=39 fails=0
+[seed32 gen6] best=0.16 sims=35 fails=0
+[seed32 gen7] best=0.16 sims=38 fails=0
+[seed32 gen8] best=0.16 sims=35 fails=0
+[seed32 gen9] best=0.17 sims=37 fails=0
+[seed32 gen10] best=0.17 sims=34 fails=0
+[seed32 gen11] best=0.17 sims=39 fails=0
+[seed32 gen12] best=0.17 sims=37 fails=0
+[seed32 gen13] best=0.17 sims=36 fails=0
+[seed32 gen14] best=0.17 sims=38 fails=0
+[seed32 gen15] best=0.17 sims=38 fails=0
+[seed32 gen16] best=0.17 sims=35 fails=0
+[seed32 gen17] best=0.17 sims=37 fails=0
+[seed32 gen18] best=0.17 sims=39 fails=0
+[seed32 gen19] best=0.17 sims=38 fails=0
+[seed32 gen20] best=0.17 sims=36 fails=0
+[seed32 gen21] best=0.17 sims=37 fails=0
+[seed32 gen22] best=0.17 sims=39 fails=0
+[seed32 gen23] best=0.17 sims=39 fails=0
+SEED 32 DONE
